@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title> 
+    <script src="../jquery/jquery-1.5.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            var str =
+                "{\"FieldName\":\"test_text_form1\"," +
+                "\"FieldDesc\":\"测试文本框1\"," +
+                "\"DataTypeID\":\"1\"," +
+                "\"FieldDBType\":\"VarChar(200)\"," +
+                "\"SqlDbType\":\"VarChar\"," +
+                "\"SqlDbLength\":\"200\"," +
+                "\"HTMLTypeID\":\"2\"," +
+                "\"FieldTypeID\":\"1\"," +
+                "\"TextLength\":\"200\"," +
+                "\"BuiltInFlag\":\"0\"" +
+            "}";
+
+            var str2 =
+                "{\"FieldName\":\"test_text_form2\"," +
+                "\"FieldDesc\":\"测试文本框2\"," +
+                "\"DataTypeID\":\"1\"," +
+                "\"FieldDBType\":\"VarChar(200)\"," +
+                "\"SqlDbType\":\"VarChar\"," +
+                "\"SqlDbLength\":\"200\"," +
+                "\"HTMLTypeID\":\"2\"," +
+                "\"FieldTypeID\":\"1\"," +
+                "\"TextLength\":\"200\"," +
+                "\"BuiltInFlag\":\"0\"" +
+            "}";
+
+            var form = "{\"FormName\":\"测试表单_9\"," +
+                             "\"FormDesc\":\"测试表单描述\"," +
+                             "\"FormTypeID\":\"1\"," +
+                             "\"DisplayOrder\":\"900\"," +
+                             "\"Useflag\":\"1\"" +
+                             "}";
+
+            var teststr = "{\"items\":[" + str + "," + str2 + "],\"form\":["+form+"]}";
+
+            $.ajax({
+                type: "POST",
+                url: "../../ajax/json.ashx",   //ajax后台处理文件
+                data: "jsonstr=" + teststr,      //发送json格式数据
+                success: function(msg) {
+                    alert(msg);
+                }
+            });
+
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>

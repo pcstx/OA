@@ -1,0 +1,33 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutMES.aspx.cs" Inherits="GOA.aboutMES" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+   <%-- <script type="text/javascript">
+	window.onresize = window.onload = function(){
+					var w,h
+					if(!!(window.attachEvent && !window.opera))
+					{
+						h = document.documentElement.clientHeight;
+						w = document.documentElement.clientWidth;
+					}else{
+						h =	window.innerHeight;
+						w = window.innerWidth;
+					}
+				var bgImg = document.getElementById('bg').getElementsByTagName('img')[0];
+				bgImg.width = (w - 5);
+				bgImg.height= (h-5) ;		
+										
+			}			
+</script>--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="bg">
+    <img src="../../images/aboutindex.png" alt=""  id="img" />
+    </div>
+    </form>
+</body>
+</html>

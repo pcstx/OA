@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{585D59D2-B97C-445C-8617-C93E3EF85FF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GPRP.GPRPControls</RootNamespace>
+    <AssemblyName>GPRPControls</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Button.cs" />
+    <Compile Include="Calendar.cs" />
+    <Compile Include="CheckBoxList.cs" />
+    <Compile Include="DropDownList.cs" />
+    <Compile Include="DropDownTreeList.cs" />
+    <Compile Include="GPLabel.cs" />
+    <Compile Include="GridViewTempBrowse.cs" />
+    <Compile Include="GridViewTempCheckBox.cs" />
+    <Compile Include="GridViewTempDropDownList.cs" />
+    <Compile Include="GridViewTempHtmlCheckBox.cs" />
+    <Compile Include="GridViewTempLabel.cs" />
+    <Compile Include="GridViewTemplate.cs" />
+    <Compile Include="GridViewTempTextBox.cs" />
+    <Compile Include="GridViewTempTextBoxIncludeHiddenValue.cs" />
+    <Compile Include="Hint.cs" />
+    <Compile Include="ListBox.cs" />
+    <Compile Include="ListBoxTreeList.cs" />
+    <Compile Include="nav\navmenu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButtonList.cs" />
+    <Compile Include="TextBox.cs" />
+    <Compile Include="WebControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GPRPBussiness\GPRPBussiness.csproj">
+      <Project>{77E44516-03E9-49DE-8E21-A361281CDDC5}</Project>
+      <Name>GPRPBussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GPRPComponents\GPRPComponents.csproj">
+      <Project>{8375B709-4D96-4166-9C92-E55DBB8AC677}</Project>
+      <Name>GPRPComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyADO\MyADO.csproj">
+      <Project>{6489A445-5278-4C87-A5B1-60EF9284691B}</Project>
+      <Name>MyADO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlIntroduce.htm" />
+    <Content Include="dll\AspNetPager.dll" />
+    <Content Include="dll\Bestcomy.Web.Controls.Upload.dll" />
+    <Content Include="dll\dotnetCHARTING.dll" />
+    <Content Include="dll\MemberRole.dll" />
+    <Content Include="dll\PlexityHide.GTP.dll" />
+    <Content Include="dll\PlexityHide.GTP.WEB.dll" />
+    <Content Include="dll\UrlRewritingNet.UrlRewriter.dll" />
+    <Content Include="dll\VBControls.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

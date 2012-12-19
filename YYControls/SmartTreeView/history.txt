@@ -1,0 +1,8 @@
+﻿2007.08.21
+解决BUG
+如果给SmartTreeView的节点加上图标的话,就会出现"tagName为空..."的脚本错误
+BUG提交者：Rain_Ray（http://ray-beijing.cnblogs.com/）
+
+2007.08.20
+新增功能
+联动复选框（复选框的全选和取消全选）

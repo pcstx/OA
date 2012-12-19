@@ -1,0 +1,44 @@
+﻿/*
+应该涉及到如下元素的样式
+textbox,button,radio,select,checkbox,table,label
+tree,menu,window,tabs,
+*/
+
+/*  textbox --文本框 */
+
+/* 普通通用文本框 */
+.txt_cmd
+{	 
+	border:solid 1px #85a0be;
+	margin:0px;
+	padding:2px;	
+	 overflow:hidden;
+	height:19px;
+/*	width:165px; */	
+}
+
+/*  只有下边框 */
+.txt_line
+{
+	border:none;
+	border-bottom:solid 1px #000;
+	overflow:hidden;
+	height:19px;
+}
+
+/* bootstrap样式 */
+.txt_bootstrap
+{
+	background-color:#fff;
+	color:#999999;
+	border:solid 1px #cccccc;	
+	height:20px;
+	padding:4px 6px 4px 6px;
+	vertical-align:middle;
+	border-radius:4px;
+	box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075);
+	transition-delay:0s,0s;
+	transition-duration:0.2s,0.2s;
+	transition-property:border,box-shadow;
+	transition-timing-function:linear,linear;
+}

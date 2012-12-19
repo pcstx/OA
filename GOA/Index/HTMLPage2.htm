@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+        <link href="lib/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" type="text/css" />
+    <link href="lib/ligerUI/skins/ligerui-icons.css" rel="stylesheet" type="text/css" /> 
+       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="lib/ligerUI/js/ligerui.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON("index.ashx?type=menuList", function(jsonStr) {
+                var liStr = '<li class="dropdown"><a  class="jj" data-toggle="dropdown" href="{0}" value="{1}" >{2}</a>{3}</li>';
+                var liHtml = genMenuHtml(jsonStr, liStr);
+              
+                $("#ultree").html(liHtml);
+            });
+        });
+       
+      function genMenuHtml(jsonStr,liStr) {
+          var MenuHtml = "<ul class='dropdown-menu'>{0}</ul>";
+          var m = "";
+          if (liStr == null) {
+              liStr = '<li><a class="jj" href="{0}" value="{1}">{2}</a>{3}</li>'; 
+          }
+          else {
+              MenuHtml = '<ul  class="nav nav-pills">{0}</ul>';
+          }
+
+          $(jsonStr).each(function(index, element) {
+              var itemText = element.text;
+              var itemValue = element.value;
+              var itemUrl = element.navigateUrl == "" ? "#" : element.navigateUrl;
+              var l = ""; 
+
+              if (element.children.length > 0) {
+                  l = genMenuHtml(element.children);
+              }
+              m += liStr.replace("{0}", itemUrl).replace("{1}", itemValue).replace("{2}", itemText).replace("{3}", l);
+          });
+
+          MenuHtml = MenuHtml.replace("{0}",m);
+           
+          return MenuHtml;  
+      }        
+    </script>
+</head>
+<body>
+ <div class="navbar-inner">
+   <div class="container" id="ultree">
+                 
+  </div>
+  </div>
+  
+  
+   
+</body>
+</html>

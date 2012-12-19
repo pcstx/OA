@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<!-- Main Navigation -->
+<resource name="weblogs">博客</resource>
+<resource name="forums">论坛</resource>
+<resource name="photos">相册</resource>
+<resource name="admin">管理</resource>
+<resource name="register">注册</resource>
+<resource name="mainnavigation">导航</resource>
+<resource name="user_myprofile">简介</resource>
+<resource name="user_myguestbook">留言簿</resource>
+
+<!-- End MainNavigation -->
+
+<resource name = "default_homepage_content">&lt;p&gt;&lt;a href = &quot;http://communityserver.org&quot;&gt;Community Server&lt;/a&gt; is the award winning platform for rapidly enabling both small and large online communities. The current Community Server platform includes: a discussion system, blogging system, photo gallery system, user profile management, advanced permissions system, extensible theme engine, and much more. Community Server is built, maintained, managed, and licensed by &lt;a href=&quot;http://telligent.com&quot;&gt;Telligent Systems&lt;/a&gt;. The core source is published and community contributions are encouraged.&lt;/p&gt;&lt;p&gt;System administrators can change this message by logging in as administrator and navigating to the &lt;a href=&quot;admin/system/configuration/default.aspx&quot;&gt;configuration page&lt;/a&gt;.&lt;/p&gt;</resource>
+
+<!-- General -->
+		<resource name = "Font_Small">小</resource>
+		<resource name = "Font_Normal">中</resource>
+		<resource name = "Font_Large">大</resource>
+		<resource name = "Font_Largest">特大</resource>
+		<resource name = "Yes">是</resource>
+		<resource name = "No">否</resource>
+		<resource name = "0">0</resource>
+		<resource name = "1">1</resource>
+		<resource name = "2">2</resource>
+		<resource name = "3">3</resource>
+		<resource name = "4">4</resource>
+		<resource name = "5">5</resource>
+		<resource name = "6">6</resource>
+		<resource name = "7">7</resource>
+		<resource name = "8">8</resource>
+		<resource name = "9">9</resource>
+		<resource name = "NumberFormat">n0</resource>
+		<resource name = "NumberWhenZero">-</resource>
+
+<!-- End General -->
+
+
+
+<!-- Skin-DisplayTitle.ascx -->
+		<resource name = "DisplayTitle_ExtraInfo">自您上次登录后有 &lt;b&gt;{0}&lt;/b&gt; 篇新帖子。 &lt;br /&gt;您有 {1} 条新 &lt;b&gt;{2}&lt;/b&gt;。</resource>
+<!-- End Skin-DisplayTitle.ascx -->
+
+<!-- Skin-DisplayUserWelcome.ascx -->
+		<resource name = "DisplayUserWelcome_UserWelcome">欢迎回来 &lt;b&gt;{0}&lt;/b&gt;!</resource>		
+		<resource name = "DisplayUserWelcome_UserLastLogin">上次登录是 &lt;b&gt;{0}&lt;/b&gt;。&lt;br /&gt;&lt;br /&gt;</resource>
+		<resource name = "DisplayUserWelcome_UserNewPosts">自您上次登录后有 &lt;b&gt;{0}&lt;/b&gt; 篇新帖子。&lt;br /&gt;</resource>
+		<resource name = "DisplayUserWelcome_UserPrivateMessages">您有 {0} 条新 &lt;b&gt;{1}&lt;/b&gt;。</resource>
+		<resource name = "DisplayUserWelcome_AlternateUserWelcome">欢迎光临 {0}</resource>		
+<!-- End Skin-DisplayUserWelcome.ascx -->
+
+
+<!-- Skin-ValuePost.ascx -->
+	
+	
+	<resource name = "CreateEditPost_AddAttachements">添加附件</resource>
+	<resource name = "CreateEditPost_Photos">照片:</resource>
+	<resource name = "CreateEditPost_AddPhotos">添加照片</resource>
+	<resource name = "CreateEditPost_Stickiness">置顶:</resource>
+		
+	<resource name = "ProgressInfo_Loading">正在装载...</resource>
+	<resource name = "ProgressInfo_Interactive">传输: {0}K 还未完成</resource>
+	<resource name = "ProgressInfo_Completed">您的文件已经上传完成</resource>
+	<resource name = "ProgressInfo_Failed">上传失败</resource>
+    
+<!--Controls-->
+	<resource name = "TextBox_ErrorMessage_Between">当前输入数据应在{0}和{1}之间!</resource>
+	<resource name = "TextBox_ErrorMessage_Max">当前输入数据允许最大值为{0}!</resource>
+	<resource name = "TextBox_ErrorMessage_Min">当前输入数据允许最小值为{0}!</resource>
+	<resource name = "TextBox_ErrorMessage_WrongNumber">数字的格式不正确</resource>
+	<resource name = "TextBox_ErrorMessage_WrongEmail">邮箱的格式不正确</resource>
+	<resource name = "TextBox_ErrorMessage_WrongCellPhone">手机的位数应为11位!</resource>
+	<resource name = "TextBox_ErrorMessage_WrongTelPhone">请依 (XXX)XXX-XXXX 格式或 (XXX)XXXX-XXXX 输入电话号码！</resource>
+	<resource name = "TextBox_ErrorMessage_WrongCard">请依15或18位数据的身份证号！</resource>
+	<resource name = "TextBox_ErrorMessage_WrongWebSite">请输入正确的网址</resource>
+	<resource name = "TextBox_ErrorMessage_WrongDate">请输入正确的日期,如:2006-1-1</resource>
+	<resource name = "TextBox_ErrorMessage_WrongDateTime">请输入正确的日期,如: 2006-1-1 23:59:59</resource>
+	<resource name = "TextBox_ErrorMessage_WrongMoney">请输入正确的金额</resource>
+	<resource name = "TextBox_ErrorMessage_WrongIP">请输入正确的IP地址</resource>
+	<resource name = "TextBox_ErrorMessage_WrongIPPort">请输入正确的带端口的IP地址</resource>
+	<resource name = "TextBox_ErrorMessage_WrongEnglish">请输入英文字母</resource>
+	<resource name = "TextBox_ErrorMessage_WrongEnglishB">请输入大写英文字母</resource>
+	<resource name = "TextBox_ErrorMessage_WrongEnglishS">请输入小写英文字母</resource>
+  <resource name = "TextBox_ErrorMessage_WrongOnlyNumber">请输入数字，如01</resource>
+  <resource name = "TextBox_ErrorMessage_WrongOnlyEnglishNumber">请输入英文或数字，如AB01</resource>
+	<resource name = "TextBox_ErrorMessage_NotNull">请务必输入内容!</resource>
+	<resource name = "DropDowList_SelectZero">--请选择--</resource>
+	<resource name = "DropDowList_SelectNull">     </resource>
+	<resource name = "Config_dontExistFile">发生错误: 网站根目录下没有正确的{0}文件  </resource>
+	<!--controls-->
+	<!-- button-->
+  <resource name = "Button_Confirm"> 确 定 </resource>
+  <resource name = "Button_DafaultSubmit"> 提 交 </resource>
+  <resource name = "Button_VerifySubmit"> 通过审核 </resource>
+  <resource name = "Button_Select"> 选 择 </resource>
+  <resource name="Button_Agree">同 意</resource>
+  <resource name="Button_DisAgree">退 回</resource>
+  <resource name="Button_Process">处理完成</resource>
+  <resource name = "Button_Add"> 新 加 </resource>
+  <resource name = "Button_AddCondition">新加批次条件</resource>
+  <resource name = "Button_AddPacth">批量设置</resource>
+  <resource name = "Button_AddDept"> 新加同级部门 </resource>
+  <resource name = "Button_AddChildDept"> 新加下级部门 </resource>
+  <resource name = "Button_Del"> 删除所选 </resource>
+  <resource name = "Button_Write"> 写信 </resource>
+  <resource name = "Button_Entity">生成Entity </resource>
+  <resource name = "Button_AddEntity">生成SqlServer类中Add 片断 </resource>
+  <resource name = "Button_UpdateEntity">生成SqlServer类中Update 片断 </resource>
+  <resource name = "Button_GetEntity">生成SqlServer类中Get 实体片断 </resource>
+  <resource name = "Button_aspx">生成aspx </resource>
+  <resource name = "Button_aspxcs">生成aspxcs </resource>
+  <resource name = "Button_GO"> GO </resource>
+  <resource name = "Button_Send"> 发送 </resource>
+  <resource name = "Button_ReSend"> 回复 </resource>
+  <resource name = "Button_Recv"> 回收 </resource>
+  <resource name = "Button_ChangeSend"> 转发 </resource>
+  <resource name = "Button_ALLSend"> 全部回复 </resource>
+  <resource name = "Button_SendTwice"> 再次发送 </resource>
+  <resource name = "Button_Export"> 导入导出 </resource>
+  <resource name = "Button_ImportExcel"> 导入Excel</resource>
+  <resource name = "Button_ExportExcel"> 导出Excel</resource>
+  <resource name = "Button_Search"> 搜 索 </resource>
+  <resource name = "Button_MoveOn"> 更新 </resource>
+  <resource name = "Button_MoveIn"> 增加 </resource>
+  <resource name = "Button_MoveOut"> 删除 </resource>
+  <resource name = "Button_MoveDelete"> 彻底删除 </resource>
+  <resource name = "Button_Generate"> 生成 </resource>
+  <resource name = "Button_Undo"> 退格 </resource>
+  <resource name = "Button_Open"> 打开 </resource>
+  <resource name = "Button_BeginImport"> 开始导入</resource>
+  <resource name = "Button_Pre"> 上一级 </resource>
+  <resource name = "Button_Next"> 下一级 </resource>
+  <resource name = "Button_Refresh"> 刷 新 </resource>
+  <resource name = "Button_AddNew">新加行</resource>
+  <resource name = "Button_OldCustomer">查找顾客</resource>
+  <resource name = "Button_SaveAndClose">保存并关闭</resource>
+  <resource name = "Button_Close">关 闭</resource>
+  <resource name = "Button_Save">保存</resource>
+  <resource name = "Button_Process">处 理</resource>
+  <resource name = "Button_GoBack">打 回</resource>
+  <resource name = "Button_GoComplete">完 成</resource>
+  <resource name = "Button_RepairAgain">返 修</resource>
+  <resource name = "Button_GoVerify">验 收</resource>
+  <resource name = "EditProfile_AboutUserName">用户名:</resource>
+  <resource name = "EditProfile_Password">密　码:</resource>
+  <resource name = "EditProfile_Lauguage">语　言:</resource>
+  <resource name = "login">登录</resource>
+  <resource name = "Label_NULL"></resource>
+  <resource name = "Label_Search">搜索</resource>
+  <resource name = "lblPageSize">每页显示记录：</resource>
+  <resource name = "lblSelectAll">全选</resource>
+  <resource name = "lblSearchTitle">搜索条件框</resource>
+  <resource name = "lblAddPatchTitle">批量设置</resource>
+  <resource name = "Button_Reset">清空条件</resource>
+  <resource name = "Button_BatchImport">批量导入</resource>
+
+  <resource name = "Button_ReSearch">重新查询</resource>
+  <resource name = "Button_Print">进入打印页面</resource>
+  <resource name = "Button_EditReport">编辑报表</resource>
+  <resource name = "Button_Config">配 置</resource>
+  <resource name = "Button_Set">配 置</resource>
+  <resource name = "Button_Cancel">取消</resource>
+  <resource name = "Button_TestConnect">测试连接</resource>
+  <resource name = "Button_CancelAgent">取消代理</resource>
+  <resource name = "Button_Return">返回</resource>
+  <resource name = "Button_AddParam">增加参数</resource>
+  <resource name = "Button_DelAttach">删除所选附件</resource>
+  <resource name = "Button_UploadFile">上传附件</resource>
+  <resource name = "Button_DownLoadAttach">下载所选附件</resource>
+
+	<resource name = "Button_DueDateDelivery">计划交货日交货</resource>
+	<resource name = "Button_AppointedDateDelivery">指定日合并交货</resource>
+  <resource name = "Button_OrderPrint">采购订单打印</resource>
+  <resource name = "Button_InvoicePrint">打印采购发票</resource>
+  <!-- Expection-->
+	<resource name = "CANNOT_FIND_RECORD">未找到指定记录</resource>
+	<resource name = "Operation_RECORD">操作失败!</resource>
+	<resource name = "CANNOT_DELETE_RECORD">该记录已被使用，不能删除!</resource>
+	
+	<!--数据字典-->
+	<resource name = "Num_Male">男</resource>
+	<resource name = "Num_FeMale">女</resource>
+	<resource name = "Num_NotSure">不详</resource>
+
+	<resource name = "IFNeedAutoCode">是否需要系统为其产生代码</resource>
+	<resource name = "NeedAddBianMaColumnName">需要导入表的编码字段</resource>
+	<resource name = "IFNeedOrder">是否有显示排序字段？</resource>
+	<resource name = "IfHaveOrderColumn">排序字段名称为</resource>
+	<resource name = "DefaultColName">有默认值的字段,多个请问 , 分隔</resource>
+	<resource name = "DefaultColValue">字段的默认值,请用 '' 单引号引起来,多个请问 , 分隔</resource>
+	<resource name = "IfCnTOTW">是否有简转繁字段？</resource>
+	<resource name = "IfCnTOTWColumnName">简转繁字段目标名称为</resource>
+	<resource name = "SourceColCnToTw">简转繁字段源名称为</resource>
+	<resource name = "IfDeleteAllRecord">是否删除原有所有记录？</resource>
+	
+</root>
+

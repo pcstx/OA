@@ -1,0 +1,2733 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<!-- Main Navigation -->
+<resource name="weblogs">博客</resource>
+<resource name="forums">论坛</resource>
+<resource name="photos">相册</resource>
+<resource name="admin">管理</resource>
+<resource name="register">注册</resource>
+<resource name="mainnavigation">导航</resource>
+<resource name="user_myprofile">简介</resource>
+<resource name="user_myguestbook">留言簿</resource>
+
+<!-- End MainNavigation -->
+
+<resource name = "default_homepage_content">&lt;p&gt;&lt;a href = &quot;http://communityserver.org&quot;&gt;Community Server&lt;/a&gt; is the award winning platform for rapidly enabling both small and large online communities. The current Community Server platform includes: a discussion system, blogging system, photo gallery system, user profile management, advanced permissions system, extensible theme engine, and much more. Community Server is built, maintained, managed, and licensed by &lt;a href=&quot;http://telligent.com&quot;&gt;Telligent Systems&lt;/a&gt;. The core source is published and community contributions are encouraged.&lt;/p&gt;&lt;p&gt;System administrators can change this message by logging in as administrator and navigating to the &lt;a href=&quot;admin/system/configuration/default.aspx&quot;&gt;configuration page&lt;/a&gt;.&lt;/p&gt;</resource>
+
+<!-- General -->
+		<resource name = "Font_Small">小</resource>
+		<resource name = "Font_Normal">中</resource>
+		<resource name = "Font_Large">大</resource>
+		<resource name = "Font_Largest">特大</resource>
+		<resource name = "Yes">是</resource>
+		<resource name = "No">否</resource>
+		<resource name = "0">0</resource>
+		<resource name = "1">1</resource>
+		<resource name = "2">2</resource>
+		<resource name = "3">3</resource>
+		<resource name = "4">4</resource>
+		<resource name = "5">5</resource>
+		<resource name = "6">6</resource>
+		<resource name = "7">7</resource>
+		<resource name = "8">8</resource>
+		<resource name = "9">9</resource>
+		<resource name = "NumberFormat">n0</resource>
+		<resource name = "NumberWhenZero">-</resource>
+                <resource name = "NoUnreadPosts">没有新贴</resource>
+                <resource name = "TodayAt">今天 </resource>
+                <resource name = "YesterdayAt">昨天 </resource>
+                <resource name = "Guest">游客</resource>
+                <resource name = "Cancel">取消</resource>
+                <resource name = "Subforums">副版: </resource>
+                <resource name = "CommaSeperator">, </resource>
+                <resource name = "BarSeperator"> | </resource>
+                <resource name = "Enabled">启用</resource>
+                <resource name = "Disabled">禁用</resource>
+                <resource name = "Logged">已记录</resource>
+                <resource name = "NotLogged">未记录</resource>
+                <resource name = "Report">&lt;nobr&gt;报告&lt;/nobr&gt;</resource>
+                <resource name = "NotSet">未设置</resource>
+                <resource name = "Male">男</resource>
+                <resource name = "Female">女</resource>
+                <resource name = "Empty"></resource>
+                <resource name = "DefaultAnonymousUsername">匿名</resource>
+                <resource name = "Status_NotAnswered">未解决</resource>
+                <resource name = "Status_NotSet">无状态</resource>
+                <resource name = "Status_Answered">已解决</resource>
+                <resource name = "Close_Window">关闭</resource>
+                <resource name = "Settings_Remember">保存设置</resource>
+                <resource name = "Settings_Reset">重新设置</resource>
+                <resource name = "Cache_Warning">更改已经生效，由于缓存的影响需要 {0} 才能看到效果。</resource>
+                <resource name = "AutomatedEmail">"{0} - 自动的 Email" &lt;{1}&gt;</resource>
+                <resource name = "Actions">动作</resource>
+				<resource name = "None">无</resource>
+                <resource name = "Add">新增</resource>
+                <resource name = "Update">更新</resource>
+                <resource name = "Delete">删除</resource>
+                <resource name = "Save">保存</resource>
+                <resource name = "Close">关闭</resource>
+                <resource name = "Remove">移除</resource>
+                <resource name = "Reset">重置</resource>
+                <resource name = "Search">检索</resource>
+                <resource name = "Create">创建</resource>
+                <resource name = "Edit">编辑</resource>
+                <resource name = "View">查看</resource>
+                <resource name = "Send">发送</resource>
+                <resource name = "Submit">提交</resource>
+                <resource name = "Select">选择</resource>
+                <resource name = "ID">ID</resource>
+                <resource name = "Name">名称</resource>
+                <resource name = "Description">描述</resource>
+                <resource name = "Url">Url</resource>
+                <resource name = "Image">图像</resource>
+                <resource name = "Moderation">版务管理</resource>
+                <resource name = "EmailQueue">email 队列</resource>
+                <resource name = "PrintableVersion">适合打印机打印的版本</resource>
+                <resource name = "MyThreadSettings">我的设置</resource>
+                <resource name = "Footer_PoweredBy">Powered by {0}</resource>
+                <resource name = "Footer_QuestionsProblems">意见反馈</resource>
+                <resource name = "Footer_TermsOfUse">关于我们</resource>
+                <resource name = "NotAvailable">NA</resource>
+				<resource name = "Title">标题</resource>
+				<resource name = "Contact">联系</resource>
+				<resource name = "Email">Email</resource>
+				
+				<resource name = "Required">必需</resource>
+				<resource name = "Optional">可选</resource>
+                <resource name = "login">登录</resource>
+				<resource name = "logout">注销</resource>
+				<resource name = "home">主页</resource>
+				<resource name = "help">帮助</resource>
+                <resource name = "Group">当前组</resource>
+
+<!-- End General -->
+
+<!-- Aggregate Blog -->
+
+                <resource name = "PostsByGroup">随笔分组</resource>
+				<resource name = "Syndication">聚合</resource>
+				<resource name = "Bloggers">博客</resource>
+				<resource name = "Opml">Opml</resource>
+				<resource name = "LatestPosts">最新随笔</resource>
+				<resource name = "LatestPostsTo">最新发布: {0}</resource>
+				<resource name = "aggblog_minuteago">{0} 分前</resource>
+				<resource name = "aggblog_minutesago">{0} 分前</resource>
+				<resource name = "aggblog_hourago">{0} 时, {1} 分前</resource>
+				<resource name = "aggblog_hoursago">{0} 时, {1} 分前</resource>
+				
+<!-- Search -->
+                <resource name = "Search_Keywords">多个关键字请用空格隔开, 常见关键字如: 'and', 'or', 'the', 'a', 'an'等不包括在内。</resource>
+                <resource name = "Search_ForumContstraints">所属版块</resource>
+<!-- End Search -->
+
+<!-- Subscriptions -->
+                <resource name = "Subscriptions_Title">邮件订阅</resource>
+<!-- End Subscriptions -->
+
+<!-- My Forums -->
+                <resource name = "ViewMyForumsThreads_Title">我的版面</resource>
+                <resource name = "ViewMyForumsThreads_Description">我参与的帖子</resource>
+<!-- End My Forums -->
+
+<!-- EmailNotificationDropDownList -->
+                <resource name = "EmailNotificationDropDownList_NeverSend">从不</resource>
+                <resource name = "EmailNotificationDropDownList_NewThreads">有新主题时</resource>
+                <resource name = "EmailNotificationDropDownList_NewPosts">有新贴时</resource>
+                <resource name = "EmailNotificationDropDownList_When">发送邮件: </resource>
+<!-- End EmailNotificationDropDownList -->
+
+<!-- 
+Forum Exceptions 
+These string do not have to be localized as they are developer exception messages。
+
+
+
+
+-->
+                <resource name = "Exception_ForumGroupNotFound">讨论组 {0} 不存在。</resource>
+                <resource name = "Exception_ForumNotFound">版 {0} 不存在。</resource>
+                <resource name = "Exception_UserNotFound">用户 {0} 不存在。</resource>
+                <resource name = "Exception_PostNotFound">帖子 {0} 不存在。</resource>
+                <resource name = "Exception_SkinNotSet">"SkinFileName" 属性必须设置。</resource>
+                <resource name = "Exception_SkinNotFound">皮肤文件: '{0}' 未找到。</resource>
+                <resource name = "Exception_PostAccessDenied">没有访问帖子的权限。</resource>
+                <resource name = "Exception_PostEditAccessDenied">没有修改帖子的权限。</resource>
+                <resource name = "Exception_PostEditPermissionExpired">修改帖子许可期满。</resource>
+                <resource name = "Exception_PostInvalidAttachmentType">您的帖子已经保存，但附件未上传，因您所上传的附件类型({0})不在论坛规定的附件类型范围内。</resource>
+                <resource name = "Exception_PostAttachmentTooLarge">您的帖子已经保存，但附件未上传，因为论坛规定上传的附件不得超过 {0} KB。</resource>                
+                <resource name = "Exception_ResourceManagerStringNotFound">未能在 "resouces。xml" 文件中找到: '{0}' 。</resource>
+                <resource name = "Exception_ResourceManagerErrorMessageNotFound">未能在 "messages。xml" 文件中找到： '{0}'。</resource>
+<!-- End Forum Exceptions -->
+
+<!-- Icon Alt Text -->
+                <resource name = "IconAlt_PrivateForumsNewPosts">私人留言 - 新留言</resource>
+                <resource name = "IconAlt_PrivateForums">私人留言</resource>
+                <resource name = "IconAlt_NewPosts">新帖</resource>
+                <resource name = "IconAlt_PopularPost">热门帖子</resource>
+				<resource name = "IconAlt_TopicAnnounce">公告 - 置顶帖，且不能回复</resource>
+				<resource name = "IconAlt_TopicAnnounceNotRead">公告 - 置顶帖，且不能回复(未读)</resource>
+				<resource name = "IconAlt_TopicPinnedAndLocked"> 置顶帖，且不能回复</resource>
+				<resource name = "IconAlt_TopicPinnedAndLockedNotRead">置顶帖，且不能回复(未读)</resource>
+				<resource name = "IconAlt_TopicPinned">置顶帖</resource>
+				<resource name = "IconAlt_TopicPinnedNotRead">置顶帖(未读)</resource>
+				<resource name = "IconAlt_TopicNoReplies">帖子不能回复</resource>
+				<resource name = "IconAlt_TopicNoRepliesNotRead">帖子不能回复 (未读)</resource>
+				<resource name = "IconAlt_Topic">帖子</resource>
+				<resource name = "IconAlt_TopicNotRead">帖子 (未读)</resource>
+<!-- End Icont Alt Text -->
+
+
+<!-- Anchors Text -->
+		<resources name = "A_ReturnToForum">返回主题列表</resources>
+		<resources name = "A_ReturnToPost">返回帖子</resources>
+		<resources name = "A_Home"> 主页 </resources>
+		<resources name = "A_Login"> 登录 </resources>
+<!-- End Anchors Text -->
+
+
+<!-- Skin-CreateNewAccount.ascx -->
+		<resource name = "CreateNewAccount_Title">注册</resource>
+		<resource name = "CreateNewAccount_Description">填写下面的表格注册一个新用户。</resource>
+		<resource name = "CreateNewAccount_PrivacyNotice">重要提示: 您的信箱地址不会被公开，并且不会出现在本站的任何位置。 </resource>
+		<resource name = "CreateNewAccount_ForumRules">　论坛规则条款　</resource>
+		<resource name = "CreateNewAccount_ForumRulesDesc">我接受论坛的规则条款，并遵守。</resource>
+		<resource name = "CreateNewAccount_Instructions">如果管理员设置要注册验证，您可能不能输入密码，这种情况下，一封包含密码的邮件将发送到您注册时填写的邮箱。</resource>
+		<resource name = "CreateNewAccount_UserName">帐号</resource>
+		<resource name = "CreateNewAccount_ReEnterPassword">密码确认</resource>
+		<resource name = "CreateNewAccount_PasswordDescription">请输入您的账号密码。</resource>
+		<resource name = "CreateNewAccount_Email">电子邮箱</resource>
+		<resource name = "CreateNewAccount_ReEnterEmail">电子邮箱确认</resource>
+		<resource name = "CreateNewAccount_EmailDescription">您输入的电子邮箱不会公开，或者在网站上显示。您输入的密码将发送到此信箱。</resource>
+		<resource name = "CreateNewAccount_UsernameLimits">帐号长度必须不少于 {0} 个字符并不超过 {1} 个字符。</resource>
+		<resource name = "CreateNewAccount_CreateAccount">注册</resource>
+		<resource name = "CreateNewAccount_usernameValidator">请输入帐号。</resource>
+		<resource name = "CreateNewAccount_usernameRegExValidator">帐号必须以 a-z/A-Z 开头且不能包含 '&gt;' 和 '&lt;'。</resource>
+		<resource name = "CreateNewAccount_passwordValidator">请输入密码。</resource>
+		<resource name = "CreateNewAccount_emailValidator">请输入电子邮箱。</resource>
+		<resource name = "CreateNewAccount_emailRegExValidator">请提供一个有效的电子邮箱。</resource>
+		<resource name = "CreateNewAccount_emailNoMatch">二次输入的电子邮箱不匹配，请重新输入！</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_DuplicateUsername">对不起，您输入的帐号已被注册。</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_DuplicateEmailAddress">对不起，您输入的电子邮箱地址已经被注册用户使用过。</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_UnknownFailure">注册新用户的时候产生了一个错误。</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_DisallowedUsername">论坛禁用该帐号，请重新选择其他帐号。</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_Created">注册成功</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_QA">不正确的密码问题和答案</resource>
+		<resource name = "CreateNewAccount_CreateUserStatus_InvalidPassword">您的密码长度少于本站要求的最小密码长度，请重新输入。</resource>
+		<resource name = "CreateNewAccount_PasswordRegExValidator">密码中包含有不合法字符。</resource>
+		
+		<resource name = "CreateNewAccount_GenAntiSpamCodeProtection">注册审批</resource>
+		<resource name = "CreateNewAccount_ConfirmAntiSpamCodeProtection">确认注册验证码</resource>
+		<resource name = "CreateNewAccount_ConfirmAntiSpamCodeProtectionDescription">请输入在图片中看到的字符，字符不区分大小写。</resource>		
+		<resource name = "CreateNewAccount_AntiSpamCodeValidatorMsg">注册验证码不能为空</resource>		
+		<resource name = "CreateNewAccount_AntiSpamCodeCustomValidatorMsg">注册验证码不匹配</resource>						
+		
+		<resource name = "CreateNewAccount_ServicesAgreementRequired">在注册帐号前，您必须先接受服务条款。</resource>		
+<!-- End Skin-CreateNewAccount.ascx -->
+
+<!-- View-PostFlatView.ascx -->
+		<resource name = "PostFlatView_PreviousThread">&#171; 上一主题</resource>
+		<resource name = "PostFlatView_PreviousNextSpacer">&amp;nbsp;</resource>
+		<resource name = "PostFlatView_NextThread">下一主题 &#187;</resource>
+		<resource name = "PostFlatView_Joined">注册: </resource>
+		<resource name = "PostFlatView_ReportingAuthor">作者: </resource>
+		<resource name = "PostFlatView_Location"></resource>
+		<resource name = "PostFlatView_EnableThreadTrackingOn">邮件回复: 启用</resource>
+		<resource name = "PostFlatView_EnableThreadTrackingOff">邮件回复: 禁用</resource>
+		<resource name = "PostFlatView_IPAddress">IP 地址: {0}</resource>
+		<resource name = "PostFlatView_Posts">发 贴: </resource>
+		<resource name = "PostFlatView_Attachment">&lt;B&gt;附件:&lt;/B&gt; </resource>
+		<resource name = "PostFlatView_PostDate">发帖日期: </resource>
+		<resource name = "PostFlatView_PostSubject">标题: </resource>	
+		<resource name = "PostFlatView_TopOfPage">页首</resource>								                		
+		<resource name = "PostFlatView_BriefInfo">帖子发起人: &lt;B&gt;{0}&lt;/B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;发起时间: &lt;B&gt;{1}&lt;/B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;回复: &lt;B&gt;{2}&lt;/B&gt;</resource>							                		
+									                
+<!-- View-PostFlatView.ascx -->
+
+<!-- Skin-DeletePost.ascx -->
+		<resource name = "DeletePost_TitleName">删除 主题/贴子</resource>
+		<resource name = "DeletePost_TitleDescription">在此表单中删除 主题/贴子</resource>
+		<resource name = "DeletePost_Title">删除 主题/贴子: {0}</resource>
+		<resource name = "DeletePost_ReasonText">请说明删贴原因，此删贴原因以及删贴者将被记录。同时，记载删贴原因（包含删贴人）的邮件将发送给原发贴人。</resource>
+		<resource name = "DeletePost_HasChildren">是否有回复:</resource>
+		<resource name = "DeletePost_DeleteChildren">删除所有跟贴: </resource>
+		<resource name = "DeletePost_Reason">原因: </resource>
+		<resource name = "DeletePost_By">删除人: </resource>
+		<resource name = "DeletePost_SendEmail">发送邮件: </resource>
+		<resource name = "DeletePost_ValidateReason">必须说明删贴原因。</resource>
+		<resource name = "DeletePost_PopupConfirmation">确信要删除此贴吗？</resource>
+		<resource name = "DeletePost_CancelDelete">取 消</resource>
+		<resource name = "DeletePost_DeletePost">删 除</resource>
+		<resource name = "DeletePost_NA">(不可用 - 删除单个帖子)</resource>
+<!-- Skin-DeletePost.ascx -->
+
+<!-- Skin-EditProfile.ascx -->
+		<resource name = "EditProfile_CommonName">姓名:</resource>
+		<resource name = "EditProfile_InvalidUrl">不合法的 URL</resource>
+		<resource name = "EditProfile_PrivateTitle">登录资料 (此信息不会对外公布)</resource>
+		<resource name = "EditProfile_Title">更改个人资料</resource>
+		<resource name = "EditProfile_AvatarsMustBeApprovedByModerator">(头像还未被审核通过)</resource>
+		<resource name = "EditProfile_Admin_Title">编辑和配置当前用户信息。</resource>
+		<resource name = "EditProfile_SubTitle">编辑您的个人信息</resource>
+		<resource name = "EditProfile_AboutTitle">基本资料 (对所有注册用户开放)</resource>
+	
+		<resource name = "EditProfile_PasswordChange">更改密码</resource>
+		<resource name = "EditProfile_PasswordAnswer">找回密码:</resource>
+		<resource name = "EditProfile_PasswordAnswerChange">更改问题答案</resource>
+		<resource name = "EditProfile_AboutTimeZone">时区:</resource>
+		<resource name = "EditProfile_DateCreated">注册时间:</resource>
+		<resource name = "EditProfile_LastLogin">最后登录时间:</resource>
+		<resource name = "EditProfile_Birthday">生日:</resource>
+		<resource name = "EditProfile_PasswordFormat">密码存储为:</resource>
+		<resource name = "EditProfile_LastActivity">最后一次访问时间:</resource>
+		<resource name = "EditProfile_AboutGender">性别:</resource>
+		<resource name = "EditProfile_AboutLocation">区域:</resource>
+		<resource name = "EditProfile_AboutOccupation">职业:</resource>
+		<resource name = "EditProfile_AboutInterests">爱好:</resource>
+		<resource name = "EditProfile_AboutWebAddress">个人主页:</resource>
+		<resource name = "EditProfile_AboutWebLog">Blog:</resource>
+		<resource name = "EditProfile_AboutSignature">签名:</resource>
+		<resource name = "EditProfile_ContactTitle">联系资料 (对所有注册用户开放)</resource>
+		<resource name = "EditProfile_ContactPrivateEmail">电子邮件:</resource>
+		<resource name = "EditProfile_ContactPublicEmail">公开信箱:</resource>
+		<resource name = "EditProfile_ContactMsn">MSN IM:</resource>
+		<resource name = "EditProfile_ContactAol">AOL IM:</resource>
+		<resource name = "EditProfile_ContactYahoo">Yahoo IM:</resource>
+		<resource name = "EditProfile_ContactIcq">ICQ:</resource>
+		<resource name = "EditProfile_AvatarTitle">头像</resource>
+		<resource name = "EditProfile_UploadAvatar">上传头像:</resource>
+		<resource name = "EditProfile_AvatarEnable">使用头像:</resource>
+		<resource name = "EditProfile_RemoteAvatarsDisabled">(禁用非本站头像地址)</resource>
+		<resource name = "EditProfile_AvatarUrl">头像链接地址:</resource>
+		<resource name = "EditProfile_OptionsTitle">论坛选项</resource>
+		<resource name = "EditProfile_FontSize">字体大小</resource>
+		<resource name = "EditProfile_OptionsLanguage">语言:</resource>
+		<resource name = "EditProfile_EmailTitle">邮件选项</resource>
+		<resource name = "EditProfile_OptionsDateFormat">日期格式:</resource>
+		<resource name = "EditProfile_OptionsHideRead">隐藏已读的贴子:</resource>
+		<resource name = "EditProfile_OptionsEmailTracking">将 '邮件通知' 设为缺省:</resource>
+		<resource name = "EditProfile_DisplayInMemberList">是否显示在用户列表:</resource>
+		<resource name = "EditProfile_OptionsHtmlEmail">邮件使用 HTML 格式:</resource>
+		<resource name = "EditProfile_OptionsReceiveEmails">接收邮件:</resource>
+		<resource name = "EditProfile_SigMaxLength">签名档最大长度为 {0} 个字符。</resource>
+		<resource name = "EditProfile_Update">更 新</resource>
+		<resource name = "EditProfile_Theme">界面风格:</resource>
+		<resource name = "EditProfile_UserBanTitle">封禁信息</resource>
+		<resource name = "EditProfile_UserBanPeriod">封禁天数:</resource>
+		<resource name = "EditProfile_BanedUntilDate">封禁到:</resource>
+		<resource name = "EditProfile_UserBanReason">封禁原因</resource>
+		<resource name = "EditProfile_UserApprovalTitle">批准用户资料</resource>
+		<resource name = "EditProfile_UserApproval">现在就批准?</resource>		
+		<resource name = "EditProfile_BanExpired"> (已过期!)</resource>		
+		<resource name = "EditProfile_OptionsSortOrder">帖子排序:</resource>
+		<resource name = "EditProfile_UpdateSuccess">您的资料已经成功更新，将在10分钟后生效。</resource>
+		<resource name = "EditProfile_DuplicateEmail">您输入的Email地址已经被其他用户用过，请使用另一个Email地址。</resource>
+		<resource name = "EditProfile_ChangePassword">修改密码失败，请重试。 </resource>
+<!-- End Skin-EditProfile.ascx -->
+
+<!-- Skin-Logout.ascx -->
+		<resource name = "Logout_Title">注销</resource>
+		<resource name = "Logout_Status">您已经成功注销。</resource>
+		<resource name = "Logout_ReturnHome">返回主页</resource>
+<!-- End Skin-Logout.ascx -->
+
+<!-- Skin-DisplayTitle.ascx -->
+		<resource name = "DisplayTitle_ExtraInfo">自您上次登录后有 &lt;b&gt;{0}&lt;/b&gt; 篇新帖子。 &lt;br /&gt;您有 {1} 条新 &lt;b&gt;{2}&lt;/b&gt;。</resource>
+<!-- End Skin-DisplayTitle.ascx -->
+
+<!-- Skin-DisplayUserWelcome.ascx -->
+		<resource name = "DisplayUserWelcome_UserWelcome">欢迎回来 &lt;b&gt;{0}&lt;/b&gt;!</resource>		
+		<resource name = "DisplayUserWelcome_UserLastLogin">上次登录是 &lt;b&gt;{0}&lt;/b&gt;。&lt;br /&gt;&lt;br /&gt;</resource>
+		<resource name = "DisplayUserWelcome_UserNewPosts">自您上次登录后有 &lt;b&gt;{0}&lt;/b&gt; 篇新帖子。&lt;br /&gt;</resource>
+		<resource name = "DisplayUserWelcome_UserPrivateMessages">您有 {0} 条新 &lt;b&gt;{1}&lt;/b&gt;。</resource>
+		<resource name = "DisplayUserWelcome_AlternateUserWelcome">欢迎光临 {0}</resource>		
+<!-- End Skin-DisplayUserWelcome.ascx -->
+
+<!-- Skin-DisplayTitle.ascx -->
+		<resource name = "DisplayTitle_ExtraInfo2">自您上次登录后有 &lt;b&gt;{0}&lt;/b&gt; 篇新帖子。 &lt;br /&gt;您有 {1} 条新 &lt;b&gt;{2}&lt;/b&gt;。</resource>
+<!-- End Skin-DisplayTitle.ascx -->
+
+<!-- Skin-DisplayTitle.ascx -->
+		<resource name = "DisplayTitle_ExtraInfo3">自您上次登录后有 &lt;b&gt;{0}&lt;/b&gt; 篇新帖子。 &lt;br /&gt;您有 {1} 条新 &lt;b&gt;{2}&lt;/b&gt;。</resource>
+<!-- End Skin-DisplayTitle.ascx -->
+
+<!-- Skin-Login.ascx -->
+		<resource name = "Login_Title">登录</resource>
+		<resource name = "Login_UserName">帐号: </resource>
+		<resource name = "Login_Password">密码: </resource>
+		<resource name = "Login_autoLogin">记住密码(下次登录不需要再次输入帐号密码)</resource>
+		<resource name = "Login_loginButton">  登录  </resource>
+<!-- End Skin-Login.ascx -->
+
+<!-- Skin-LoginSmall.ascx -->
+		<resource name = "LoginSmall_Button">登录</resource>
+		<resource name = "LoginSmall_AutoLogin">记住密码(下次登录不需要再次输入帐号密码)</resource>
+		<resource name = "LoginSmall_Title">登录</resource>
+		<resource name = "LoginSmall_Username">帐号:</resource>
+		<resource name = "LoginSmall_Password">密码:</resource>
+		<resource name = "LoginSmall_UserOptions">用户选项</resource>
+		<resource name = "LoginSmall_CreateNewAccount">注册新用户</resource>
+		<resource name = "LoginSmall_ForgotPassword">忘记密码</resource>
+<!-- End Skin-LoginSmall.ascx -->
+
+<!-- User Filter -->
+		<resource name = "UserFilterDropDownList_All">显示所有</resource>
+		<resource name = "UserFilterDropDownList_ParticipatedIn">显示我参与过的主题</resource>
+		<resource name = "UserFilterDropDownList_NotParticipatedIn">显示我未参与过的主题</resource>
+		<resource name = "UserFilterDropDownList_HideAnonymous">显示匿名用户发表的主题</resource>
+		<resource name = "UserFilterDropDownList_HideNonAnonymous">显示没有匿名用户参与的主题</resource>
+<!-- End User Filter -->
+
+<!-- Skin-Message.ascx --><!-- End Skin-Message.ascx -->
+
+<!-- View-Threads.ascx -->
+		<resource name = "ViewActiveThreads_Title">热门主题</resource>
+		<resource name = "ViewActiveThreads_Description">最新热门主题</resource>
+		<resource name = "ViewUnansweredThreads_Title">未回复的主题</resource>
+		<resource name = "ViewUnansweredThreads_Description">列出所有没有回复过的主题</resource>
+		<resource name = "ViewNotReadThreads_Title">未读主题</resource>
+		<resource name = "ViewNotReadThreads_Description">有未读帖子的主题</resource>
+		<resource name = "ViewThreads_Posts">主题</resource>
+		<resource name = "ViewThreads_FaqsAnnouncements">公告和FAQ</resource>
+		<resource name = "ViewThreads_Moderators">版主: </resource>
+		<resource name = "ViewThreads_ActiveGuests">有 {0} 个游客正在浏览此版块。</resource>
+		<resource name = "ViewThreads_ActiveUsers">正在浏览此版块的用户: </resource>
+		<resource name = "ViewThreads_SortedBy">排序规则: </resource>
+		<resource name = "ViewThreads_FilterByDate">日期过滤: </resource>
+		<resource name = "ViewThreads_FilterByTopic">主题过滤: </resource>
+		<resource name = "ViewThreads_FilterByIgnore">不过滤: </resource>
+		<resource name = "ViewThreads_In"> 根据 </resource>
+		<resource name = "ViewThreads_OrderFrom"> 排列</resource>
+		<resource name = "ViewThreads_SortThreads"> 应用 </resource>
+		<resource name = "ViewThreads_RememberSettings"> 保存设置 </resource>
+		<resource name = "ViewThreads_TitleThread">主题</resource>
+		<resource name = "ViewThreads_TitleStartedBy">作者</resource>
+		<resource name = "ViewThreads_TitleReplies">回复</resource>
+		<resource name = "ViewThreads_TitleViews">人气</resource>
+		<resource name = "ViewThreads_TitleLastPost">最后更新</resource>
+		<resource name = "ViewThreads_HideRead">隐藏我已经读过的主题</resource>
+		<resource name = "ViewThreads_ShowRead">显示所有主题</resource>
+		<resource name = "ViewThreads_NoTopics">没有主题: 可能是由于该版还没有主题，也可能是没有满足您的 "显示选项" 的主题</resource>
+		<resource name = "ViewThreads_ForumStats">在线统计</resource>
+		<resource name = "ViewThreads_ForumOptions">论坛选项</resource>
+		<resource name = "ViewThreads_Legend">主题图标图例</resource>		
+		<resource name = "ViewThreads_Legend_AnnouncementsStickies">公告 / 置顶帖子</resource>		
+		<resource name = "ViewThreads_Legend_PopularTopics">热门帖子</resource>		
+		<resource name = "ViewThreads_Legend_NormalTopics">普通帖子</resource>		
+		<resource name = "ViewThreads_XML">可以使用RSS工具订阅该板块。</resource>	
+
+		<resource name = "ViewThreads_TitleForums">Forums</resource>		
+		<resource name = "ViewThreads_TitleThreads">Threads</resource>		
+		<resource name = "ViewThreads_TitlePosts">Posts</resource>		
+		
+<!-- End View-Threads.ascx -->
+
+
+<!-- View-ThreadMove.ascx -->
+
+		<resource name = "MovePost_Title">转移主题</resource>
+		<resource name = "MovePost_ChooseForum">请选择主题将要转移到的版块</resource>
+		<resource name = "MovePost_Subject">标题: </resource>
+		<resource name = "MovePost_HasReplies">有无回复: </resource>
+		<resource name = "MovePost_PostedBy">作者: </resource>
+		<resource name = "MovePost_Body">内容: </resource>
+		<resource name = "MovePost_MoveTo">移动到: </resource>
+		<resource name = "MovePost_SendUserEmail"> 给作者（仅主题作者）发送邮件通知。</resource>
+		<resource name = "MovePost_CancelMove">取消</resource>
+		<resource name = "MovePost_MovePost">转移主题</resource>
+
+<!-- End View-ThreadMove.ascx -->
+
+
+<!-- View-ThreadSplit.ascx -->
+
+		<resource name = "ThreadSplit_Title">分割主题</resource>
+		<resource name = "ThreadSplit_Description">将该贴从主题中分割出来成为一个单独的主题，请修改标题和选择新主题所属版块。</resource>
+		<resource name = "ThreadSplit_SendUserEmail">发送订阅邮件通知该贴被分割。</resource>
+		<resource name = "ThreadSplit_SplitThread">分割主题</resource>
+
+<!-- End View-ThreadSplit.ascx -->
+
+<!-- View-ThreadJoin.ascx -->
+
+		<resource name = "ThreadJoin_Title">合并主题</resource>
+		<resource name = "ThreadJoin_Description">合并两个主题为一个主题</resource>
+		<resource name = "ThreadJoin_Select">请选择一个主题连接:</resource>
+		<resource name = "ThreadJoin_ParentID">主题 ID:</resource>
+		<resource name = "ThreadJoin_ValidateButton">选择</resource>
+		<resource name = "ThreadJoin_JoinThread">合并主题</resource>
+		<resource name = "ThreadJoin_SendUserEmail">发送订阅邮件通知该贴被合并。</resource>
+		<resource name = "ThreadJoin_IsValid">您输入的主题ID是否对应为有效的主题</resource>
+		<resource name = "ThreadJoin_JoinRelationship">将被附加到</resource>
+
+<!-- End View-ThreadJoin.ascx -->
+
+<!-- Skin-MyForums.ascx -->
+
+		<resource name = "MyForums_TrackingTitle">您收藏的主题:</resource>
+		<resource name = "MyForums_NoTrackedThreads">没有您收藏的主题。</resource>
+		<resource name = "MyForums_ActiveThreadsTitle">最近25篇您参与的帖子:</resource>
+		<resource name = "MyForums_NoParticipatedThreads">您未参与任何帖子。</resource>
+		<resource name = "MyForums_FindMorePosts">查看更多您参与的帖子</resource>
+
+<!-- End Skin-MyForums.ascx -->
+
+<!-- Skin-NavigationMenu.ascx --> <!-- End Skin-NavigationMenu.ascx -->
+
+<!-- Skin-SearchRedirect.ascx --> 
+		<resource name = "Search_MoreSearchOptions">高级搜索</resource>
+<!-- End Skin-SearchRedirect -->
+
+
+
+<!-- Skin-RatePost.ascx -->
+
+		<resource name = "RatePost_Title">您对该帖评价如何?</resource>
+		<resource name = "RatePost_Upper">好</resource>
+		<resource name = "RatePost_Lower">不好</resource>
+		
+<!-- Skin-RatePost.ascx -->
+
+<!-- Skin-SearchRedirect.ascx --> 
+
+		<resource name = "SearchRedirect_Title">搜索</resource>
+		<resource name = "SearchRedirect_SearchButton">搜索</resource>
+
+<!-- End Skin-SearchRedirect.ascx -->
+
+<!-- SearchView.ascx -->
+		<resource name = "SearchViewSimple_Title">搜索</resource>
+		<resource name = "SearchViewSimple_SearchFor">您搜索的关键字为: {0}</resource>
+		<resource name = "SearchViewSimple_Description">搜索论坛</resource>
+		<resource name = "SearchView_NoResults">对不起，没有与之匹配的搜索项，请试着修改搜索关键字然后重试。</resource>
+
+<!-- End SearchView.ascx -->
+
+
+<!-- Skin-Statistics.ascx -->
+
+		<resource name = "SearchView_Title">论坛统计信息</resource>
+		<resource name = "SearchView_Inline1">位会员发表了 </resource>
+		<resource name = "SearchView_Inline2">个主题, 共计 </resource>
+		<resource name = "SearchView_Inline3">篇贴子。</resource>
+		<resource name = "SearchView_Inline4">在过去的 24 小时内:</resource>
+		<resource name = "SearchView_Inline5">个新主题</resource>
+		<resource name = "SearchView_Inline6">篇新贴子</resource>
+		<resource name = "SearchView_Inline7">位注册会员</resource>
+		<resource name = "SearchView_Past3days">在过去 3 天内:</resource>
+		<resource name = "SearchView_Inline8">浏览次数最多的主题是 </resource>
+		<resource name = "SearchView_Inline9">最多回复的主题是 </resource>
+		<resource name = "SearchView_Inline10">浏览次数最多的贴子是 </resource>
+		<resource name = "SearchView_Inline11">在过去的 24 小时内最活跃的 10 位会员是: </resource>
+		<resource name = "SearchView_Inline12">欢迎新会员 </resource>
+		<resource name = "SearchView_ViewPostsFor">浏览帖子</resource>
+
+<!-- End Skin-Statistics.ascx -->
+
+<!-- Skin-WhoIsOnline.ascx -->
+
+		<resource name = "WhoIsOnline_Title">用户在线信息</resource>
+		<resource name = "WhoIsOnline_Inline1">目前论坛上有:</resource>
+		<resource name = "WhoIsOnline_GuestUsers"><b>游客 {0} 人在线。</b></resource>
+		<resource name = "WhoIsOnline_UsersOnlineCount">在所有 <b>{1}</b> 名注册会员中有 <b>{0}</b> 人在线</resource>
+		<resource name = "WhoIsOnline_Inline2">会员</resource>
+		<resource name = "WhoIsOnline_Inline3">版主</resource>
+		<resource name = "WhoIsOnline_Inline4">管理员</resource>
+
+<!-- End Skin-WhoIsOnline.ascx -->
+
+<!-- View-CreateEditPost.ascx -->
+		<resource name = "CreateEditPost_PostIcon">心情:</resource>
+		<resource name = "CreateEditPost_Emoticons">表情</resource>
+		<resource name = "CreateEditPost_Title_PostNewMessage">发表新贴</resource>
+		<resource name = "CreateEditPost_Title_PostNewMessageDesc">请完成以下表单内容</resource>
+		<resource name = "CreateEditPost_Title_EditMessage">修改帖子</resource>
+		<resource name = "CreateEditPost_Title_EditMessageDesc">您正在修改的帖子: {0}</resource>
+		<resource name = "CreateEditPost_Title_ReplyMessage">回复帖子</resource>
+		<resource name = "CreateEditPost_Inline1">您要回复的帖子: </resource>
+		<resource name = "CreateEditPost_ReplyPrePend">Re: </resource>
+		<resource name = "CreateEditPost_CurrentEditNotes">当前修改说明: </resource>
+		<resource name = "CreateEditPost_EditNotes">修改说明: </resource>
+		<resource name = "CreateEditPost_EditNotesRequired">(必需)</resource>
+		<resource name = "CreateEditPost_EditNotesRecord">=== 由 {0} 修改于 {1} [GMT {2}] ===</resource>
+		<resource name = "CreateEditPost_Inline2">作者:</resource>
+		<resource name = "CreateEditPost_Inline3">标题:</resource>
+		<resource name = "CreateEditPost_Body">正文:</resource>
+		<resource name = "CreateEditPost_Inline4">正文:</resource>
+		<resource name = "CreateEditPost_Status">状态:</resource>
+		<resource name = "CreateEditPost_Inline5">作者:</resource>
+		<resource name = "CreateEditPost_Inline6">修改人:</resource>
+		<resource name = "CreateEditPost_Inline7">标题:</resource>
+		<resource name = "CreateEditPost_Inline8">模板:</resource>
+		<resource name = "CreateEditPost_Inline9">内容:</resource>
+		<resource name = "CreateEditPost_Inline10">内容:</resource>
+		<resource name = "CreateEditPost_Inline12">附件:</resource>
+		<resource name = "CreateEditPost_DeleteAttachment">删除附件?</resource>
+		<resource name = "CreateEditPost_NewAttachment">新附件:</resource>
+		<resource name = "CreateEditPost_Inline13">帖子固顶:</resource>
+
+		<resource name = "CreateEditPost_BackButton">修改</resource>
+		<resource name = "CreateEditPost_PreviewPostButton">发表</resource>
+		<resource name = "CreateEditPost_PostButton">发表</resource>
+		<resource name = "CreateEditPost_Cancel">取消</resource>
+		<resource name = "CreateEditPost_PreviewButton">预览</resource>
+
+		<resource name = "CreateEditPost_postSubjectValidator">主题不能为空。</resource>
+		<resource name = "CreateEditPost_postBodyValidator">内容不能为空。</resource>
+		<resource name = "CreateEditPost_postBodyRichTextValidator">内容不能为空。</resource>
+		<resource name = "CreateEditPost_IsLocked"> 帖子锁定，不允许回复。</resource>
+		<resource name = "CreateEditPost_SubscribeToThread"> 当有回复是邮件通知我。</resource>
+		<resource name = "CreateEditPost_IsAnonymousPost"> 不显示我的私人信息在这个帖子中。</resource>
+		<resource name = "CreateEditPost_PreviewMessageTitle">预览帖子</resource>
+		
+<!-- End View-CreateEditPost.ascx -->
+
+<!-- Skin-CreateEditPoll.ascx -->
+		<resouce name="CreateEditPoll_PollFormat">投票: {0}</resouce>
+<!-- End Skin-CreateEditPoll.ascx -->
+
+<!-- View-SendEmail.ascx -->
+		<resource name = "SendEmail_Description">发送邮件到论坛中的其他人。</resource>
+		<resource name = "SendEmail_Title">发送邮件</resource>
+		<resource name = "SendEmail_From">发送人: </resource>
+		<resource name = "SendEmail_To">收件人: </resource>
+		<resource name = "SendEmail_Subject">标题: </resource>
+		<resource name = "SendEmail_Body">内容: </resource>
+		<resource name = "SendEmail_Send"> 发送 </resource>
+		<resource name = "SendEmail_Cancel"> 取消 </resource>
+		<resource name = "SendEmail_Validator"> (必需) </resource>
+<!-- End View-SendEmail.ascx -->
+
+<!-- View-PrivateMessages.ascx -->
+   <resource name = "PrivateMessages_Title">私人留言</resource>
+   <resource name = "PrivateMessages_Description">其他会员发送给您的私人留言</resource>
+   <resource name = "PrivateMessages_Messages">标题</resource>
+   <resource name = "PrivateMessages_Recipients">来自</resource>
+<!-- End View-PrivateMessages.ascx -->
+
+<!-- Skin-PrivateMessage.ascx -->
+		<resource name = "PrivateMessage_Title">私人留言</resource>
+
+		<resource name = "PrivateMessage_BackButton"> 编辑 </resource>
+		<resource name = "PrivateMessage_PreviewPostButton"> 发表 </resource>
+		<resource name = "PrivateMessage_PostButton"> 发表 </resource>
+		<resource name = "PrivateMessage_Cancel"> 取消 </resource>
+		<resource name = "PrivateMessage_PreviewButton"> 预览 </resource>
+<!-- End Skin-PrivateMessage.ascx -->
+
+<!-- Mark all read -->
+		<resource name = "MarkAllRead_Threads">标识所有主题为已读</resource>
+<!-- End Mark all read -->
+
+
+<!-- View-ForumGroupView.ascx -->	
+		<resource name = "ForumGroupView_Inline1">论坛</resource>
+		<resource name = "ForumGroupView_Viewing">({0} 人浏览)</resource>
+		<resource name = "ForumGroupView_Inline2">主题</resource>
+		<resource name = "ForumGroupView_Inline3">贴子</resource>
+		<resource name = "ForumGroupView_Inline4">最后发表</resource>
+		<resource name = "ForumGroupView_Legend">图例</resource>
+		<resource name = "ForumGroupView_Legend_NewPosts">有新的贴子</resource>
+		<resource name = "ForumGroupView_Legend_NoNewPosts">没有新的贴子</resource>
+		<resource name = "ForumGroupView_Legend_PrivateForum">受保护的版</resource>
+		<resource name = "ForumGroupView_Legend_LastPostBy">发帖人: </resource>
+		<resource name = "ForumGroupView_ExpandCollapse">收拢 / 展开</resource>
+<!-- End View-ForumGroupView.ascx -->
+
+<!-- View-ForumMembers.ascx -->
+
+		<resource name = "CommunityServerMembers_Inline1">论坛会员</resource>
+		<resource name = "CommunityServerMembers_Inline2">显示所有论坛注册用户</resource>
+		<resource name = "CommunityServerMembers_AdminTitle">论坛管理员</resource>
+		<resource name = "CommunityServerMembers_AdminDescription">论坛系统管理员</resource>
+		<resource name = "ForumMembers_AdminShowApproved">显示审批</resource>
+		<resource name = "ForumMembers_Approved">状态</resource>
+		<resource name = "ForumMembers_Username">帐号</resource>
+		<resource name = "ForumMembers_Location">位置</resource>
+		<resource name = "ForumMembers_Home">个人主页</resource>
+		<resource name = "ForumMembers_PrivateMessages">私人留言</resource>
+		<resource name = "ForumMembers_PrivateEmail">秘密Email</resource>
+		<resource name = "ForumMembers_PublicEmail">公开Email</resource>
+		<resource name = "ForumMembers_WebLog">网络日志</resource>
+		<resource name = "ForumMembers_Joined">注册日期</resource>
+		<resource name = "ForumMembers_SearchByUser">搜索</resource>
+		<resource name = "ForumMembers_LastActive">最后访问</resource>
+		<resource name = "ForumMembers_TotalPosts">发帖数</resource>
+		<resource name = "ForumMembers_FindUser">查找用户: </resource>
+		<resource name = "ForumMembers_SearchButton"> 搜索 </resource>
+		<resource name = "ForumMembers_SortBy">按照: </resource>
+		<resource name = "ForumMembers_OrderBy">排序: </resource>
+		<resource name = "ForumMembers_AccountStatusPrefix">选择用户帐号状态: </resource>
+		<resource name = "ForumMembers_NoRecords">没有找到任何记录</resource>
+		<resource name = "ForumMembers_OrderBy">排序: </resource>
+		<resource name = "ForumMembers_ModerationCounters">审查&lt;br&gt;帖子/板块</resource>
+		
+		<resource name = "CommunityServerForums_Audit_AdminTitle">帖子操作记录</resource>
+		<resource name = "CommunityServerForums_Audit_AdminDescription">列出对该帖子的所有操作历史记录。</resource>
+		<resource name = "CommunityServerMembers_Audit_AdminTitle">会员管理</resource>
+		<resource name = "CommunityServerMembers_Audit_AdminDescription">列出对用当前用户操作的所有历史记录。 </resource>
+
+<!-- End View-ForumMembers.ascx -->
+
+<!-- View-RoleMembers.ascx -->
+
+		<resource name = "RoleMembers_Title"> 角色 {0} 下的会员</resource>
+		<resource name = "RoleMembers_Description">显示该角色下所有会员。</resource>
+
+<!-- End View-RoleMembers.ascx -->
+
+<!--View-ForumGroup.ascx-->
+    <resource name = "Moderate_Home_Title">欢迎光临版主控制面板</resource>
+    <resource name = "Moderate_Home_Description">版主控制面板用来版主用来行使管理功能用的。 &lt;br /&gt;请在左侧选择所要进行的操作。</resource>
+    <resource name = "Moderate_Home_ForumList">下面是您可以管理的版块列表。</resource>    
+<!--End View-ForumGroup.ascx-->
+
+
+<!--Skin-ModeratePost.ascx-->
+    <resource name = "ModeratePost_EditPost">编辑帖子</resource>
+    <resource name = "ModeratePost_EditUser">编辑用户资料</resource>
+    <resource name = "ModeratePost_Move">转移</resource>
+    <resource name = "ModerateThread_Split">分割</resource>
+    <resource name = "ModerateThread_Join">合并</resource>
+    <resource name = "ModerateThread_Lock_Thread">锁定主题</resource>
+    <resource name = "ModerateThread_Lock_Post">锁定帖子</resource>
+    <resource name = "ModerateThread_UnLock_Thread">解除主题锁定</resource>
+    <resource name = "ModerateThread_UnLock_Post">解除帖子锁定</resource>
+    <resource name = "ModeratePost_ModerationHistory">操作历史</resource>
+    <resource name = "ModerateThread_Moderate_User">设为非信任用户</resource>
+    <resource name = "ModerateThread_UnModerate_User">设为信任用户</resource>
+    <resource name = "ModerateThread_CachedAction">完成更改，30秒后生效。</resource>
+<!--End Skin-ModeratePost.ascx-->
+
+
+<!-- Skin-ModerationMenu.ascx -->
+<resource name = "ModerationMenu_Approve">批准</resource>
+<resource name = "ModerationMenu_ApproveReply">批准 &amp; 回复</resource>
+<resource name = "ModerationMenu_ApproveEdit">批准 &amp; 编辑</resource>
+<resource name = "ModerationMenu_Move">移动</resource>
+<resource name = "ModerationMenu_DeletePost">删除帖子</resource>
+<resource name = "ModerationMenu_DeleteThread">删除主题</resource>
+<!-- End Skin-ModerationMenu.ascx -->
+
+<!-- Skin-Statistics.ascx -->
+<resource name = "Moderator_Statistics_Title">版面管理统计</resource>
+
+<!-- End Skin-Statistics.ascx -->
+
+<!-- Skin-CreateEditForums -->
+<resource name="CreateEditForums_Title">新建 / 编辑 版块</resource>
+<resource name="CreateEditForums_SubTitle">对版块进行管理</resource>
+<resource name="CreateEditForums_AboutTitle">关于</resource>
+<resource name="CreateEditForums_ForumID">版块 ID</resource>
+<resource name="CreateEditForums_ParentID">父 ID</resource>
+<resource name="CreateEditForums_Name">名称</resource>
+<resource name="CreateEditForums_Description">描述</resource>
+<resource name="CreateEditForums_IsActive">是活动版块</resource>
+<resource name="CreateEditForums_ForumGroupID">所属讨论组 ID</resource>
+<resource name="CreateEditForums_DateCreated">版块创建的日期</resource>
+<resource name="CreateEditForums_IsModerated">Is Forum Moderated</resource>
+<resource name="CreateEditForums_DaysToView">Days for posting to remain viewable</resource>
+<resource name="CreateEditForums_SortOrder">排序规则</resource>
+<resource name="CreateEditForums_TotalPosts">帖子总数</resource>
+<resource name="CreateEditForums_TotalThreads">主题总数</resource>
+<resource name="CreateEditForums_DisplayMask">Display Mask</resource>
+<resource name="CreateEditForums_EnablePostStatistics">启用帖子统计</resource>
+<resource name="CreateEditForums_EnableAutoDelete">启用自动删除</resource>
+<resource name="CreateEditForums_EnableAnonymousPosting">启用匿名发帖</resource>
+<resource name="CreateEditForums_AutoDeleteThreshold">Auto delete threshold</resource>
+<resource name="CreateEditForums_MostRecentPostID">最近一篇帖子 ID</resource>
+<resource name="CreateEditForums_MostRecentThreadID">最近一篇主题 ID</resource>
+<resource name="CreateEditForums_MostRecentPostAuthor">最近一篇帖子作者</resource>
+<resource name="CreateEditForums_MostRecentPostAuthorID">最近一篇帖子作者 ID</resource>
+<resource name="CreateEditForums_MostRecentPostDate">最近一篇帖子时间</resource>
+<resource name="CreateEditForums_PostsToModerate">发送到版主</resource>
+<resource name="CreateEditForums_ForumType">板块类型</resource>
+<resource name="CreateEditForums_IsSearchable">版块允许搜索</resource>
+<resource name="CreateEditForums_DeleteForumVerify">删除该板块将同时删除该板块下所有的主题和帖子。请确认是否删除？</resource>
+<!-- End Skin-CreateEditForums-->
+
+<!-- 
+
+	Server Control Localization
+	============================
+
+-->
+
+<!-- Navigation/JumpDropDownList.cs -->
+		<resource name = "Navigation_JumpDropDownList_displayText">跳转到: </resource>
+		<resource name = "Navigation_JumpDropDownList_Title">请选择</resource>
+		<resource name = "Navigation_JumpDropDownList_Seperator"> </resource>
+		<resource name = "Navigation_JumpDropDownList_Indent1">|- </resource>		
+		<resource name = "Navigation_JumpDropDownList_Indent2">|-- </resource>		
+		<resource name = "Navigation_JumpDropDownList_Indent3">|---- </resource>		
+		<resource name = "Navigation_JumpDropDownList_Home">论坛首页</resource>
+		<resource name = "Navigation_JumpDropDownList_Search">论坛搜索</resource>
+		<resource name = "Navigation_JumpDropDownList_Members">成员列表</resource>
+		<resource name = "Navigation_JumpDropDownList_UserOptions">用户选项</resource>
+		<resource name = "Navigation_JumpDropDownList_Profile">编辑个人资料</resource>
+		<resource name = "Navigation_JumpDropDownList_PrivateMessages">私人留言</resource>
+		<resource name = "Navigation_JumpDropDownList_MyThreads">我的版面</resource>
+		<resource name = "Navigation_JumpDropDownList_Login">登录</resource>
+		<resource name = "Navigation_JumpDropDownList_CreateAccount">注册</resource>
+		<resource name = "Navigation_JumpDropDownList_ForgotPassword">找回密码</resource>
+		<resource name = "Navigation_JumpDropDownList_AdminOptions">管理 / 版务 选项</resource>
+		<resource name = "Navigation_JumpDropDownList_AdminHome">管理员主页</resource>
+		<resource name = "Navigation_JumpDropDownList_ModeratorHome">版主主页</resource>
+<!-- End Navigation/JumpDropDownList.cs -->
+
+<!-- PostDisplay/PollPost.cs -->
+
+		<resource name = "PostDisplay_PollPost_buttonText">投票</resource>
+		<resource name = "PostDisplay_PollPost_resultsText">您的投票: </resource>
+		<resource name = "PostDisplay_PollPost_totalVotes">总票数: </resource>
+
+<!-- End PostDisplay/PollPost.cs -->
+
+<!-- Search/SearchOptions.cs -->
+		<resource name = "Search_SearchOptions_AllForums">全部版块</resource>
+		<resource name = "Search_SearchOptions_Posts">帖子</resource>
+		<resource name = "Search_SearchOptions_PostedBy">作者</resource>
+		<resource name = "Search_SearchOptions_MatchAll">匹配全字词</resource>
+		<resource name = "Search_SearchOptions_MatchAny">匹配任意字词</resource>
+		<resource name = "Search_SearchOptions_MatchExact">匹配精确词组</resource>
+<!-- End Search/SearchOptions.cs -->
+
+<!-- View-SearchAdvanced.ascx -->
+		<resource name = "SearchAdvanced_Title">高级搜索</resource>
+		<resource name = "SearchAdvanced_Description">可以更加精确您的查找结果。</resource>
+		<resource name = "SearchAdvanced_Options">高级搜索选项</resource>
+		<resource name = "SearchAdvanced_Keywords">关键字</resource>
+		<resource name = "SearchAdvanced_Keywords_Info">可以使用 'AND' 和 'OR' 关键字。 使用 '*' 或 空格 作为通配符。</resource>
+		<resource name = "SearchAdvanced_Users">作者</resource>
+		<resource name = "SearchAdvanced_Users_Info">多个帐号请使用 ','隔开。</resource>
+		<resource name = "SearchAdvanced_Forums">版块</resource>
+		<resource name = "SearchAdvanced_Forums_Info">按住 'ctrl'键可以多选。</resource>		
+		<resource name = "SearchAdvanced_Errors_NoKeywords">帐号和关键字不能同时为空。</resource>		
+<!-- End View-SearchAdvanced.ascx -->
+
+<!-- View-SearchResults.ascx -->
+		<resource name = "SearchResults_Title">搜索结果</resource>
+		<resource name = "SearchResults_Description">您的搜索结果。</resource>
+		<resource name = "SearchResults_TotalResults">约有  &lt;b&gt;{2}&lt;/b&gt; 项符合查询结果， 以下是第 &lt;b&gt;{0}&lt;/b&gt; - &lt;b&gt;{1}&lt;/b&gt;项。</resource>
+		<resource name = "SearchResults_SearchDuration">费时 &lt;b&gt;{0}&lt;/b&gt; 秒。</resource>
+		<resource name = "SearchResults_PostDetails">{1} 在 {0} 版 发表于 {2} </resource>
+		<resource name = "SearchResults_Posted">发表日期:</resource>
+		<resource name = "SearchResults_More">更多 。。。</resource>
+<!-- End View-SearchResults.ascx -->
+
+<!-- User/UserOnlineStatus.cs -->
+		<resource name = "User_UserOnlineStatus_isOnline"> 在线，最后访问时间: </resource>
+		<resource name = "User_UserOnlineStatus_isNotOnline"> 离线，最后访问时间: </resource>
+<!-- End User/UserOnlineStatus.cs -->
+
+<!-- User/PostIcons.cs -->
+		<resource name = "User_PostIcons_NotRanked">无等级</resource>
+		<resource name = "User_PostIcons_Top10">发帖数前10位</resource>
+		<resource name = "User_PostIcons_Top25">发帖数前25位</resource>
+		<resource name = "User_PostIcons_Top50">发帖数前50位</resource>
+		<resource name = "User_PostIcons_Top75">发帖数前75位</resource>
+		<resource name = "User_PostIcons_Top100">发帖数前100位</resource>
+		<resource name = "User_PostIcons_Top150">发帖数前150位</resource>
+		<resource name = "User_PostIcons_Top200">发帖数前200位</resource>
+		<resource name = "User_PostIcons_Top500">发帖数前500位</resource>
+<!-- End User/PostIcons.cs -->
+
+<!-- PostDisplay/PostImageButtons.cs -->
+		<resource name = "User_AltEmail">给 {0} 发送Email</resource>
+		<resource name = "User_AltPrivateMessage">给 {0} 发送站内私人留言</resource>
+		<resource name = "User_AltWeblog">查看 {0} 的Blog</resource>
+		<resource name = "User_AltHomePage">查看 {0} 的个人主页</resource>		
+<!-- End PostDisplay/PostImageButtons.cs -->
+
+<!-- User/UserPermissions.cs -->
+		<resource name = "User_UserPermissions_forumModeration">该版帖子 {0}</resource>
+		<resource name = "User_UserPermissions_postStats">该版的帖子统计功能 {0}</resource>
+		<resource name = "User_UserPermissions_postNewTopics">您 {0} 在此版发表新主题</resource>
+		<resource name = "User_UserPermissions_replyToTopics">您 {0} 在此版回复主题</resource>
+		<resource name = "User_UserPermissions_deletePosts">您 {0} 在此版删除您发表的帖子</resource>
+		<resource name = "User_UserPermissions_editPosts">您 {0} 在此版修改您发表的帖子</resource>
+		<resource name = "User_UserPermissions_createPolls">您 {0} 在此版发起投票</resource>
+		<resource name = "User_UserPermissions_vote">您 {0} 在此版参与投票</resource>
+		<resource name = "User_UserPermissions_attachment">您 {0} 在此版上传附件</resource>
+		<resource name = "User_UserPermissions_allow">能</resource>
+		<resource name = "User_UserPermissions_deny">不能</resource>
+		<resource name = "User_UserPermissions_moderated">需要审核</resource>
+		<resource name = "User_UserPermissions_unmoderated">不需要审核</resource>
+<!-- End User/UserPermissions.cs -->
+
+<!-- Controls/Utility/CurrentPage.cs -->
+		<resource name = "Utility_CurrentPage_text">总页数 {0} 第 {1} 页  [共有 {2} 条记录]</resource>
+<!-- End Controls/Utility/CurrentPage -->
+
+<!-- Controls/Utility/CurrentTime.cs -->
+		<resource name = "Utility_CurrentTime_format">欢迎, 今天是 {0} (GMT {1}) </resource>
+		<resource name = "Utility_CurrentTime_formatGMT">[GMT {0}]</resource>
+		<resource name = "Utility_CurrentTime_dateFormat">dddd, yyyy-MM-dd hh:mm tt</resource>
+<!-- End Controls/Utility/CurrentTime.cs -->
+
+<!-- Controls/Utility/DateFilter.cs -->
+		<resource name = "Utility_DateFilter_text">显示从之后的主题 </resource>
+		<resource name = "Utility_DateFilter_LastVisit">上次访问后</resource>
+		<resource name = "Utility_DateFilter_1Day">一天以来</resource>
+		<resource name = "Utility_DateFilter_2Days">两天以来</resource>
+		<resource name = "Utility_DateFilter_3Days">三天以来</resource>
+		<resource name = "Utility_DateFilter_1Week">一星期以来</resource>
+		<resource name = "Utility_DateFilter_2Weeks">两星期以来</resource>
+		<resource name = "Utility_DateFilter_1Month">一个月以来</resource>
+		<resource name = "Utility_DateFilter_2Months">两个月以来</resource>
+		<resource name = "Utility_DateFilter_3Months">三个月以来</resource>
+		<resource name = "Utility_DateFilter_6Months">半年以来</resource>
+		<resource name = "Utility_DateFilter_1Year">一年以来</resource>
+		<resource name = "Utility_DateFilter_All">显示所有</resource>
+<!-- End Controls/Utility/DateFilter.cs -->
+
+<!-- 
+	Controls/Utility/DateFormatDropDownList.cs 
+	==========================================
+	- F(x) is the actual date format
+	- F(x)Text is the display text
+-->
+			
+		<resource name = "Utility_DateFormatDropDownList_F1">yyyy年M月d日, ddd</resource>
+		<resource name = "Utility_DateFormatDropDownList_F1Text">年 月 日, 星期 (2002年1月3日, 星期四)</resource>			
+		<resource name = "Utility_DateFormatDropDownList_F2">yyyy年M月d日</resource>
+		<resource name = "Utility_DateFormatDropDownList_F2Text">年 月 日 (2002年1月3日)</resource>					
+		<resource name = "Utility_DateFormatDropDownList_F3">ggyyyy年MMMd日</resource>
+		<resource name = "Utility_DateFormatDropDownList_F3Text">公元 年 月 日 (公元2002年一月3日)</resource>
+		<resource name = "Utility_DateFormatDropDownList_F4">yyyy-MM-dd</resource>
+		<resource name = "Utility_DateFormatDropDownList_F4Text">年-月-日 (2003-05-01)</resource>
+		<resource name = "Utility_DateFormatDropDownList_F5">yyyy-M-d</resource>
+		<resource name = "Utility_DateFormatDropDownList_F5Text">年-月-日 (2003-5-1)</resource>
+		<resource name = "Utility_DateFormatDropDownList_F6">yyyy/dd/MM</resource>
+		<resource name = "Utility_DateFormatDropDownList_F6Text">年/月/日 (2003/05/01)</resource>
+		<resource name = "Utility_DateFormatDropDownList_F7">yyyy/d/M</resource>
+		<resource name = "Utility_DateFormatDropDownList_F7Text">年/月/日 (2003/5/1)</resource>
+		<resource name = "Utility_DateFormatDropDownList_F8">dd/MM/yyyy</resource>
+		<resource name = "Utility_DateFormatDropDownList_F8Text">日/月/年 (01/05/2003)</resource>
+		<resource name = "Utility_DateFormatDropDownList_F9">yyyy/MM/dd</resource>
+		<resource name = "Utility_DateFormatDropDownList_F9Text">年/月/日 (2003/05/01)</resource>
+
+<!-- End Controls/Utility/DateFormatDropDownList.cs -->
+
+<!-- 
+	Controls/Utility/TimeFormatDropDownList.cs 
+	==========================================
+	- F(x) is the actual date format
+	- F(x)Text is the display text
+-->
+
+		<resource name = "Utility_TimeFormatDropDownList_F1">h:mm tt</resource>
+		<resource name = "Utility_TimeFormatDropDownList_F1Text">12小时单数 (3:08 PM)</resource>			
+		<resource name = "Utility_TimeFormatDropDownList_F2">hh:mm tt</resource>
+		<resource name = "Utility_TimeFormatDropDownList_F2Text">12小时双数 (03:08 PM)</resource>			
+		<resource name = "Utility_TimeFormatDropDownList_F3">H:mm tt</resource>
+		<resource name = "Utility_TimeFormatDropDownList_F3Text">24小时双数 (15:08)</resource>					
+		<resource name = "Utility_TimeFormatDropDownList_F4">HH:mm tt</resource>
+		<resource name = "Utility_TimeFormatDropDownList_F4Text">24小时单数 (03:08)</resource>					
+
+<!-- End Controls/Utility/DateFormatDropDownList.cs -->
+
+<!-- Utility/ForumAnchor.cs -->
+
+		<resources name = "Utility_ForumAnchorType_MenuSpacer"> | </resources>
+		<resources name = "Utility_ForumAnchorType_MenuHome">首页</resources>
+		<resources name = "Utility_ForumAnchorType_MenuSearch">搜索</resources>	
+		<resources name = "Utility_ForumAnchorType_MenuEditProfile">控制面板</resources>
+		<resources name = "Utility_ForumAnchorType_MenuLogin">登录</resources>
+		<resources name = "Utility_ForumAnchorType_MenuLogout">注销</resources>
+		<resources name = "Utility_ForumAnchorType_MenuRegister">注册</resources>
+		<resources name = "Utility_ForumAnchorType_MenuMemberList">用户列表</resources>
+		<resources name = "Utility_ForumAnchorType_MenuMyForums">我的版面</resources>
+		<resources name = "Utility_ForumAnchorType_MenuFaq">FAQ</resources>
+		<resources name = "Utility_ForumAnchorType_MenuModerate">版务管理</resources>
+		<resources name = "Utility_ForumAnchorType_MenuAdmin">系统管理</resources>
+		<resources name = "Utility_ForumAnchorType_PostsActive">最新热门贴子</resources>
+		<resources name = "Utility_ForumAnchorType_PostsUnanswered">未回复贴子</resources>
+		<resources name = "Utility_ForumAnchorType_PostsNotRead">未读帖子</resources>
+		<resources name = "Utility_ForumAnchorType_UserForgotPassword">忘记密码</resources>
+		<resources name = "Utility_ForumAnchorType_UserRegister">注册新用户</resources>
+		<resources name = "Utility_ForumAnchorType_Login">有注册账号?</resources>
+
+<!-- End Utility/ForumAnchor.cs -->
+
+<!-- Controls/Utility/Pager.cs -->
+		<resource name = "Utility_Pager_previousButton">&#60;</resource>	
+		<resource name = "Utility_Pager_nextButton">&#62;</resource>	
+		<resource name = "Utility_Pager_firstButton">&#171; 首页</resource>	
+		<resource name = "Utility_Pager_lastButton">末页 &#187;</resource>	
+<!-- End Controls/Utility/Pager.cs -->
+
+<!-- Controls/Utility/SearchModeDropDownList.cs -->
+		<resource name = "Utility_SearchModeDropDownList_Simple">简单</resource> 
+		<resource name = "Utility_SearchModeDropDownList_FullText">全文索引 (仅SQL Server支持)</resource> 
+		<resource name = "Utility_SearchModeDropDownList_ForumsIndexer">论坛索引</resource> 
+<!-- End Controls/Utility/SearchModeDropDownList.cs -->
+
+<!-- Controls/Utility/ThreadPager.cs -->
+		<resource name = "Utility_ThreadPager_Page">页: </resource>
+<!-- End Controls/Utility/TrheadPager.cs -->
+
+<!-- Controls/Utility/QuestionsDropDownList.cs -->
+		<resource name = "Utility_QuestionsDropDownList_Q1">你的宠物名字是什么?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q2">你上的第一所学校的名字是什么?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q3">谁是你小时候最崇拜的英雄?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q4">你的业余爱好是什么?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q5">你最喜欢的运动是什么?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q6">你最喜欢的女孩的名字?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q7">你的吉祥物是什么?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q8">你的第一辆车牌是什么?</resource>
+		<resource name = "Utility_QuestionsDropDownList_Q9">你在什么地方第一次邂逅了你的爱人?</resource>
+<!-- End Controls/Utility/QuestionsDropDownList.cs -->
+
+<!-- Controls/Utility/UserBanDropDownList.cs -->
+		<resource name = "Utility_UserBan_Permanent">永久</resource>
+		<resource name = "Utility_UserBan_1Day">1 天</resource>
+		<resource name = "Utility_UserBan_3Days">3 天</resource>
+		<resource name = "Utility_UserBan_5Days">5 天</resource>
+		<resource name = "Utility_UserBan_1Week">1 星期</resource>
+		<resource name = "Utility_UserBan_2Weeks">2 星期</resource>
+		<resource name = "Utility_UserBan_1Month">1 个月</resource>
+<!-- End Controls/Utility/UserBanDropDownList.cs -->
+
+    <!-- START Skin-ForumAdmin.ascx -->
+        <resource name="ForumAdmin_Title">管理版块设置</resource>
+        <resource name="ForumAdmin_Description">配置版块的参数设定。</resource>
+        <resource name="ForumAdmin_AboutTitle">版块设置</resource>
+        <resource name="ForumAdmin_GeneralStatistics">版块常规统计</resource>
+        <resource name="ForumAdmin_StatusFailed">发生错误，请确认所有必填项(文本框旁边有"*"的)都已正确填写。</resource>
+        <!-- Start of control fields -->
+        <resource name="ForumAdmin_ForumID">版块 ID:</resource>
+        <resource name="ForumAdmin_IsActive">启/禁版块</resource>
+        <resource name="ForumAdmin_IsActive_Detail">当该版块被禁用后将不可用。</resource>
+        <resource name="ForumAdmin_ParentID">父版块</resource>
+        <resource name="ForumAdmin_ParentID_Detail">选择一个讨论组或者一个版块作为该版的父版块。</resource>
+        <resource name="ForumAdmin_ForumGroupID">讨论组 ID</resource>
+        <resource name="ForumAdmin_Name">名称</resource>
+        <resource name="ForumAdmin_Name_Detail">版块名称</resource>
+        <resource name="ForumAdmin_ForumDescription">描述</resource>
+        <resource name="ForumAdmin_ForumDescription_Detail">简单描述一下该版，可以使用HTML语法。</resource>
+        <resource name="ForumAdmin_DateCreated">创建日期</resource>
+        <resource name="ForumAdmin_IsModerated">帖子需要版主审批</resource>
+        <resource name="ForumAdmin_IsModerated_Detail">启用该功能后，该版的帖子需要版主审批通过了才会显示出来。</resource>
+        <resource name="ForumAdmin_DaysToView">显示帖子的默认天数</resource>
+        <resource name="ForumAdmin_SortOrder">默认排序方式</resource>
+        <resource name="ForumAdmin_TotalPosts">帖子总数</resource>
+        <resource name="ForumAdmin_TotalThreads">主题总数</resource>
+        <resource name="ForumAdmin_DisplayMask">显示屏蔽</resource>
+        <resource name="ForumAdmin_EnablePostStatistics">启/禁帖子统计</resource>
+        <resource name="ForumAdmin_EnablePostStatistics_Detail">如果禁用，那么用户在该版块发的帖子都不会记入用户发帖数量。</resource>
+        <resource name="ForumAdmin_EnableAutoDelete">启用帖子自动删除</resource>
+        <resource name="ForumAdmin_EnableAutoDelete_Detail">启用后，如果帖子在指定时间内没有被人查看过那么将会被自动删除。</resource>
+        <resource name="ForumAdmin_EnableAnonymousPosting">启用匿名发帖</resource>
+        <resource name="ForumAdmin_EnableAnonymousPosting_Detail">启用后，匿名用户也可以在该版发帖；然而版权的权限设定可能会对该功能有所影响。</resource>
+        <resource name="ForumAdmin_EnableAnonymousPostingForUsers">启用登录用户发匿名帖功能</resource>
+        <resource name="ForumAdmin_EnableAnonymousPostingForUsers_Detail">启用后，登录用户能发匿名帖，用户的任何信息不会显示在帖子中。</resource>
+        
+        <resource name="ForumAdmin_AutoDeleteThreshold">帖子自动删除时间(天)</resource>
+        <resource name="ForumAdmin_AutoDeleteThreshold_Detail">如果帖子在该时间段内没有被人查看过那么将会被自动删除。</resource>
+        <resource name="ForumAdmin_MostRecentPostID">最近的帖子 ID</resource>
+        <resource name="ForumAdmin_MostRecentThreadID">最近的主题 ID</resource>
+        <resource name="ForumAdmin_MostRecentPostAuthor">最后发表作者</resource>
+        <resource name="ForumAdmin_MostRecentPostAuthorID">最后发表作者 ID</resource>
+        <resource name="ForumAdmin_MostRecentPostDate">最后发表日期</resource>
+        <resource name="ForumAdmin_PostsToModerate">待审批的帖子</resource>
+        <resource name="ForumAdmin_ForumType">版块类型</resource>
+        <resource name="ForumAdmin_IsSearchable">帖子索引</resource>
+        <resource name="ForumAdmin_IsSearchable_Detail">启用后，在搜索的时候帖子将自动记入索引</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-ForumAdmin.ascx -->
+
+
+    <!-- START Skin-ForumPermissionAdmin.ascx -->
+        <resource name="ForumPermission_Title">版块权限管理</resource>
+        <resource name="ForumPermission_SubTitle">为一个给定的角色设置个人论坛权限。</resource>
+        <resource name="ForumPermission_AboutTitle">论坛权限</resource>
+        <!-- Start of control fields -->
+        <resource name="ForumPermissionAdmin_Allow">允许</resource>
+        <resource name="ForumPermissionAdmin_Deny">拒绝</resource>
+        <resource name="ForumPermissionAdmin_NotSet">未设置</resource>
+        <resource name="ForumPermissionAdmin_ForumID">版块名称</resource>
+        <resource name="ForumPermissionAdmin_RoleID">角色名称</resource>
+        <resource name="ForumPermissionAdmin_View">&lt;nobr&gt;浏览&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_View_Description">角色里的成员能够浏览贴子列表</resource>
+        <resource name="ForumPermissionAdmin_Read">&lt;nobr&gt;阅读&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Read_Description">角色里的成员能够阅读个人的帖子</resource>
+        <resource name="ForumPermissionAdmin_Post">&lt;nobr&gt;发贴&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Post_Description">角色里的成员能够在论坛上发表新贴</resource>
+        <resource name="ForumPermissionAdmin_Reply">&lt;nobr&gt;回帖&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Reply_Description">角色里的成员能够回复帖子</resource>
+        <resource name="ForumPermissionAdmin_Edit">&lt;nobr&gt;修改&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Edit_Description">角色里的成员能够编辑他们自己的帖子</resource>
+        <resource name="ForumPermissionAdmin_Delete">&lt;nobr&gt;删除&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Delete_Description">角色里的成员能够删除他们自己的帖子</resource>
+        <resource name="ForumPermissionAdmin_Sticky">&lt;nobr&gt;置顶&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Sticky_Description">角色里的成员能够将帖子固定在本版块主题列表的顶端</resource>
+        <resource name="ForumPermissionAdmin_Announce">&lt;nobr&gt;公告&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Announce_Description">角色里的成员能够将帖子标记为公告</resource>
+        <resource name="ForumPermissionAdmin_CreatePoll">&lt;nobr&gt;发起投票&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_CreatePoll_Description">角色里的成员能够发起投票</resource>
+        <resource name="ForumPermissionAdmin_Vote">&lt;nobr&gt;投票&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Vote_Description">角色里的成员能够在已有投票进行投票</resource>
+        <resource name="ForumPermissionAdmin_Moderate">&lt;nobr&gt;管理版块&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Moderate_Description">角色里的成员能够管理本版块</resource>
+        <resource name="ForumPermissionAdmin_Attachment">&lt;nobr&gt;附件&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Attachment_Description">角色里的成员能够添加附件到本论坛的帖子中</resource>
+        <resource name="ForumPermissionAdmin_EditOthers">&lt;nobr&gt;编辑他人帖子&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_EditOthers_Description">该角色成员可以编辑其他会员的帖子。</resource>
+        <resource name="ForumPermissionAdmin_Admin">&lt;nobr&gt;管理&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_Admin_Description">该角色成员可以管理指定站点。</resource>
+        <resource name="ForumPermissionAdmin_SysAdmin">&lt;nobr&gt;系统管理&lt;/nobr&gt;</resource>
+        <resource name="ForumPermissionAdmin_SysAdmin_Description">该角色成员可以管理整个系统。</resource>
+
+		<!-- End of control fields -->
+    <!-- END Skin-ForumPermissionAdmin.ascx -->
+
+
+    <!-- START Skin-MassEmailingAdmin.ascx -->
+        <resource name="MassEmailing_Title">管理群发 E-Mail</resource>
+        <resource name="MassEmailing_SubTitle">给所有成员发送一封e-mail。</resource>
+        <resource name="MassEmailing_AboutTitle">群发 E-Mail</resource>
+        <!-- Start of control fields -->
+        <resource name="MassEmailing_StatusSuccess">消息已成功发送。</resource>
+        <resource name="MassEmailing_Recipients">接收者</resource>
+        <resource name="MassEmailing_Subject">题目</resource>
+        <resource name="MassEmailing_Message">消息</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-MassEmailingAdmin.ascx -->
+
+
+    <!-- START Skin-SmileyAdmin.ascx -->
+        <resource name="Smiley_Title">表情管理</resource>
+        <resource name="Smiley_SubTitle">在这里您可以新增÷删除或者修改表情符号。</resource>
+        <resource name="Smiley_AboutTitle">表情符号管理</resource>
+        <!-- Start of control fields -->
+        <resource name="Smiley_Code">符号</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-SmileyAdmin.ascx -->
+
+
+    <!-- START Skin-CensorshipAdmin.ascx -->
+        <resource name="Censorship_Title">文字过滤管理</resource>
+        <resource name="Censorship_SubTitle">在这里您新增、删除或者修改过滤文字，这些过滤文字将会被过滤并替换为指定的文字。</resource>
+        <resource name="Censorship_AboutTitle">文字过滤管理</resource>
+        <!-- Start of control fields -->
+        <resource name="Censorship_Word">过滤文字</resource>
+        <resource name="Censorship_Replacement">替换文字</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-CensorshipAdmin.ascx -->
+
+
+    <!-- START Skin-NameAdmin.ascx -->
+        <resource name="Name_Title">NEED DESCRIPTION for Name Title</resource>
+        <resource name="Name_SubTitle">NEED DESCRIPTION for Name SubTitle</resource>
+        <resource name="Name_AboutTitle">NEED DESCRIPTION for Name About Title</resource>
+        <!-- Start of control fields -->
+        <resource name="NameAdmin_DisallowedName">NEED DESCRIPTION for DisallowedName</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-NameAdmin.ascx -->
+
+
+    <!-- START Skin-ReportAdmin.ascx -->
+        <resource name="Report_Title">NEED DESCRIPTION for Report Title</resource>
+        <resource name="Report_SubTitle">NEED DESCRIPTION for Report SubTitle</resource>
+        <resource name="Report_AboutTitle">NEED DESCRIPTION for Report About Title</resource>
+        <!-- Start of control fields -->
+        <resource name="ReportAdmin_ReportId">NEED DESCRIPTION for ReportId</resource>
+        <resource name="ReportAdmin_ReportName">NEED DESCRIPTION for ReportName</resource>
+        <resource name="ReportAdmin_Active">NEED DESCRIPTION for Active</resource>
+        <resource name="ReportAdmin_ReportCommand">NEED DESCRIPTION for ReportCommand</resource>
+        <resource name="ReportAdmin_ReportScript">NEED DESCRIPTION for ReportScript</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-ReportAdmin.ascx -->
+
+
+    <!-- START Skin-RoleAdmin.ascx -->
+        <resource name="Role_Title">角色管理</resource>
+        <resource name="Role_SubTitle">创建/编辑角色，用来控制一个用户在制定板块的权限。</resource>
+        <resource name="Role_AboutTitle">角色管理</resource>
+        <resource name="Role_Name">名称</resource>
+        <resource name="Role_Members">成员</resource>
+        <resource name="Role_ViewMembers">查看成员</resource>
+        <resource name="RoleIcon">角色图标</resource>
+    	<resource name="DeleteRole_PopupConfirmation">您确定删除该角色？</resource>        
+    <!-- END Skin-RoleAdmin.ascx -->
+
+
+    <!-- START Skin-StyleAdmin.ascx -->
+        <resource name="Style_Title">样式管理</resource>
+        <resource name="Style_SubTitle">Created new or edit an existing style used by the forums。</resource>
+        <resource name="Style_AboutTitle">Style Attribute</resource>
+        <!-- Start of control fields -->
+        <resource name="StyleAdmin_StyleId">Style Id</resource>
+        <resource name="StyleAdmin_StyleName">Style Name</resource>
+        <resource name="StyleAdmin_StyleSheetTemplate">Style Sheet Template</resource>
+        <resource name="StyleAdmin_BodyBackgroundColor">Body Background Color</resource>
+        <resource name="StyleAdmin_BodyTextColor">Body Text Color</resource>
+        <resource name="StyleAdmin_LinkVisited">Link Visited Color</resource>
+        <resource name="StyleAdmin_LinkHover">Link Hover Color</resource>
+        <resource name="StyleAdmin_LinkActive">Link Active Color</resource>
+        <resource name="StyleAdmin_RowColorPrimary">Primary row color</resource>
+        <resource name="StyleAdmin_RowColorSecondary">Secondary row color</resource>
+        <resource name="StyleAdmin_RowColorTertiary">Tertiary row color</resource>
+        <resource name="StyleAdmin_RowClassPrimary">Primary row class name</resource>
+        <resource name="StyleAdmin_RowClassSecondary">Secondary row class name</resource>
+        <resource name="StyleAdmin_RowClassTertiary">Tertiary row class name</resource>
+        <resource name="StyleAdmin_HeaderColorPrimary">Primary header cell color</resource>
+        <resource name="StyleAdmin_HeaderColorSecondary">Secondary header cell color</resource>
+        <resource name="StyleAdmin_HeaderColorTertiary">Tertiary header cell color</resource>
+        <resource name="StyleAdmin_HeaderStylePrimary">Header cell primary style name</resource>
+        <resource name="StyleAdmin_HeaderStyleSecondary">Header cell secondary style name</resource>
+        <resource name="StyleAdmin_HeaderStyleTertiary">Header cell tertiary style name</resource>
+        <resource name="StyleAdmin_CellColorPrimary">Cell primary color</resource>
+        <resource name="StyleAdmin_CellColorSecondary">Cell secondary color</resource>
+        <resource name="StyleAdmin_CellColorTertiary">Cell tertiary color</resource>
+        <resource name="StyleAdmin_CellClassPrimary">Cell primary class name</resource>
+        <resource name="StyleAdmin_CellClassSecondary">Cell secondary class name</resource>
+        <resource name="StyleAdmin_CellClassTertiary">Cell tertiary class name</resource>
+        <resource name="StyleAdmin_FontFacePrimary">Font primary face </resource>
+        <resource name="StyleAdmin_FontFaceSecondary">Font secondary face</resource>
+        <resource name="StyleAdmin_FontFaceTertiary">Font tertiary face</resource>
+        <resource name="StyleAdmin_FontSizePrimary">Font primary size</resource>
+        <resource name="StyleAdmin_FontSizeSecondary">Font secondary size</resource>
+        <resource name="StyleAdmin_FontSizeTertiary">Font tertiary size</resource>
+        <resource name="StyleAdmin_FontColorPrimary">Font primary color</resource>
+        <resource name="StyleAdmin_FontColorSecondary">Font secondary color</resource>
+        <resource name="StyleAdmin_FontColorTertiary">Font tertiary color</resource>
+        <resource name="StyleAdmin_SpanClassPrimary">Span primary class name</resource>
+        <resource name="StyleAdmin_SpanClassSecondary">Span secondary class name</resource>
+        <resource name="StyleAdmin_SpanClassTertiary">Span tertiary class name</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-StyleAdmin.ascx -->
+
+
+    <!-- START Skin-ServiceAdmin.ascx -->
+        <resource name="Service_Title">NEED DESCRIPTION for Service Title</resource>
+        <resource name="Service_SubTitle">NEED DESCRIPTION for Service SubTitle</resource>
+        <resource name="Service_AboutTitle">NEED DESCRIPTION for Service About Title</resource>
+        <!-- Start of control fields -->
+        <resource name="ServiceAdmin_ServiceId">NEED DESCRIPTION for ServiceId</resource>
+        <resource name="ServiceAdmin_ServiceName">NEED DESCRIPTION for ServiceName</resource>
+        <resource name="ServiceAdmin_ServiceTypeCode">NEED DESCRIPTION for ServiceTypeCode</resource>
+        <resource name="ServiceAdmin_ServiceAssemblyPath">NEED DESCRIPTION for ServiceAssemblyPath</resource>
+        <resource name="ServiceAdmin_ServiceFullClassName">NEED DESCRIPTION for ServiceFullClassName</resource>
+        <resource name="ServiceAdmin_ServiceWorkingDirectory">NEED DESCRIPTION for ServiceWorkingDirectory</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-ServiceAdmin.ascx -->
+
+
+    <!-- START Skin-ServiceScheduleAdmin.ascx -->
+        <resource name="ServiceSchedule_Title">NEED DESCRIPTION for ServiceSchedule Title</resource>
+        <resource name="ServiceSchedule_SubTitle">NEED DESCRIPTION for ServiceSchedule SubTitle</resource>
+        <resource name="ServiceSchedule_AboutTitle">NEED DESCRIPTION for ServiceSchedule About Title</resource>
+        <!-- Start of control fields -->
+        <resource name="ServiceScheduleAdmin_ServiceId">NEED DESCRIPTION for ServiceId</resource>
+        <resource name="ServiceScheduleAdmin_ScheduleName">NEED DESCRIPTION for ScheduleName</resource>
+        <resource name="ServiceScheduleAdmin_MachineName">NEED DESCRIPTION for MachineName</resource>
+        <resource name="ServiceScheduleAdmin_StartDate">NEED DESCRIPTION for StartDate</resource>
+        <resource name="ServiceScheduleAdmin_EndDate">NEED DESCRIPTION for EndDate</resource>
+        <resource name="ServiceScheduleAdmin_ServiceParameters">NEED DESCRIPTION for ServiceParameters</resource>
+        <resource name="ServiceScheduleAdmin_ScheduleTypeCode">NEED DESCRIPTION for ScheduleTypeCode</resource>
+        <resource name="ServiceScheduleAdmin_RunTimeHour">NEED DESCRIPTION for RunTimeHour</resource>
+        <resource name="ServiceScheduleAdmin_RunTimeMinute">NEED DESCRIPTION for RunTimeMinute</resource>
+        <resource name="ServiceScheduleAdmin_DelayHour">NEED DESCRIPTION for DelayHour</resource>
+        <resource name="ServiceScheduleAdmin_DelayMinute">NEED DESCRIPTION for DelayMinute</resource>
+        <resource name="ServiceScheduleAdmin_RunDaily">NEED DESCRIPTION for RunDaily</resource>
+        <resource name="ServiceScheduleAdmin_RunWeekly">NEED DESCRIPTION for RunWeekly</resource>
+        <resource name="ServiceScheduleAdmin_RunMonthly">NEED DESCRIPTION for RunMonthly</resource>
+        <resource name="ServiceScheduleAdmin_RunYearly">NEED DESCRIPTION for RunYearly</resource>
+        <resource name="ServiceScheduleAdmin_RunOnce">NEED DESCRIPTION for RunOnce</resource>
+        <resource name="ServiceScheduleAdmin_LastRunTime">NEED DESCRIPTION for LastRunTime</resource>
+        <resource name="ServiceScheduleAdmin_NextRunTime">NEED DESCRIPTION for NextRunTime</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-ServiceScheduleAdmin.ascx -->
+
+
+    <!-- START Skin-ManageMember.ascx -->
+        <resource name="UserAdmin_Title">成员管理</resource>
+        <resource name="UserAdmin_Description">用户: {0}</resource>
+        <resource name="User_AboutTitle">成员管理</resource>
+        <!-- Start of control fields -->
+        <resource name="UserAdmin_UserID">唯一的用户标记符</resource>
+        <resource name="UserAdmin_UserName">选择帐号</resource>
+        <resource name="UserAdmin_Password">密码</resource>
+        <resource name="UserAdmin_Roles">角色</resource>
+        <resource name="UserAdmin_PasswordReset">重新设置/更改</resource>
+        <resource name="UserAdmin_PasswordFormat">保存密码:</resource>
+        <resource name="UserAdmin_RolesAddRemove">添加/移除</resource>
+        <resource name="UserAdmin_Email">注册的 email 地址</resource>
+        <resource name="UserAdmin_DateCreated">帐号创建日期</resource>
+        <resource name="UserAdmin_LastLogin">用户上次登录日期</resource>
+        <resource name="UserAdmin_LastActivity">用户上次活动时间</resource>
+        <resource name="UserAdmin_IsApproved">用户通过审批了吗?</resource>
+        <resource name="UserAdmin_IsAnonymous">用户是匿名用户吗?</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-ManageMember.ascx -->
+
+
+    <!-- START Skin-UserRoleAdmin.ascx -->
+        <resource name="UserRole_Title">用户角色管理</resource>
+        <resource name="UserRole_SubTitle">添加和移除一个特定用户的角色。</resource>
+        <resource name="UserRole_AboutTitle">管理用户角色</resource>
+        <!-- Start of control fields -->
+        <resource name="UserRoleAdmin_UserName">帐号</resource>
+        <resource name="UserRoleAdmin_RoleID">角色ID</resource>
+        <!-- End of control fields -->
+    <!-- END Skin-UserRoleAdmin.ascx -->
+
+    <!-- Start Manage Ranks -->
+		<resource name="Rank_Title">等级管理</resource>
+		<resource name="Rank_SubTitle">创建或编辑等级，等级用来衡量一个用户在论坛里面的表现。</resource>
+        <!-- Start of control fields -->
+        <resource name="Rank_MinPosts">最小帖子数</resource>
+        <resource name="Rank_MaxPosts">最大帖子数</resource>
+        <resource name="Rank_IconUrl">图标路径</resource>
+    <!-- End Manage Ranks -->
+
+    <!-- Start View-WhoIsOnline.ascx -->
+        <resource name="WhoIsOnlineView_Title">当前在线</resource>
+        <resource name="WhoIsOnlineView_Description">当前论坛在线用户</resource>
+		<resource name = "WhoIsOnlineView_GuestUsers">有 {0} 个游客在线</resource>
+		<resource name = "WhoIsOnlineView_UsersOnlineCount">在 {1} 个注册会员中有 {0} 个会员在线</resource>
+		<resource name = "WhoIsOnlineView_List_Username">帐号</resource>
+		<resource name = "WhoIsOnlineView_List_LastUpdated">最近更新</resource>
+		<resource name = "WhoIsOnlineView_List_ForumLocation">当前位置</resource>		
+    <!-- End View-WhoIsOnline.ascx -->
+
+    <!-- Start View-ThreadRatingSummary.ascx -->
+        <resource name="ThreadRatingSummary_RatedBy">评分人</resource>
+        <resource name="ThreadRatingSummary_Rating">评分</resource>
+    <!-- End View-ThreadRatingSummary.ascx -->
+
+    <!-- Start View-UserProfile.ascx -->
+	<resource name = "ViewUserProfile_Title">用户资料</resource>
+	<resource name = "ViewUserProfile_Description">查看 {0} 的个人资料</resource>
+	<resource name = "ViewUserProfile_Joined">注册日期</resource>
+	<resource name = "ViewUserProfile_LastLogin">最后登录</resource>
+	<resource name = "ViewUserProfile_LastVisit">最后访问</resource>
+	<resource name = "ViewUserProfile_Timezone">时区</resource>
+	<resource name = "ViewUserProfile_TimezoneDescription">用户所在时区。</resource>
+	<resource name = "ViewUserProfile_Location">区域</resource>
+	<resource name = "ViewUserProfile_Occupation">职业</resource>
+	<resource name = "ViewUserProfile_Interests">爱好</resource>
+	<resource name = "ViewUserProfile_WebAddress">个人主页</resource>
+	<resource name = "ViewUserProfile_BlogAddress">网络日志</resource>
+	<resource name = "ViewUserProfile_GuestBookAddress">留言簿</resource>
+	<resource name = "ViewUserProfile_GuestBook">查看留言簿</resource>
+	<resource name = "ViewUserProfile_AvatarPostSignature">头像和签名档</resource>
+	<resource name = "ViewUserProfile_Avatar">头像</resource>
+	<resource name = "ViewUserProfile_Theme">界面风格</resource>
+	<resource name = "ViewUserProfile_Signature">签名档</resource>
+	<resource name = "ViewUserProfile_Contact">联系方式</resource>
+	<resource name = "ViewUserProfile_Email">Email</resource>
+	<resource name = "ViewUserProfile_MsnIm">MSN</resource>
+	<resource name = "ViewUserProfile_AolIm">AOL</resource>
+	<resource name = "ViewUserProfile_YahooIm">Yahoo</resource>
+	<resource name = "ViewUserProfile_IcqIm">ICQ</resource>
+	<resource name = "ViewUserProfile_PostStats">发帖统计，等级</resource>
+	<resource name = "ViewUserProfile_TotalPosts">发帖总数</resource>
+	<resource name = "ViewUserProfile_PostRank">发帖等级</resource>
+
+    <!-- End View-UserProfile.ascx -->
+
+
+    <!-- Start faq.ascx -->
+        <resource name="Faq_Title">论坛 FAQ</resource>
+        <resource name="Faq_Description">常见问题解答</resource>
+    <!-- End faq.ascx -->
+
+    <!-- Start Skin-ForgottenPassword.ascx -->
+        <resource name="ForgottenPassword_Title">找回密码</resource>
+        <resource name="ForgottenPassword_Instructions">输入注册时的Email地址——您的密码将通过该Email发送给您。收到密码后请登录修改您的密码。</resource>
+        <resource name="ForgottenPassword_RequiredField">必须提供一个Email地址。</resource>
+        <resource name="ForgottenPassword_InvalidEmailAddress">不正确的Email格式。</resource>
+        <resource name="ForgottenPassword_SendButton">发送密码</resource>
+        <resource name="ForgottenPassword_NextButton">继续</resource>
+        <resource name="ForgottenPassword_EmailAddress">Email 地址: </resource>
+        <resource name="ForgottenPassword_EmailNotFound">Email 地址不存在。</resource>
+        <resource name="ForgottenPassword_SecretQuestion">密码问题:</resource>
+        <resource name="ForgottenPassword_SecretAnswer">密码答案:</resource>
+        <resource name="ForgottenPassword_SecretAnswerRequired">密码问题不能为空。</resource>
+        <resource name="ForgottenPassword_InvalidSecretAnswer">不正确的密码问题。</resource>
+        <resource name="ForgottenPassword_NewPassword">新密码:</resource>
+        <resource name="ForgottenPassword_RetypePassword">确认新密码:</resource>
+        <resource name="ForgottenPassword_PasswordRequired">密码不能为空。</resource>
+        <resource name="ForgottenPassword_WrongPassword">密码不匹配。。</resource>
+        
+        <resource name="ForgottenPassword_Failed">更新/发送 密码失败 - 密码未更改。</resource>
+    <!-- End Skin-ForgottenPassword.ascx -->
+
+    <!-- Start Skin-ChangePassword.ascx -->
+        <resource name="ChangePassword_Title">修改密码</resource>
+        <resource name="ChangePassword_Instructions">在这里修改您的密码，修改后，下次登录请使用您的新密码。</resource>
+        <resource name="ChangePassword_CurrentPassword">旧密码:</resource>
+        <resource name="ChangePassword_CurrentPasswordRequired">旧密码不能为空。</resource>
+        <resource name="ChangePassword_NewPassword">新密码:</resource>
+        <resource name="ChangePassword_ReEnterNewPassword">确认密码:</resource>
+        <resource name="ChangePassword_NewPasswordRequired">新密码不能为空。</resource>
+        <resource name="ChangePassword_ReEnterNewPasswordRequired">两次输入不匹配!</resource>
+        <resource name="ChangePassword_ReEnterNewPasswordInvalid">密码不匹配!</resource>
+        <resource name="ChangePassword_ChangePassword">修改密码</resource>
+        <resource name="ChangePassword_InvalidRegExContent">密码包含非法字符</resource>
+        <resource name="ChangePassword_InvalidLength">密码太短，不能少于 {0} 个字符。</resource>
+        <resource name="ChangePassword_InvalidContent">密码中数字字符太少，必须不少于 {0} 个字符。</resource>        
+    <!-- End Skin-ChangePassword.ascx -->
+
+    <!-- Start Skin-ChangePasswordAnswer.ascx -->
+        <resource name="ChangePasswordAnswer_Title">修改密码答案</resource>
+        <resource name="ChangePasswordAnswer_Instructions">修改您的密码答案。</resource>
+        <resource name="ChangePasswordAnswer_CurrentQuestion">当前问题:</resource>
+        <resource name="ChangePasswordAnswer_CurrentAnswer">当前答案:</resource>
+        <resource name="ChangePasswordAnswer_CurrentAnswerRequired">您必须提供您当前的密码答案。</resource>
+        <resource name="ChangePasswordAnswer_NewQuestion">新密码问题:</resource>
+        <resource name="ChangePasswordAnswer_NewAnswer">新密码答案:</resource>
+        <resource name="ChangePasswordAnswer_ReEnterNewAnswer">再次输入新密码答案:</resource>
+        <resource name="ChangePasswordAnswer_NewAnswerRequired">您必须输入一个密码答案。</resource>
+        <resource name="ChangePasswordAnswer_RegExInvalidAnswer">密码答案格式不正确。</resource>
+        <resource name="ChangePasswordAnswer_RegExInvalidAnswer1">新密码答案格式不正确。</resource>
+        <resource name="ChangePasswordAnswer_ReEnterAnswerRequired">您必须重新输入新密码答案。</resource>
+        <resource name="ChangePasswordAnswer_ReEnterNewAnswerRequired">密码答案不匹配!</resource>
+        <resource name="ChangePasswordAnswer_ChangeAnswer">修改密码</resource>
+        <resource name="ChangePasswordAnswer_NotAvailable">NA. (请保留当前密码答案为空!)</resource>        
+    <!-- End Skin-ChangePasswordAnswer.ascx -->
+    
+    <!-- Start Url Reverse Lookup -->
+        <resource name="ReverseLookupUrl_Viewing">在查看 {0}</resource>
+    <!-- End Url Reverse Lookup -->
+
+    <!-- Start Alpha Picker -->
+        <resource name="AlphaPicker_Spacer"></resource>
+        <resource name="AlphaPicker_All">全部</resource>
+    <!-- End Alpha Picker -->
+
+    <!-- Start Members Sort Drop Down List -->
+        <resource name="MemberSortDropDownList_DateLastActive">最后访问日期</resource>
+        <resource name="MemberSortDropDownList_DateJoined">注册日期</resource>
+        <resource name="MemberSortDropDownList_NumPosts"># 发表数</resource>
+        <resource name="MemberSortDropDownList_Username">帐号</resource>
+        <resource name="MemberSortDropDownList_Email">Email</resource>
+    <!-- End Members Sort Drop Down List -->
+
+    <!-- Start Threads Sort Drop Down List -->
+        <resource name="ThreadSortDropDownList_LastPost">最后发帖日期</resource>
+        <resource name="ThreadSortDropDownList_Views">人气值</resource>
+        <resource name="ThreadSortDropDownList_StartedBy">作者</resource>
+        <resource name="ThreadSortDropDownList_Replies">回复数</resource>
+        <resource name="ThreadSortDropDownList_Ratings">投票数</resource>
+    <!-- End Threads Sort Drop Down List -->
+
+    <!-- Start Sort Order Drop Down List -->
+        <resource name="SortOrderDropDownList_Asc">升序</resource>
+        <resource name="SortOrderDropDownList_Desc">降序</resource>
+    <!-- End Sort Order Drop Down List -->
+
+    <!-- Start User Image Buttons -->
+        <resource name="UserImageButtons_HomePage">浏览 {0} 的主页</resource>
+        <resource name="UserImageButtons_WebLog">浏览 {0} 的网络日志</resource>
+        <resource name="UserImageButtons_SearchFor">搜索 {0} 发表的所有帖子</resource>
+        <resource name="UserImageButtons_Email">发送邮件给 {0}</resource>
+        <resource name="UserImageButtons_PrivateMessage">发送私人留言给 {0}</resource>
+    <!-- Start User Image Buttons -->
+
+    <!-- Admin Common Terms -->
+        <resource name="Admin_CommonTerms_Manage">管理</resource>
+        <resource name="Admin_CommonTerms_Home">系统管理首页</resource>
+        <resource name="Admin_CommonTerms_Options">配置选项</resource>
+        <resource name="Admin_CommonTerms_Configuration">配置</resource>
+        <resource name="Admin_CommonTerms_Administration">系统设置</resource>
+        <resource name="Admin_CommonTerms_Moderation">版面管理</resource>
+        <resource name="Admin_CommonTerms_Permissions">权限管理</resource>
+        <resource name="Admin_CommonTerms_DefaultPermissions">默认权限</resource>
+        <resource name="Admin_CommonTerms_Pruning">清除帖子</resource>
+        <resource name="Admin_CommonTerms_Forums">版块管理</resource>
+        <resource name="Admin_CommonTerms_Smilies">表情</resource>
+        <resource name="Admin_CommonTerms_Reports">报告</resource>
+        <resource name="Admin_CommonTerms_Members">会员管理</resource>
+        <resource name="Admin_CommonTerms_Roles">角色</resource>
+        <resource name="Admin_CommonTerms_Ranks">等级</resource>
+		<resource name="Admin_CommonTerms_WordCensors">文字过滤管理</resource>        
+		<resource name="Admin_CommonTerms_DisallowNames">禁止注册的帐号</resource>
+		<resource name="Admin_CommonTerms_BanControl">封禁控制</resource>
+		<resource name="Admin_CommonTerms_Run">运行</resource>
+		<resource name="Admin_CommonTerms_MassEmail">邮件群发</resource>
+		<resource name="Admin_CommonTerms_PreviewForums">预览</resource>
+		<resource name="Admin_CommonTerms_ShowDefaultPermissions">显示默认权限</resource>
+		
+		
+    <!-- End Admin Common Terms -->
+
+	<!-- Start Gallery Admin Menu Items -->
+		<resource name="Admin_Gallery_MyGalleries_NoItemsUser">您还没有开通相册，如果您需要开通相册请和管理员联系。</resource>
+		<resource name="Admin_Gallery_MyGalleries_NoItemsAdmin">还没有任何相册，您可以通过上面的“创建相册”来创建一个新的相册。</resource>
+	<!-- End Gallery Admin Menu Items -->
+
+	<!-- Start Built In Reports -->
+		<resource name="Admin_BuiltInReports">异常管理</resource>
+		<resource name="Admin_BuiltInReports_Exceptions">异常</resource>
+	<!-- End Built In Reports -->
+    <!-- Moderation Common Terms -->
+
+        <resource name="Moderation_CommonTerms_Home">版务管理首页</resource>
+        <resource name="Moderate_PostsToModerateTitle">待管理的帖子</resource>
+        <resource name="Moderate_PostsToModerateDescription">版块: {0}</resource>
+    <!-- End Moderation Common Terms -->
+
+    <!-- User Admin -->
+		<resource name = "UserAdmin_IsLockedOut">因为登录失败次数过多，账号锁定。&lt;b&gt;解除锁定?&lt;/b&gt;</resource>
+		<resource name = "UserAdmin_AccountStatus">帐号状态</resource>
+		<resource name = "UserAdmin_IsAvatarApproved">是头像审批</resource>
+		<resource name = "UserAdmin_ForceLogin">下次访问时必须登录</resource>
+		<resource name = "UserAdmin_ModerationLevel">帖子管理:</resource>
+		<resource name = "UserAdmin_DummyTotalPosts">发帖数量:</resource>
+
+    <!-- End User Admin -->
+
+    <!-- Admin Member Configuration -->
+		<resource name = "Admin_Member_Configuration">会员配置</resource>
+		<resource name = "Admin_Member_Description">配置会员注册等</resource>
+    <!-- End Admin Member Configuration -->
+
+    <!-- Moderation Levels -->
+		<resource name = "ModerationLevel_Unmoderated">用户不需要接受管制</resource>
+		<resource name = "ModerationLevel_AutoUnmoderate">在 {0} 篇帖子被审批通过后用户自动解除管制</resource>
+		<resource name = "ModerationLevel_Moderated">用户被管制</resource>
+		<resource name = "ModerationLevel_CannotBeUnmoderated">用户不能解除管制</resource>
+		<resource name = "ModerationLevel_RequireGlobalModeratorApproval">用户帖子只能由管理员以上权限批准</resource>
+		<resource name = "ModerationLevel_RequireAdminApproval">用户帖子只能由超级管理员权限批准</resource>
+    <!-- End Moderation Levels -->
+
+    <!-- Account Status -->
+		<resource name = "AccountStatus_NotFiltered">全部</resource>
+		<resource name = "AccountStatus_Approved">已批准</resource>
+		<resource name = "AccountStatus_ApprovalPending">待批准</resource>
+		<resource name = "AccountStatus_Banned">封禁中</resource>
+		<resource name = "AccountStatus_Disapproved">未批准</resource>
+    <!-- End Account Status -->
+
+    <!-- Post Rating -->
+		<resource name = "PostRating_Zero">糟糕</resource>
+		<resource name = "PostRating_One">差</resource>
+		<resource name = "PostRating_Two">勉强</resource>
+		<resource name = "PostRating_Three">一般</resource>
+		<resource name = "PostRating_Four">良好</resource>
+		<resource name = "PostRating_Five">优秀</resource>
+		<resource name = "PostRating_Rate">评估主题: </resource>
+		<resource name = "PostRating_RateButton">投票!</resource>
+		<resource name = "PostRating_AltText">票数 {0} [{1} out of 5 / rated {2} time(s)]。</resource>
+		<resource name = "Rating_AltText">票数 {0} [{1} out of 5]。</resource>
+		<resource name = "Rating_ShowThread">跳转到帖子</resource>
+    <!-- End Post Rating -->
+
+    <!-- Bread Crumb -->
+		<resource name = "BreadCrumb_Seperator"> &#187; </resource>
+		<resource name = "BreadCrumb_Moderation">管理功能</resource>
+		<resource name = "BreadCrumb_UserProfile">在查看个人资料: {0}</resource>
+		<resource name = "BreadCrumb_EditUserProfile">编辑个人资料</resource>
+		<resource name = "BreadCrumb_Search">搜索</resource>
+    <!-- End Bread Crumb -->
+
+    <!-- Locations -->
+		<resource name = "Location_NotFound">未能显示当前用户状态</resource>
+		<resource name = "Location_ActiveTopics">正在阅读活动主题</resource>
+		<resource name = "Location_UnansweredTopics">正在阅读未答复的主题</resource>
+		<resource name = "Location_Hidden">不显示用户当前状态</resource>
+		<resource name = "Location_Home">论坛首页</resource>
+		<resource name = "Location_Login">正在登录。。。</resource>
+		<resource name = "Location_Logout">正在注销。。。</resource>
+		<resource name = "Location_Faq">在阅读论坛 F。A。Q。</resource>
+		<resource name = "Location_MemberList">在查看论坛成员列表</resource>
+		<resource name = "Location_MemberProfile">在查看用户: {0}</resource>
+		<resource name = "Location_WhoIsOnline">在查看在线列表</resource>
+		<resource name = "Location_PostView">在读帖: {0}</resource>
+		<resource name = "Location_PostReply">在回帖: {0}</resource>
+		<resource name = "Location_ForumGroup">在查看讨论组: {0}</resource>
+		<resource name = "Location_Forum">在查看版块: {0}</resource>
+		<resource name = "Location_PostNew">在 {0} 版发表新帖</resource>
+		<resource name = "Location_Administration">返回系统管理页</resource>
+    <!-- End Locations -->
+    
+    <!-- Forum Group Admin -->
+        <resource name="ForumGroupAdmin_Title">管理讨论组设置</resource>
+        <resource name="ForumGroupAdmin_Description">配置单个讨论组设置</resource>
+        <resource name="ForumGroupAdmin_AboutTitle">讨论组设置</resource>
+        <!-- Start of Control Fields -->
+        <resource name="ForumGroupAdmin_ForumGroupId">版 Id</resource>
+        <resource name="ForumGroupAdmin_ForumGroupName">讨论组名</resource>
+        <!-- End of Control Fields -->
+    <!-- End Forum Group Admin -->
+    
+    <!-- Start Site Settins Admin -->
+        <resource name="Admin_SiteSettings_SearchPerPage">每页搜索结果数</resource>
+        <resource name="Admin_SiteSettings_SearchPerPage_Descr">搜索时，每页显示的搜索结果数。</resource>
+
+        <resource name="Admin_SiteSettings_SubTitle">这些配置将允许你控制本版块的各种选项。</resource>
+        <resource name="Admin_SiteSettings_StatusSuccess">设置保存成功。</resource>
+        <resource name="Admin_SiteSettings_StatusFailed">发生错误，请检查是否所有必填项目（文本框旁边带有"*"的）都已经正确填写。</resource>
+		<resource name="Admin_SiteSettings_ManageDomain">域名管理</resource>
+		<resource name="Admin_SiteSettings_ManageDomain_Application">应用程序</resource>
+		<resource name="Admin_SiteSettings_ManageDomain_Application_Descr">请选择你想要管理的应用程序。</resource>
+
+		<resource name="Admin_SiteSettings_DisableApplications">禁用应用程序</resource>
+		<resource name="Admin_SiteSettings_DisableForum">封禁论坛</resource>
+		<resource name="Admin_SiteSettings_DisableForum_Descr">只有超级管理员或者本机上的请求才能访问封禁的论坛。显示出一个论坛封禁消息。</resource>
+		<resource name="Admin_SiteSettings_DisableBlog">禁用Blog</resource>
+		<resource name="Admin_SiteSettings_DisableBlog_Descr">只有超级管理员或者本机上的请求才能访问封禁的Blog。显示出一个Blog封禁消息。</resource>
+		<resource name="Admin_SiteSettings_DisableGallery">禁用相册</resource>
+		<resource name="Admin_SiteSettings_DisableGallery_Descr">只有超级管理员或者本机上的请求才能访问封禁的相册。显示出一个相册封禁消息。</resource>
+		<resource name="Admin_SiteSettings_DisableGuestBook">禁用留言簿</resource>
+		<resource name="Admin_SiteSettings_DisableGuestBook_Descr">只有超级管理员或者本机上的请求才能访问封禁的留言簿。显示出一个留言簿封禁消息。</resource>
+		
+		
+		<resource name="Admin_SiteSettings_Title">普通配置</resource>
+		<resource name="Admin_SiteSettings_Name">站点名称</resource>
+		<resource name="Admin_SiteSettings_Name_Descr">论坛的应用程序名称，用在站点显示中。</resource>
+		<resource name="Admin_SiteSettings_Description">站点描述</resource>
+		<resource name="Admin_SiteSettings_Description_Descr">输入一段简短的话来描述论坛。</resource>
+		
+		<resource name="Admin_SiteSettings_HomePageContent">主页内容</resource>
+		<resource name="Admin_SiteSettings_HomePageContent_Descr">显示在主页上的内容。</resource>		
+		
+		<resource name="Admin_SiteSettings_TimeZone">时区</resource>
+		<resource name="Admin_SiteSettings_TimeZone_Descr">论坛的数据库服务器所指向的时区。</resource>
+		<resource name="Admin_SiteSettings_ThreadsPerPage">主题/页码</resource>
+		<resource name="Admin_SiteSettings_ThreadsPerPage_Descr">每个网页上显示的主题数。</resource>
+		<resource name="Admin_SiteSettings_PostPerPage">帖子/页码</resource>
+		<resource name="Admin_SiteSettings_PostPerPage_Descr">每个网页上所显示的帖子数</resource>
+		<resource name="Admin_SiteSettings_Attachments">帖子附件</resource>
+		<resource name="Admin_SiteSettings_Attachments_Allow">启用附件</resource>
+		<resource name="Admin_SiteSettings_Attachments_Allow_Desc">允许用户在发帖时上传附件。</resource>
+		<resource name="Admin_SiteSettings_Attachments_Types">允许上传的文件类型</resource>
+		<resource name="Admin_SiteSettings_Attachments_Types_Desc">在这里输入允许用户上传的文件扩展名，多种文件类型请用用分号隔开(gif;jpg;png)。</resource>		
+		<resource name="Admin_SiteSettings_Attachments_MaxSize">允许最大文件大小 (K)</resource>
+		<resource name="Admin_SiteSettings_Attachments_MaxSize_Desc">允许上传的最大文件大小。 (设为 0 表示不限制大小)。 </resource>				
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages">启用内嵌图片附件</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_Desc">当上传一个图片附件时直接把图片嵌入到帖子中。</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_MaxSize">内嵌图片最大尺寸</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_MaxSize_Desc">为了防止帖子图片过大影响帖子布局，约束内嵌图片在帖子中最大显示大小，填写-1表示不约束。</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_Width">宽:</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_Height">高:</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_ImageTypes">支持的内嵌图片附件类型</resource>
+		<resource name="Admin_SiteSettings_Attachments_EnableInlinedImages_ImageTypes_Desc">可以嵌入到帖子中的图片附件扩展名。</resource>
+		<resource name="Admin_SiteSettings_Contact">联系我们</resource>
+		<resource name="Admin_SiteSettings_Contact_AdminEmail">管理员的email</resource>
+		<resource name="Admin_SiteSettings_Contact_AdminEmail_Descr">论坛超级管理员的email地址。</resource>
+		<resource name="Admin_SiteSettings_Contact_InvalidEmail">有效的email地址。</resource>
+		<resource name="Admin_SiteSettings_Contact_CompanyName">公司/组织名称</resource>
+		<resource name="Admin_SiteSettings_Contact_CompanyName_Descr">你的公司名称 。</resource>
+		<resource name="Admin_SiteSettings_Contact_Company_Email">公司/组织的email地址</resource>
+		<resource name="Admin_SiteSettings_Contact_Company_Email_Descr">用在页脚的“联系我们”。部分</resource>
+		<resource name="Admin_SiteSettings_Contact_Fax">公司/组织的传真号码</resource>
+		<resource name="Admin_SiteSettings_Contact_Fax_Descr">输入能够接收COPPA表格的传真号码。</resource>
+		<resource name="Admin_SiteSettings_Contact_Address">公司/组织地址s</resource>
+		<resource name="Admin_SiteSettings_Contact_Address_Descr">输入能接收COPPA表格的邮寄地址。</resource>
+		<resource name="Admin_SiteSettings_Menu">首页菜单 &amp; 区</resource>
+		<resource name="Admin_SiteSettings_Menu_Forum">显示论坛描述</resource>
+		<resource name="Admin_SiteSettings_Menu_Forum_Descr">显示版块的描述。</resource>
+		<resource name="Admin_SiteSettings_Menu_Birthdays">显示今天的生日榜</resource>
+		<resource name="Admin_SiteSettings_Menu_Birthdays_Descr">现实今天过生日的会员。</resource>
+		<resource name="Admin_SiteSettings_Menu_CurrentTime">显示当前时间</resource>
+		<resource name="Admin_SiteSettings_Menu_CurrentTime_Descr">在首页上显示当前（用户本地）时间。</resource>
+		<resource name="Admin_SiteSettings_Menu_WhosOnline">显示在线用户</resource>
+		<resource name="Admin_SiteSettings_Menu_WhosOnline_Descr">在首页上显示“在线用户”。部分</resource>
+		<resource name="Admin_SiteSettings_Menu_Statistics">显示站点统计</resource>
+		<resource name="Admin_SiteSettings_Menu_Statistics_Descr">在首页上显示"站点统计"部分。</resource>
+		<resource name="Admin_SiteSettings_RSS">RSS 选项</resource>
+		<resource name="Admin_SiteSettings_RSS_Feeds">启用所有公共版块的 RSS Feeds </resource>
+		<resource name="Admin_SiteSettings_RSS_Feeds_Descr">启用后将为所有公共版块产生 RSS feeds。</resource>
+		<resource name="Admin_SiteSettings_RSS_Threads">默认主题/Feed</resource>
+		<resource name="Admin_SiteSettings_RSS_Threads_Descr">每个Feed里面默认显示主题条数</resource>
+		<resource name="Admin_SiteSettings_RSS_MaxThreads">最大 Threads/Feed</resource>
+		<resource name="Admin_SiteSettings_RSS_MaxThreads_Descr">每个Feed里面显示的最大主题条数</resource>
+		<resource name="Admin_SiteSettings_RSS_Cache">缓存窗口 (分钟)</resource>
+		<resource name="Admin_SiteSettings_RSS_Cache_Descr">一个 RSS Feed 缓存时间。</resource>
+		<resource name="Admin_SiteSettings_List">成员列表和顶端的贴主</resource>
+		<resource name="Admin_SiteSettings_List_Display">显示成员列表</resource>
+		<resource name="Admin_SiteSettings_List_Display_Descr">成员列表链接与导航菜单无关。</resource>
+		<resource name="Admin_SiteSettings_List_Searching">启用高级成员搜索</resource>
+		<resource name="Admin_SiteSettings_List_Searching_Descr">允许用户使用符号来进行更复杂的成员搜索。</resource>
+		<resource name="Admin_SiteSettings_List_MembersPerPage">每页的成员</resource>
+		<resource name="Admin_SiteSettings_List_MembersPerPage_Descr">浏览成员列表时每页显示的站点成员数。</resource>
+		<resource name="Admin_SiteSettings_List_TopPosters">顶端的贴主数</resource>
+		<resource name="Admin_SiteSettings_List_TopPosters_Descr">显示在站点统计表中的顶端贴主数 (最多为100 / 分钟)。</resource>
+		<resource name="Admin_SiteSettings_Posting">用户发帖</resource>
+		<resource name="Admin_SiteSettings_Posting_Dups">允许重复的帖子</resource>
+		<resource name="Admin_SiteSettings_Posting_Dups_Descr">允许用户发表与以前贴子内容重复的帖子。</resource>
+		<resource name="Admin_SiteSettings_Posting_DupsInterval">重复帖子的时间间隔 (秒)</resource>
+		<resource name="Admin_SiteSettings_Posting_DupsInterval_Descr">不允许重复发帖时, 在此间隔时间内不允许重复。 设置成0时永远不允许重复。</resource>
+		<resource name="Admin_SiteSettings_Posting_Emoticons">允许表情符</resource>
+		<resource name="Admin_SiteSettings_Posting_Emoticons_Descr">用户是否能在帖子里使用表情符。</resource>
+		<resource name="Admin_SiteSettings_Posting_Popular">热门帖子的回复数</resource>
+		<resource name="Admin_SiteSettings_Posting_Popular_Descr">一个主题需要多少篇帖子才能变成热门?</resource>
+		<resource name="Admin_SiteSettings_Posting_Popular_View">热门帖子的浏览数</resource>
+		<resource name="Admin_SiteSettings_Posting_Popular_View_Descr">一个主题需要多少次浏览才能变成热门?</resource>
+		<resource name="Admin_SiteSettings_Posting_Popular_Age">热门帖子已发表时间 (天)</resource>
+		<resource name="Admin_SiteSettings_Posting_Popular_Age_Descr">帖子必须保持活动的天数, 也就是, 作为一篇新贴的天数。</resource>
+		<resource name="Admin_SiteSettings_Posting_Pruning">启用主题/帖子自动修改</resource>
+		<resource name="Admin_SiteSettings_Posting_Pruning_Descr">是否修改或删除论坛上的老帖子。</resource>
+		<resource name="Admin_SiteSettings_Posting_UserPruning">启用用户自动修改</resource>
+		<resource name="Admin_SiteSettings_Posting_UserPruning_Descr">是否自动删除根据某些定义为非活动状态的用户。</resource>
+		<resource name="Admin_SiteSettings_Posting_EnableCensorship">启用关键字过滤</resource>
+		<resource name="Admin_SiteSettings_Posting_EnableCensorship_Descr">如果启用，则根据管理员设置的过滤字表将字符替换成。</resource>
+		<resource name="Admin_SiteSettings_Posting_RequireEditNotes">必需填写“帖子修改原因”</resource>
+		<resource name="Admin_SiteSettings_Posting_RequireEditNotes_Descr">控制是否必需填写修改原因。</resource>
+		<resource name="Admin_SiteSettings_Posting_UserActivityDisplay">用户发帖积极性显示</resource>
+		<resource name="Admin_SiteSettings_Posting_UserActivityDisplay_Descr">控制显示用户积极性的方式。</resource>		
+		<resource name="Admin_SiteSettings_Posting_DisplayRankAsPicture">使用图片显示用户等级</resource>
+		<resource name="Admin_SiteSettings_Posting_DisplayRankAsPicture_Descr">如果选择“是”，那么显示用户资料时将显示一个图片，否则显示文字。</resource>
+		<resource name="Admin_SiteSettings_UserAsAnon_Allow">允许用户匿名发帖</resource>
+		<resource name="Admin_SiteSettings_UserAsAnon_Allow_Descr">控制是否允许登录用户可以匿名发帖子。</resource>
+		<resource name="Admin_SiteSettings_ThreadStatus_Allow">启用帖子状态跟踪</resource>
+		<resource name="Admin_SiteSettings_ThreadStatus_Allow_Descr">控制是否允许作者设置帖子的状态：未解决，已解决，未设置。</resource>
+		<resource name="Admin_SiteSettings_Flooding">水贴</resource>
+		<resource name="Admin_SiteSettings_Flooding_Check">启用定时清除水贴</resource>
+		<resource name="Admin_SiteSettings_Flooding_Check_Descr">防止一个用户在站点上发表水贴。</resource>
+		<resource name="Admin_SiteSettings_Flooding_Time">发帖的最短时间间隔</resource>
+		<resource name="Admin_SiteSettings_Flooding_Time_Descr">两次发贴的间隔秒数用来作灌水间隔检查。</resource>
+		<resource name="Admin_SiteSettings_PostReporting">帖子报告</resource>
+		<resource name="Admin_SiteSettings_PostReporting_Allow">启用报告问题帖</resource>
+		<resource name="Admin_SiteSettings_PostReporting_Desc">允许用户向管理员和版主报告帖子。</resource>
+		<resource name="Admin_SiteSettings_PostReporting_AllowAnon">匿名用户可以报告帖子</resource>
+		<resource name="Admin_SiteSettings_PostReporting_AllowAnon_Descr">允许匿名用户使用报告系统 (需要所选版块支持匿名用户发帖)。</resource>
+		<resource name="Admin_SiteSettings_PostReporting_ToForum">报告版块</resource>
+		<resource name="Admin_SiteSettings_PostReporting_ToForum_Descr">选择报告帖将要发送到的版块。 必须 'Forum-Users'角色在该版块有发帖权限才能生成报告帖。</resource>
+		<resource name="Admin_SiteSettings_IP">跟踪IP地址</resource>
+		<resource name="Admin_SiteSettings_IP_Enable">启用贴主IP地址跟踪</resource>
+		<resource name="Admin_SiteSettings_IP_Enable_Descr">储存发帖者的IP地址。</resource>
+		<resource name="Admin_SiteSettings_IP_Display">公开显示贴主的IP地址</resource>
+		<resource name="Admin_SiteSettings_IP_Display_Descr">显示贴主的IP地址。</resource>
+		<resource name="Admin_SiteSettings_IP_AdminOnly">仅向超级管理员显示贴主的IP地址 &amp; 版主</resource>
+		<resource name="Admin_SiteSettings_IP_AdminOnly_Descr">仅向超级管理员或版主显示贴主的IP地址。</resource>
+		<resource name="Admin_SiteSettings_DateTime">日期/时间选项</resource>
+		<resource name="Admin_SiteSettings_DateTime_Date">日期格式</resource>
+		<resource name="Admin_SiteSettings_DateTime_Date_Descr">所有显示的日期的格式。 用户可以忽略此设置。</resource>
+		<resource name="Admin_SiteSettings_DateTime_Time">时间格式</resource>
+		<resource name="Admin_SiteSettings_DateTime_Time_Descr">所有显示的时间的格式。 用户可以忽略此设置。</resource>
+		<resource name="Admin_SiteSettings_DateTime_Joined">用户加入日期的格式</resource>
+		<resource name="Admin_SiteSettings_DateTime_Joined_Descr">当用户加入论坛时将日期/时间格式化。用在显示帖子时。</resource>
+		<resource name="Admin_SiteSettings_Editing">编辑帖子</resource>
+		<resource name="Admin_SiteSettings_Editing_Notes">显示编辑记录</resource>
+		<resource name="Admin_SiteSettings_Editing_Notes_Descr">启用后，在消息的底部(位于用户签名前)将会显示出帖子的编辑记录 。</resource>
+		<resource name="Admin_SiteSettings_Editing_Age">编辑帖子正文的时间限制 (分)</resource>
+		<resource name="Admin_SiteSettings_Editing_Age_Descr">启用后，在帖子已发表时间达到一定的分钟数以前，贴子的标题都能够被修改。 (设置成0允许无穷的修改)。</resource>
+		<resource name="Admin_SiteSettings_URL">论坛URLS</resource>
+		<resource name="Admin_SiteSettings_URL_Friendly">启用搜索友好的URL路径</resource>
+		<resource name="Admin_SiteSettings_URL_Friendly_Descr">启用后， 指向讨论组、论坛和帖子的URL显示为:</resource>
+		<resource name="Admin_SiteSettings_Cookie">Cookie 和 匿名设置</resource>
+		<resource name="Admin_SiteSettings_Cookie_SubTitle">角色Cookie 用来保存用户所属角色列表的、以分号隔开的加密串。 在cookie里保存这些，减少了论坛上每个要求从数据源里调出此种信息的请求的需求。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Enabled">启用角色 Cookie</resource>
+		<resource name="Admin_SiteSettings_Cookie_Enabled_Descr">启用后,HTTP Cookie 将被用来保存包含用户角色的加密变量。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Track">跟踪匿名用户</resource>
+		<resource name="Admin_SiteSettings_Cookie_Track_Descr">确定匿名用户发贴时论坛是否跟踪。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Name">角色Cookie 名称</resource>
+		<resource name="Admin_SiteSettings_Cookie_Name_Descr">用来存储用户角色的Cookie 名称。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Expire">角色Cookie 过期</resource>
+		<resource name="Admin_SiteSettings_Cookie_Expire_Descr">发行后角色cookie过期的时间（分）。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Anon_Name">匿名的 Cookie 名称</resource>
+		<resource name="Admin_SiteSettings_Cookie_Anon_Name_Descr">提供给匿名用户的Cookie名称。不同于会员的。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Anon_Expire">匿名的 Cookie 过期</resource>
+		<resource name="Admin_SiteSettings_Cookie_Anon_Expire_Descr">匿名用户之cookie过期的时间（分）。</resource>
+		<resource name="Admin_SiteSettings_Cookie_Domain">Cookie 域名</resource>
+		<resource name="Admin_SiteSettings_Cookie_Domain_Descr">允许创建二级域名的不敏感的cookie (例如 "。yourdomain。com")。</resource>
+		<resource name="Admin_SiteSettings_Anon">匿名设置</resource>
+		<resource name="Admin_SiteSettings_Anon_Allow">允许匿名帖子</resource>
+		<resource name="Admin_SiteSettings_Anon_Allow_Descr">是否允许匿名用户在论坛上发帖。</resource>
+		<resource name="Admin_SiteSettings_Anon_Window">匿名用户在线窗口</resource>
+		<resource name="Admin_SiteSettings_Anon_Window_Descr">跟踪上站的匿名用户数的时间（分）。</resource>
+		<resource name="Admin_SiteSettings_SMTP">SMTP 设置</resource>
+		<resource name="Admin_SiteSettings_SMTP_Enable">启用Email发送</resource>
+		<resource name="Admin_SiteSettings_SMTP_Enable_Descr">启用或禁用论坛的Email发送功能。推荐使用！</resource>
+		<resource name="Admin_SiteSettings_SMTP_Server">SMTP 服务器</resource>
+		<resource name="Admin_SiteSettings_SMTP_Server_Descr">SMTP 服务器用来为你的论坛发送邮件。</resource>
+		<resource name="Admin_SiteSettings_SMTP_NeedsLogin">SMTP 服务器的注册要求</resource>
+		<resource name="Admin_SiteSettings_SMTP_NeedsLogin_Descr">SMTP 服务器是否需要注册。</resource>
+		<resource name="Admin_SiteSettings_SMTP_UserName">SMTP 服务器注册名称</resource>
+		<resource name="Admin_SiteSettings_SMTP_UserName_Descr">用来登录SMTP服务器的注册名称。</resource>
+		<resource name="Admin_SiteSettings_SMTP_Password">SMTP 服务器密码</resource>
+		<resource name="Admin_SiteSettings_SMTP_Password_Descr">用来登录SMTP服务器的密码。</resource>
+		<resource name="Admin_SiteSettings_EnablePostPreviewPopup">启用鼠标提示预览帖子</resource>
+		<resource name="Admin_SiteSettings_EnablePostPreviewPopup_Descr">该选项控制是否支持：当鼠标放在帖子标题上时，显示帖子内容提示。</resource>
+ 		<resource name="Admin_SiteSettings_AllowAutoRegistration">允许自动注册</resource>
+		<resource name="Admin_SiteSettings_AllowAutoRegistration_Descr">允许windows域用户自动注册。</resource>
+		<resource name="Admin_SiteSettings_StripDomainName">去掉域名</resource>
+		<resource name="Admin_SiteSettings_StripDomainName_Descr">从域帐号中去掉域名。</resource>
+		<resource name="Admin_SiteSettings_EmailDomain">Email 域</resource>
+		<resource name="Admin_SiteSettings_EmailDomain_Descr">Email 域名用来发送Email为Windows域用户。</resource>
+		<resource name="Admin_SiteSettings_EnableAds">启用广告</resource>
+		<resource name="Admin_SiteSettings_EnableAds_Descr">启用或禁用页面中的广告。</resource>
+		<resource name="Admin_SiteSettings_EmailThrottle">Email 发送最大失败次数</resource>
+		<resource name="Admin_SiteSettings_EmailThrottle_Descr">每次发送Email允许的最大失败次数 (默认为 -1，则表示无限制)。</resource>
+		<resource name="Admin_SiteSettings_EnableCollapsingPanels">启用收缩面板</resource>
+		<resource name="Admin_SiteSettings_EnableCollapsingPanels_Descr">用来控制是否对首页的讨论组面板采用可以收缩/展开的面板。</resource>
+
+		<resource name="Admin_SiteSettings_EnableEmoticons">启用表情</resource>
+
+		<resource name="Admin_SiteSettings_SearchMetaDescription">网页搜索描述</resource>
+		<resource name="Admin_SiteSettings_SearchMetaDescription_Descr">为每个网页添加一个描述，能替代由搜索引擎自动产生的网页概述。</resource>
+		<resource name="Admin_SiteSettings_SearchMetaKeyword">网页搜索关键字</resource>
+		<resource name="Admin_SiteSettings_SearchMetaKeyword_Descr">为每个网页添加一个关键字，便于搜索引擎搜索。</resource>
+		<resource name="Admin_SiteSettings_Copyright">版权申明</resource>
+		<resource name="Admin_SiteSettings_Copyright_Descr">您的版权申明，将加到每个网页中。</resource>
+	<!-- End Site Settings Admin -->
+    
+    <!-- Admin Navigation -->
+    <!-- End Admin Navigation -->
+    
+    <!-- Begin Admin Home -->
+		<resource name="Admin_Title">后台管理</resource>
+		<resource name="Admin_Home_Welcome">欢迎进入管理控制面板</resource>
+		<resource name="Admin_Home_Usage">管理控制面板用来控制和管理程序。&lt;div align="right"&gt;本程序中文汉化：&lt;a href="http://www.communityserver.cn" target="_blank"&gt;CommunityServer.Cn&lt;/a&gt; 宝玉&lt;/div&gt;</resource>
+		<resource name="Admin_Home_NewVersion">有一个新版本可用!</resource>
+		<resource name="Admin_Home_DownloadVersion">下载新版本 {0}</resource>
+		<resource name="Admin_Home_CustomVersion">你运行的程序是最新版本!</resource>
+		<resource name="Admin_Home_UnknownVersion">抱歉, 我们无法获取最新版本信息!</resource>
+		<resource name="Admin_Home_EnableRetrieval">为了获取版本信息, 请启用配置区的版本找回。 你将被告知各种重要的bug等,以便于你的修改。</resource>
+		<resource name="Admin_Home_Developers">开发人员和为之作出贡献的人（本程序中文汉化：&lt;a href="http://www.communityserver.cn" target="_blank"&gt;Openlab.Cn&lt;/a&gt; 宝玉）</resource>
+		<resource name="Admin_Home_ShortCuts">快捷任务</resource>
+		<resource name="Admin_Home_Running">论坛是 {0} 并且自 {1}开始运转。</resource>
+		<resource name="Admin_Home_UserWaiting">当前有 {0} 个用户在等待审核 </resource>
+		<resource name="Admin_Home_PostWaiting">当前有 {0} 篇帖子在等待审核 </resource>
+		<resource name="Admin_Home_EmailQueue">当前有 {0} 封email  在 </resource>
+		<resource name="Admin_Home_EmailQueueForceSend">队列中等待发送!</resource>
+    <!-- End Admin Home -->
+    
+    <!-- Start Manage Forum Permissions -->
+		<resource name="ManageForumPermissions_Title">版块权限管理</resource>
+		<resource name="ManageForumPermissions_SubTitle">管理和创建每个版块的权限。</resource>
+		<resource name="ManageForumPermissions_About">论坛权限管理</resource>
+    <!-- End Manage Forum Permission -->
+    
+    <!-- Start Manage Default Permissions -->
+		<resource name="ManageDefaultPermissions_Title">管理角色的默认权限</resource>
+		<resource name="ManageDefaultPermissions_SubTitle">管理角色的默认权限，每个系统将采用这个默认权限。</resource>
+		<resource name="ManageDefaultPermissions_About"></resource>
+    <!-- End Manage Default Permissions -->
+    
+    <!-- Start Forums Admin -->
+		<resource name="Admin_Forums_Title">论坛</resource>
+		<resource name="Admin_Forums_SubTitle">从这里您可以管理您的版块，管理版块的权限。</resource>
+    <!-- End Forums Admin -->
+    
+    <!-- Start Manage Forums -->
+		<resource name="ManageForums_Title">管理版块</resource>
+		<resource name="ManageForums_SubTitle">管理和创建新版块及讨论组。</resource>
+		<resource name="ManageForums_About">论坛管理</resource>
+		<resource name="ManageForums_CreateNew">创建新论坛</resource>
+		<resource name="ManageForums_CreateNewGroup">创建新讨论组</resource>
+    <!-- End Manage Forums -->
+    
+    <!-- Start Manage Names -->
+		<resource name="ManageNames_Title">管理禁止的名称</resource>
+		<resource name="ManageNames_SubTitle">通过使用一种格式匹配来禁止的成员名称。</resource>
+		<resource name="ManageNames_About">名称管理</resource>
+		<resource name="ManageNames_HelpInfo">合法格式为: Name , *Name , Name* and *Name*。</resource>
+		<resource name="ManageNames_ReqFieldValidator">不能为空!</resource>
+		<resource name="ManageNames_RegExValidator">错误的格式!</resource>
+		<resource name="ManageNames_RegExWildcardReplacement">[a-zA-Z0-9]*</resource>
+    <!-- End Manage Names -->
+    
+    <!-- Start Tools -->
+		<resource name="Admin_Tools_Title">工具</resource>
+		<resource name="Admin_Tools_SubTitle">这里您可以管理关键字过滤、管理表情符号、群发邮件等。</resource>
+    <!-- End Tools -->
+    
+    <!-- Start Built In Reports -->
+		<resource name="Admin_Reports_BuiltIn_Title">Built In Reports</resource>
+		<resource name="Admin_Reports_BuiltIn_SubTitle">Here you will find the basic reports that are built in to the application.</resource>
+    <!-- End Built In Reports -->
+    
+    <!-- Start Admin Member Configuration -->
+		<resource name="MemberSettings_UserNameRegEx">帐号正则表达式</resource>
+		<resource name="MemberSettings_UserNameRegEx_Descr">定义一个正则表达式，使新用户注册时必须匹配该正则表达式。</resource>
+		<resource name="MemberSettings_PasswordRegEx">密码正则表达式</resource>
+		<resource name="MemberSettings_PasswordRegEx_Descr">定义一个正则表达式，使新用户注册时必须匹配该正则表达式。</resource>
+		<resource name="MemberSettings_StatusSuccess">配置设定保存成功。</resource>
+		<resource name="MemberSettings_Registration">用户注册</resource>
+		<resource name="MemberSettings_AllowLogin">允许注册</resource>
+		<resource name="MemberSettings_AllowLogin_Descr">禁用时,只有超级管理员能在站点上注册。</resource>
+		<resource name="MemberSettings_AllowNew">允许新用户注册</resource>
+		<resource name="MemberSettings_AllowNew_Descr">禁用时,新用户不能注册。</resource>
+		<resource name="MemberSettings_NewUserModLevel">新用户管理水准</resource>
+		<resource name="MemberSettings_NewUserModLevel_Descr">新用户按照默认来管理，需要版主通过帖子。</resource>
+		<resource name="MemberSettings_UserNameMinLength">帐号最小长度</resource>
+		<resource name="MemberSettings_UserNameMinLength_Descr">帐号长度不能小于3个字符。</resource>
+		<resource name="MemberSettings_UserNameMaxLength">帐号最大长度</resource>
+		<resource name="MemberSettings_UserNameMaxLength_Descr">帐号长度不能大于256字符。</resource>
+		<resource name="MemberSettings_AccountActivate">账号激活方式</resource>
+		<resource name="MemberSettings_AccountActivate_Descr">控制用户注册后账号激活的方式。 "自动"表示允许用户创建自己的账号；"Email"表示新注册用户后，会通过邮件方式将密码发送给新用户；"管理员审批"表示账号注册后需要管理员审批。</resource>
+		<resource name="MemberSettings_PasswordRecovery">找回密码</resource>
+		<resource name="MemberSettings_PasswordRecovery_Descr">用户忘记密码后如何找回。</resource>
+		<resource name="MemberSettings_PasswordStorage">保存密码</resource>
+		<resource name="MemberSettings_PasswordStorage_Descr">确定用户密码在数据库中的加密存储方式(推荐使用MD5哈希加密)。</resource>
+		<resource name="MemberSettings_EnableBannedUsersToLogin">允许封禁用户登录</resource>
+		<resource name="MemberSettings_EnableBannedUsersToLogin_Descr">如果允许，除发帖等操作外和普通用户没有任何差别。</resource>
+		
+		<resource name="MemberSettings_CorpaRegistration">遵守COPPA规范</resource>
+		<resource name="MemberSettings_CorpaRegistration_Descr">父母们必须要参与儿童（13岁以下）的网络活动，以确保自家孩子浏览的网站遵守COPPA规范。 </resource>
+		<resource name="MemberSettings_UserProfile">用户资料</resource>
+		<resource name="MemberSettings_AllowUserNameChanges">允许帐号更改</resource>
+		<resource name="MemberSettings_AllowUserNameChanges_Descr">允许用户更改帐号。 这一功能<u>不推荐</u>使用，管理员可以更改任意帐号。</resource>
+		<resource name="MemberSettings_AllowSignatures">允许签名</resource>
+		<resource name="MemberSettings_AllowSignatures_Descr">允许用户编辑一段能够显示在自己所有帖子底端的信息。</resource>
+		<resource name="MemberSettings_EnableSignatures">启用签名</resource>
+		<resource name="MemberSettings_EnableSignatures_Descr">启用后,签名将被加入到帖子中。</resource>
+		<resource name="MemberSettings_SignatureMaxLength">签名的最大长度</resource>
+		<resource name="MemberSettings_AllowGender">允许性别</resource>
+		<resource name="MemberSettings_AllowGender_Descr">启用后 (用户指定), 用户的性别将被显示。</resource>
+		<resource name="MemberSettings_EnableUserTheme">启用用户题目选择</resource>
+		<resource name="MemberSettings_EnableUserTheme_Descr">如果各主题都可用，此选项将允许用户根据自己的显示喜好来选择一个主题。</resource>
+		<resource name="MemberSettings_EnableReferrer">启用相关系统</resource>
+		<resource name="MemberSettings_EnableReferrer_Descr">给用户提供一个 URL ，当点击时将会为加入论坛的新用户增加相关的信用。</resource>
+		<resource name="MemberSettings_Avatar">用户头像</resource>
+		<resource name="MemberSettings_EnableAvatar">启用头像</resource>
+		<resource name="MemberSettings_EnableAvatar_Descr">启用后，使用了头像。</resource>
+		<resource name="MemberSettings_EnableRemoteAvatar">启用其他头像</resource>
+		<resource name="MemberSettings_EnableRemoteAvatar_Descr">允许采用其它站点上的形象作为头像。</resource>
+		<resource name="MemberSettings_AvatarSize">头像尺寸</resource>
+		<resource name="MemberSettings_AvatarSize_Descr">头像显示的最大尺寸。</resource>
+		<resource name="MemberSettings_RecoveryMode_Reset">重置</resource>
+		<resource name="MemberSettings_RecoveryMode_Question">密码问题 &amp; 答案</resource>
+		<resource name="MemberSettings_FormatMode_Clear">原始密码</resource>
+		<resource name="MemberSettings_FormatMode_Hashed">哈希</resource>
+		<resource name="MemberSettings_FormatMode_Encrypted">加密</resource>
+		<resource name="MemberSettings_ActivateMode_Automatic">自动</resource>
+		<resource name="MemberSettings_ActivateMode_Email">Email</resource>
+		<resource name="MemberSettings_ActivateMode_Admin">管理员审核</resource>
+		<resource name="MemberSettings_Misc">Misc Settings</resource>
+		<resource name="MemberSettings_EnableUserModerationCounters">Enable Audit Counters</resource>
+		<resource name="MemberSettings_EnableUserModerationCounters_Descr">Enable the display of user audit counters as a new column in Members List.</resource>
+		
+    <!-- End Admin Member Configuration -->
+
+	<!-- Generic Membership Info -->
+			<resource name="MemberSettings_Main_Admin">管理用户</resource>
+			<resource name="MemberSettings_Main_Sub_Admin">注册会员管理</resource>
+
+	<!-- End Generic Membership Info -->
+
+
+	<!-- GALLERY GENERAL -->
+
+		<resource name="Gallery_Current">当前相册: {0}</resource>
+		
+		<resource name="Gallery_NoTitle">(无标题)</resource>
+		<resource name="Gallery_NoRecordsFound">没有记录</resource>
+		<resource name="Gallery_Page">页:</resource>
+
+		<resource name="Gallery_RandomGallery">随机相册</resource>
+
+		<resource name="Gallery_SlideShow">作为幻灯片查看</resource>
+		<resource name="Gallery_SlideShow_CurrentGallery">相册: {0}</resource>
+		<resource name="Gallery_SlideShow_CurrentCategory">类别: {0}</resource>
+		<resource name="Gallery_SlideShow_Loading">图片装载中，请稍候...</resource>
+		<resource name="Gallery_SlideShow_Play">播放幻灯片</resource>
+		<resource name="Gallery_SlideShow_Stop">停止播放</resource>
+		<resource name="Gallery_SlideShow_Prev">上一个图像</resource>
+		<resource name="Gallery_SlideShow_Next">上一个图像</resource>
+		
+		<resource name="Gallery_Search_Title">相册搜索</resource>
+		<resource name="Gallery_Search_PostedIn">发布在</resource>
+		<resource name="Gallery_Search_By">由</resource>
+		<resource name="Gallery_Search_On">于</resource>
+
+	<!-- END GALLERY GENERAL -->
+
+    <!-- START Gallery.aspx -->
+        <resource name="ManageGalleries_Title">管理相册</resource>
+        <resource name="ManageGalleries_SubTitle">创建/修改相册。</resource>
+        <resource name="ManageGalleries_CreateGroup">创建相册分类组</resource>
+        <resource name="ManageGalleries_Create">创建新相册</resource>
+        <resource name="ManageGalleries_Description">相册组和相册</resource>
+
+		<resource name="ManageGalleries_SecurityException">您站点的安全设置不允许Asp.Net程序创建相册的默认文件夹和默认文件，请授予 ASP.Net 帐号对 "blogs" 和 "photos" 目录有写入权限。如果您仍要添加，那么：创建一个您的相册名同名的目录到Galleries目录，并且放一个空白的default.aspx文件到该目录下 (如: photos/YourGalleryName/default.aspx)。</resource>
+		<resource name="ManageGalleries_UnAuthorizedException">您站点的安全设置不允许Asp.Net程序创建相册的默认文件夹和默认文件，请授予 ASP.Net 帐号对 "blogs" 和 "photos" 目录有写入权限。如果您仍要添加，那么：创建一个您的相册名同名的目录到Galleries目录，并且放一个空白的default.aspx文件到该目录下 (如: photos/YourGalleryName/default.aspx)。</resource>
+
+        <!-- Start of control fields -->
+	        <resource name="GalleryAdmin_GeneralSettings">常规设置</resource>
+	        <resource name="GalleryAdmin_FeatureSettings">特征设置</resource>
+	        <resource name="GalleryAdmin_ImageSettings">图像设置</resource>
+
+	        <resource name="GalleryAdmin_RebuildQueue">{0} 张图片需要重建。</resource>
+
+			<resource name="GalleryAdmin_Name">名称</resource>
+			<resource name="GalleryAdmin_Name_Detail">选择一个图片名称。</resource>
+			<resource name="GalleryAdmin_Desc">描述</resource>
+			<resource name="GalleryAdmin_Desc_Detail">图像的概要描述，支持HTML。</resource>
+			<resource name="GalleryAdmin_AppKey">唯一名称</resource>
+			<resource name="GalleryAdmin_AppKey_Detail">在本站点的唯一英文名称，必须为英文(拼音)或数字。</resource>
+			<resource name="GalleryAdmin_Owner_Detail">指定有权管理该相册的用户列表（多个用户将帐号用';'隔开），他们可以发布/编辑/删除该相册中的内容，而无须属于任何角色。</resource>
+			<resource name="GalleryAdmin_IsActive">启用相册</resource>
+			<resource name="GalleryAdmin_IsActive_Detail">如果禁用相册，则相册不可用。</resource>
+			<resource name="GalleryAdmin_IsSearchable">图片索引</resource>
+			<resource name="GalleryAdmin_IsSearchable_Detail">当启用后，图片会被索引，以方便检索。（对于中文用户不用开启该功能）</resource>
+			<resource name="GalleryAdmin_IsModerated">图片审核</resource>
+			<resource name="GalleryAdmin_IsModerated_Detail">如果选择该选项，那么图片需要管理员审核后才能显示。</resource>
+
+			<resource name="GalleryAdmin_PicturesSortBy">图片排列选项</resource>
+			<resource name="GalleryAdmin_PicturesSortBy_Detail">当查看该相册的图片时的默认排序方式。</resource>
+			<resource name="GalleryAdmin_EnableComments">启用评论</resource>
+			<resource name="GalleryAdmin_EnableComments_Detail">指定是否用户可以针对该相册中的图片发表评论。</resource>
+			<resource name="GalleryAdmin_ModerateComments">评论需要审核</resource>
+			<resource name="GalleryAdmin_ModerateComments_Detail">启用该功能后，评论需要审核后才会显示出来。</resource>
+			<resource name="GalleryAdmin_EnableRatings">启用等级评估</resource>
+			<resource name="GalleryAdmin_EnableRatings_Detail">启用后，用户可以对该图片进行等级评估。</resource>
+			<resource name="GalleryAdmin_EnableEXIF">启用 EXIF</resource>
+			<resource name="GalleryAdmin_EnableEXIF_Detail">选择是否在图片显示页上显示EXIF属性。</resource>
+			<resource name="GalleryAdmin_EXIF">EXIF 属性</resource>
+			<resource name="GalleryAdmin_EXIF_Detail">选择您想要显示的EXIF属性，按住Ctrl键可以多选。并非所有的图片包含所有的属性，如果不包含某个属性，则显示"n/a"。</resource>
+			<resource name="GalleryAdmin_EnableOrderPrints">启用顺序打印</resource>
+			<resource name="GalleryAdmin_EnableOrderPrints_Detail">选择是否显示该链接以便将图片发送到打印机顺序打印。</resource>
+			<resource name="GalleryAdmin_CategoryListingArrangement">类别排列</resource>
+			<resource name="GalleryAdmin_CategoryListingArrangement_Detail">当查看类别列表时，将他们按照指定的行列数目进行排列。</resource>
+			<resource name="GalleryAdmin_PictureListingArrangement">图片排列</resource>
+			<resource name="GalleryAdmin_PictureListingArrangement_Detail">当查看图片列表时，将他们按照指定的行列数目进行排列。</resource>
+
+			<resource name="GalleryAdmin_CacheNotice">这些值的改变需要您清除缓存后才能生效。必须将在以前的设置下保存的图片清除出缓存。</resource>
+			<resource name="GalleryAdmin_Thumbnail">缩略图</resource>
+			<resource name="GalleryAdmin_Thumbnail_Detail">缩略图的大小尺寸</resource>
+			<resource name="GalleryAdmin_ThumbnailBrightness">缩略图亮度</resource>
+			<resource name="GalleryAdmin_ThumbnailBrightness_Detail">设置缩略图的亮度。0为最黑，100为最亮，-1表示不调整明亮度。</resource>
+			<resource name="GalleryAdmin_SecondaryThumbnail">大缩略图</resource>
+			<resource name="GalleryAdmin_SecondaryThumbnail_Detail">这个是大缩略图，当鼠标经过缩略图时显示大缩略图。</resource>
+			<resource name="GalleryAdmin_PictureDetails">图片普通大小</resource>
+			<resource name="GalleryAdmin_PictureDetails_Detail">当查看图片时显示的大小。</resource>
+			<resource name="GalleryAdmin_Slideshow">幻灯片</resource>
+			<resource name="GalleryAdmin_Slideshow_Detail">幻灯片图像的大小。</resource>
+			<resource name="GalleryAdmin_CacheSize">缓存大小</resource>
+			<resource name="GalleryAdmin_CacheSize_Detail">这是您目前图片缓存占用的大小，您可以通过“清理缓存”清理一些未使用过的图片，但是保留缩略图，或者通过“清除缓存”将缓存中的所有内容都清除。</resource>
+			<resource name="GalleryAdmin_Columns">列数</resource>
+			<resource name="GalleryAdmin_Rows">行数</resource>
+			<resource name="GalleryAdmin_Size">Size</resource>
+			<resource name="GalleryAdmin_Quality">质量</resource>
+			<resource name="GalleryAdmin_Preview">预览</resource>
+			<resource name="GalleryAdmin_Rebuild">重建</resource>
+			<resource name="GalleryAdmin_CleanCache">清理缓存</resource>
+			<resource name="GalleryAdmin_CleanCache_Detail">这会从缓存中清除项目，但是保留他们的缩略图。</resource>
+			<resource name="GalleryAdmin_ClearCache">清除缓存</resource>
+			<resource name="GalleryAdmin_ClearCache_Detail">这会从缓存中完全清除所有内容，包括缩略图。</resource>
+
+			<resource name="GalleryAdmin_DeleteGalleryVerify">删除相册会导致所有照片、分类和评论被一起删除，确认是否继续？</resource>
+			
+			<resource name="GalleryGroup_DeleteGroupVerify">您确实有删除该分组？删除该分组将同时删除下面所有的相册。</resource>
+			<resource name="Gallery_Group_Group">相册分组</resource>
+
+			<resource name="ManageGalleries_AppKey">App Key</resource>
+			<resource name="ManageGalleries_GalleryName">相册名称</resource>
+			<resource name="ManageGalleries_PictureCount">图片数量</resource>
+        <!-- End of control fields -->
+
+		<resource name="ManageDefaultGalleryPermissions_Title">管理相册的默认权限</resource>
+		<resource name="ManageDefaultGalleryPermissions_SubTitle">管理每个角色在相册中的默认权限。</resource>
+		<resource name="DefaultGalleryPermissionsAdmin_SubTitle">对于给定角色，配置其在相册的默认权限。</resource>
+
+		<resource name="ManageGalleryPermissions_Title">管理相册权限</resource>
+		<resource name="ManageGalleryPermissions_SubTitle">管理相册中每个角色的权限设置。</resource>
+		<resource name="GalleryPermissionsAdmin_SubTitle">对于给定角色，配置其在相册中的权限。</resource>
+		<resource name="GalleryPermissionAdmin_AboutTitle">相册权限</resource>
+		<resource name="GalleryPermissionAdmin_Gallery">相册</resource>
+
+    <!-- END Galleries.aspx -->
+
+
+    <!-- START GalleryCategories.aspx -->
+        <resource name="ManageCategories_Title">管理相册分类</resource>
+        <resource name="ManageCategories_SubTitle">添加/修改相册的分类。</resource>
+
+        <!-- Start of control fields -->
+	        <resource name="CategoryAdmin_CurrentGallery">当前相册</resource>
+			<resource name="CategoryAdmin_CategorySettings">分类设置</resource>
+			<resource name="CategoryAdmin_Duplicate">已经存在同名相册，请重新选择一个相册名称。</resource>
+			<resource name="CategoryAdmin_Name">名称</resource>
+			<resource name="CategoryAdmin_Name_Detail">选择一个名称。</resource>
+			<resource name="CategoryAdmin_Desc">描述</resource>
+			<resource name="CategoryAdmin_Desc_Detail">分类的描述信息，支持HTML。</resource>
+			<resource name="CategoryAdmin_Parent">父类别</resource>
+			<resource name="CategoryAdmin_Parent_Detail">选择相册的父类别。如果是一个顶级类别，请选择"Root"。</resource>
+			<resource name="CategoryAdmin_IsActive">启用分类</resource>
+			<resource name="CategoryAdmin_IsActive_Detail">如果禁用，那么该类别不可访问。</resource>
+
+			<resource name="ManageCategories_CategoryName">类别名</resource>
+			<resource name="ManageCategories_Enabled">已启用</resource>
+			<resource name="ManageCategories_PictureCount">图片数</resource>
+        <!-- End of control fields -->
+    <!-- END Galleries.aspx -->
+
+
+    <!-- START GalleryPictures.aspx -->
+        <resource name="ManagePictures_Title">管理图片</resource>
+        <resource name="ManagePictures_SubTitle">创建/修改图片。</resource>
+
+        <!-- Start of control fields -->
+	        <resource name="ManagePictures_CurrentGallery">当前相册</resource>
+	        <resource name="ManagePictures_CurrentCategory">当前类别</resource>
+			<resource name="PictureAdmin_PictureSettings">图片设置</resource>
+			<resource name="PictureAdmin_Thumbnail">缩略图</resource>
+			<resource name="PictureAdmin_Thumbnail_Detail">当查看图片列表时，显示的缩略图。</resource>
+			<resource name="PictureAdmin_Categories">所在类别</resource>
+			<resource name="PictureAdmin_Categories_Detail">选择图片所属类别。</resource>
+			<resource name="PictureAdmin_Name">名称</resource>
+			<resource name="PictureAdmin_Name_Detail">图片名称</resource>
+			<resource name="PictureAdmin_Desc">描述</resource>
+			<resource name="PictureAdmin_Desc_Detail">图片的描述信息，支持HTML。</resource>
+			<resource name="PictureAdmin_FileToUpload">上传文件</resource>
+			<resource name="PictureAdmin_FileToUpload_Detail">请选择待上传的文件。</resource>
+			
+			<resource name="PictureAdmin_UploadSuccessful">成功上传！</resource>
+			<resource name="PictureAdmin_YourUploadOf">您上传的</resource>
+			<resource name="PictureAdmin_WasSuccessful">已成功！</resource>
+
+			<resource name="ManagePictures_PictureName">图片名</resource>
+			<resource name="ManagePictures_Views">浏览</resource>
+			<resource name="ManagePictures_Comments">评论</resource>
+        <!-- End of control fields -->
+    <!-- END GalleriesPictures.aspx -->
+
+		<resource name="ManageGalleryPermissions_View">&lt;nobr&gt;查看&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Post">&lt;nobr&gt;发表&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Comment">&lt;nobr&gt;评论&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Edit">&lt;nobr&gt;修改&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Delete">&lt;nobr&gt;删除&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Vote">&lt;nobr&gt;投票&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Moderate">&lt;nobr&gt;版务&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_Admin">&lt;nobr&gt;管理&lt;/nobr&gt;</resource>
+		<resource name="ManageGalleryPermissions_SysAdmin">&lt;nobr&gt;系统&lt;/nobr&gt;</resource>
+
+	<!-- START defualt.aspx (My Galleries) -->
+		<resource name="MyGalleries_Title">我的相册</resource>
+		<resource name="MyGalleries_SubTitle">以下列出的是您有权使用的选项: &lt;ul&gt;&lt;li&gt;管理 - 您的相册配置设定&lt;/li&gt;&lt;li&gt;分类 - 创建、修改、删除相册分类&lt;/li&gt;&lt;li&gt;图片 - 创建、修改、删除图片&lt;/ul&gt;</resource>
+		<resource name="MyGalleries_Manage">管理</resource>
+		<resource name="MyGalleries_Categories">分类</resource>
+		<resource name="MyGalleries_Pictures">图片</resource>
+	<!-- END default.aspx (My Galleries) -->
+
+	<!-- START PictureListing -->
+		<resource name="Gallery_PictureListing_SortBy">图像排序规则:</resource>
+		<resource name="Gallery_PictureListing_TotalViews">{0} 次</resource>
+	<!-- END PictureListing -->
+
+		<resource name="Gallery_GalleryListing_Changed">Changed: {0} {1}</resource>
+		<resource name="Gallery_GalleryListing_PictureCount">Picture Count: {0}</resource>
+
+    <!-- Start Gallery Threads Sort Drop Down List -->
+        <resource name="GalleryThreadSortDropDownList_ThreadDate_Ascending">发布日期 (升序)</resource>
+        <resource name="GalleryThreadSortDropDownList_ThreadDate_Descending">发布日期 (降序)</resource>
+        <resource name="GalleryThreadSortDropDownList_PictureDate_Ascending">图片日期 (升序)</resource>
+        <resource name="GalleryThreadSortDropDownList_PictureDate_Descending">图片日期 (降序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Subject_Ascending">标题 (升序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Subject_Descending">标题 (降序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Views_Ascending">浏览次数 (升序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Views_Descending">浏览次数 (降序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Comments_Ascending">评论数 (升序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Comments_Descending">评论数 (降序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Rating_Ascending">等级 (升序)</resource>
+        <resource name="GalleryThreadSortDropDownList_Rating_Descending">等级 (降序)</resource>
+    <!-- End Gallery Threads Sort Drop Down List -->
+
+		<resource name="Gallery_PictureDetails_Statistics">统计</resource>
+		<resource name="Gallery_PictureDetails_OriginalPicture">原始图像</resource>
+		<resource name="Gallery_PictureDetails_OrderPrints">顺序打印</resource>
+		<resource name="Gallery_PictureDetails_SendToFriend">发送给朋友</resource>
+		<resource name="Gallery_PictureDetails_ViewCount">浏览次数</resource>
+		<resource name="Gallery_PictureDetails_TotalComments">评论数</resource>
+		
+		<resource name="Gallery_SendToFriend_SendPictureToAFriend">发送图片给朋友</resource>
+		<resource name="Gallery_SendToFriend_YourEmail">您的Email:</resource>
+		<resource name="Gallery_SendToFriend_To">收件人:</resource>
+		<resource name="Gallery_SendToFriend_Subject">标题:</resource>
+		<resource name="Gallery_SendToFriend_Body">内容:</resource>
+
+		<resource name="Gallery_ExifListing_ImageProperties">图片属性</resource>
+		
+		<resource name="Gallery_RatingListing_Rating">等级</resource>
+		<resource name="Gallery_RatingListing_Votes">票数</resource>
+		<resource name="Gallery_RatingListing_AverageRating">平均等级</resource>
+		<resource name="Gallery_RatingListing_AddRating">评估</resource>
+		
+		<resource name="Gallery_CommentListing_PictureComments">图片评论</resource>
+		<resource name="Gallery_CommentListing_PostedBy">作者:</resource>
+		<resource name="Gallery_CommentListing_Date">日期:</resource>
+		<resource name="Gallery_CommentListing_AddComment">添加评论</resource>
+		<resource name="Gallery_CommentListing_AddComment2">添加评论</resource>
+		<resource name="Gallery_CommentListing_Name">名称:</resource>
+		<resource name="Gallery_CommentListing_Website">主页:</resource>
+		<resource name="Gallery_CommentListing_User">用户:</resource>
+		<resource name="Gallery_CommentListing_Body">内容:</resource>
+		<resource name="Gallery_CommentListing_ModerationAlert">评论发布后需要管理员或所有者审核后才能显示。</resource>
+		<resource name="Gallery_CommentListing_Approve">批准评论</resource>
+		<resource name="Gallery_CommentListing_Delete">删除评论</resource>
+
+
+		<resource name="Gallery_PortalPictureListing_TitlePostDate">最近发布</resource>
+		<resource name="Gallery_PortalPictureListing_TitleRating">等级最高</resource>
+		<resource name="Gallery_PortalPictureListing_TitleReplies">评论最多</resource>
+		<resource name="Gallery_PortalPictureListing_TitleViews">浏览最多</resource>
+		<resource name="Gallery_PortalPictureListing_FieldPostDate">日期</resource>
+		<resource name="Gallery_PortalPictureListing_FieldRating">等级</resource>
+		<resource name="Gallery_PortalPictureListing_FieldReplies">评论</resource>
+		<resource name="Gallery_PortalPictureListing_FieldViews">浏览</resource>
+
+
+		<resource name="BackToGalleryHome">返回相册首页</resource>
+		<resource name="GalleryListing">相册分类</resource>
+		<resource name="Gallery_AggregateUpdatedGalleriesListing_Title">更新相册</resource>
+		<resource name="Gallery_AggregateUpdatedGalleriesListing_By">由</resource>
+		<resource name="Gallery_AggregateGalleryListing_Gallery">相册</resource>
+		<resource name="Gallery_AggregateGalleryListing_LastChanged">最后修改</resource>
+		<resource name="Gallery_AggregateGalleryListing_PictureCount">图片数量</resource>
+
+        <!-- Sections Manage -->
+        <resource name="Section_Manage_Owner">所有者</resource>
+		<resource name="Section_Manage_Optional">(可选)</resource>
+
+		<!--BLOG GENERAL-->
+
+		
+        <resource name="Weblog_Current">当前Blog: {0}</resource>
+        <resource name="Weblog_Terms_Post">随笔</resource>
+        <resource name="Weblog_Terms_Article">文章</resource>                
+
+
+		<resource name = "WeblogGroup_DeleteGroupVerify">您确认是否要删除该分组？这将同时删除该分组下所有的blog。</resource>
+		<resource name = "Weblog_Group_Group">Blog分组</resource>
+		<!-- START My Weblogs -->
+		
+        <resource name="MyWeblogs">我的Blog</resource>
+		<resource name="MyWeblogs_Desc">以下列出的是您有权使用的选项: &lt;ul&gt;&lt;li&gt;管理 - 您Blog的配置设定&lt;/li&gt;&lt;li&gt;随笔 - 增加、修改、删除随笔&lt;/li&gt;&lt;li&gt;文章 - 增加、修改、删除文章&lt;/li&gt;&lt;li&gt;反馈 - 管理、删除评论/引用&lt;/li&gt;&lt;li&gt;链接 - 增加、修改、删除显示在您Blog上的链接。&lt;/ul&gt;</resource>
+		
+        <resource name="MyWeblogs_Manage">管理</resource>
+        <resource name="MyWeblogs_Posts">随笔</resource>
+        <resource name="MyWeblogs_Articles">文章</resource>
+
+        <resource name="MyWeblogs_Links">链接</resource>
+        <resource name="MyWeblogs_Feedback">反馈</resource>
+		<resource name="MyWeblogs_NoItemsUser">您还没有开通Blog，如果您需要开通Blog请和管理员联系。</resource>
+		<resource name="MyWeblogs_NoItemsAdmin">还没有任何Blog，您可以通过上面的“创建Blog”来创建一个新的Blog。</resource>
+
+        <!-- START PostEditor -->
+        <resource name="PersonalBlogs_Title">管理您的Blog</resource>
+        <resource name="PostList_SubTitle">创建和修改您Blog的随笔。</resource>
+        <resource name="ArticleList_SubTitle">创建和修改您Blog的文章。</resource>
+        <resource name="PostEditor_SbuTitle">创建和修改您Blog的随笔和文章。</resource>
+        <resource name="BlogPost_DeleteVerify">删除该随笔将同时删除该随笔下的所有评论。您确定继续删除？</resource>
+        
+        <resource name="Blog_PostType_BlogTitle">编辑: 随笔</resource>
+        <resource name="Blog_PostType_ArticleTitle">编辑: 文章</resource>
+        
+        <resource name="Blog_Edit_Categories">管理分类</resource>
+        <resource name="Blog_Edit_CreatePost">新随笔</resource>
+        <resource name="Blog_Edit_CreatArticle">新文章</resource>
+        
+        <resource name="Blog_Pending_Comment">您的评论/评估已经成功提交，但是因为缓存和需要管理员审批，并不能立即被显示。</resource>
+        
+		<!-- Blog Settings -->
+        <resource name="BlogSettings_About">Blog 设置</resource>
+		<resource name="BlogStatus_Exists">您当前有权使用 &lt;b&gt;{0}&lt;/b&gt; &lt;b&gt;{1}&lt;/b&gt;.</resource>
+		<resource name="BlogStatus_None">您当前无权使用任何Blog，请联系管理员开通Blog。</resource>
+
+
+		<resource name="BlogSettings_Title">标题</resource>
+		<resource name="BlogSettings_Title_Detail">您Blog的标题</resource>
+
+		<resource name="BlogSettings_AdminEmail">所有者的Email</resource>
+		<resource name="BlogSettings_AdminEmail_Detail">Blog所有者的Email，该Email不会被公布出来。</resource>
+
+		<resource name="BlogSetting_Description">描述</resource>
+		<resource name="BlogSetting_Description_Detail">您Blog的概要描述信息，会在RSS中被用到。</resource>
+
+		<resource name="BlogSetting_News">公告</resource>
+		<resource name="BlogSetting_News_Detail">公告将显示在您Blog所有页面上。</resource>
+
+		<resource name="BlogSetting_ExpiredDays">评论日期限制</resource>
+		<resource name="BlogSetting_ExpiredDays_Detail">选择您想新随笔接受评论的天数，超过该天数，则不接受评论。当然您也可以通过该功能彻底关闭评论。</resource>
+
+		<resource name="BlogSettings_EnableTrackbacks">启用引用</resource>
+		<resource name="BlogSettings_EnableTrackbacks_Detail">当您的随笔链接别的Blog，引用功能允许您的通知它。</resource>
+
+		<resource name="BlogSettings_EnableContact">启用联系</resource>
+		<resource name="BlogSettings_EnableContact_Detail">启用联系允许访问者直接发送信息到您上面提供的Email。除非您回复，否则不会暴露您的Email。如果您选择“是”，那么上面必须输入一个合法的Email地址。</resource>
+
+
+		<resource name="BlogSetting_Theme">界面样式/皮肤</resource>
+		<resource name="BlogSetting_Theme_Detail">选择您Blog采用的界面样式/皮肤。</resource>
+
+		<resource name="BlogSetting_CustomCSS">自定义CSS</resource>
+		<resource name="BlogSetting_CustomCSS_Detail">除了系统默认的CSS外，您还可以自定义CSS，您自定义的CSS将覆盖皮肤所采用的CSS。</resource>
+
+
+		<resource name="BlogSettings_EnableComments">启用评论</resource>
+		<resource name="BlogSettings_EnableComments_Detail">如果选择“否”，那么所有的评论都不会显示（评论的表单和链接都不会被显示）</resource>
+
+		<resource name="BlogSettings_AppKey">Blog ID</resource>
+		<resource name="BlogSettings_AppKeys_Detail">用来鉴别Blog的唯一ID，一旦创建后不能被改变（可能会导致Blog不能访问的错误）。空格会被替换为"_"。只允许数字、字母、"-"和"_"是合法字符。</resource>
+
+		<resource name="BlogSettings_AdminOptionsMessage">Blog 管理选项</resource>
+		
+		<resource name="BlogSettings_Owner_Detail">指定有权管理该Blog的用户列表（多个用户将帐号用';'隔开），他们可以发布/编辑/删除该Blog中的任何内容，而无须属于任何角色。</resource>
+		
+
+		<resource name="BlogSettings_Main_Title">管理您Blog的设置</resource>
+		<resource name="BlogSettings_Main_SubTitle">配置您的Blog</resource>
+
+		<resource name="BlogSettings_SecurityException">您站点的安全设置不允许Asp.Net程序创建相册的默认文件夹和默认文件，请授予 ASP.Net 帐号对 "blogs" 和 "photos" 目录有写入权限。如果您仍要添加，那么：创建一个您的Blog名同名的目录到Blogs目录，并且放一个空白的default.aspx文件到该目录下 (如: Blogs/YourBlogName/default.aspx)。</resource>
+		<resource name="BlogSettings_UnAuthorizedException">您站点的安全设置不允许Asp.Net程序创建相册的默认文件夹和默认文件，请授予 ASP.Net 帐号对 "blogs" 和 "photos" 目录有写入权限。如果您仍要添加，那么：创建一个您的Blog名同名的目录到Blogs目录，并且放一个空白的default.aspx文件到该目录下 (如: Blogs/YourBlogName/default.aspx)。</resource>
+	
+        <resource name="BlogSettings_Moderation">评论需要审核</resource>
+        <resource name="BlogSettings_Moderation_Detail">如果启用该功能，匿名用户发表的评论需要管理员审核才能显示。</resource>
+
+        <resource name="BlogSettings_IsEnabled">启用 Blog</resource>
+        <resource name="BlogSettings_IsEnabled_Detail">如果Blog被禁用，则不能被访问。</resource>
+
+        <resource name="BlogSettings_EnableAggBugs">Enable AggBugs</resource>
+        <resource name="BlogSettings_EnableAggBugs_Detail">When enabled, an invisible tracking imagine is inserted into the end of each syndicated post.</resource>
+
+        <resource name="BlogSettings_EnableAnonymousPosting">启用匿名评论</resource>
+        <resource name="BlogSettings_EnableAnonymousPosting_Detail">如果禁用，则匿名用户不能对该blog发表评论。</resource>
+
+        <resource name="BlogSettings_EnableRatings">启用评估</resource>
+        <resource name="BlogSettings_EnableRatings_Detail">启用该功能后，注册用户可以对随笔进行评估。</resource>
+
+        <resource name="BlogSettings_PrimaryLanguage">语言</resource>
+        <resource name="BlogSettings_PrimaryLanguage_Detail">选择作者发表随笔使用的语言。</resource>
+
+		<resource name = "CommentModerationDropDownList_None">不审核任何评论</resource>
+		<resource name = "CommentModerationDropDownList_Anonymous">仅审核匿名评论</resource>
+		<resource name = "CommentModerationDropDownList_All">审核所有评论</resource>
+
+		<resource name="BlogSettings_DeleteBlogVerify">删除该Blog将同时删除该Blog下的所有随笔、文章、评论和引用等。您确认继续删除？</resource>
+		<!-- End Blog Settings -->
+
+		<!--Start Weblog Permissions -->
+		<resource name="BlogPermissions_About">Blog 权限管理 </resource>
+		<resource name="WeblogPermission_Blog">Blog</resource>
+		<resource name="ManageWeblogPermissions_Title">管理Blog权限 </resource>
+		<resource name="ManageWeblogPermissions_SubTitle">管理和创建每个Blog的权限。</resource>
+		<resource name="WeblogPermission_AboutTitle">Blog权限</resource>
+		
+		<resource name="ManageWeblogDefaultPermissions_Title">管理默认blog权限 </resource>
+		<resource name="ManageWeblogDefaultPermissions_SubTitle">每个角色的默认权限。当创建新的Blog时，将直接继承这些默认权限。</resource>
+		
+		<resource name="ManageWeblogDefaultPermissions_Set_SubTitle">设置该角色的默认Blog权限。</resource>
+		
+		<resource name="Weblog_PermissionAdmin_View">查看</resource>
+        <resource name="Weblog_PermissionAdmin_View_Description">该角色成员可以查看Blog中发布的随笔/文章</resource>
+        <resource name="Weblog_PermissionAdmin_Post">发布</resource>
+        <resource name="Weblog_PermissionAdmin_Post_Description">该角色成员可以管理/修改随笔、文章和链接</resource>
+        <resource name="Weblog_PermissionAdmin_Reply">评论</resource>
+        <resource name="Weblog_PermissionAdmin_Reply_Description">该角色成员可以对随笔发表评论</resource>
+
+		
+		<!-- End Blog Permissions -->
+
+		<!-- Manage Weblogs -->
+		<resource name="ManageWeblogs_Title">管理Blog</resource>
+		<resource name="ManageWeblogs_SubTitle">管理/创建Blog组和Blog</resource>
+
+		<resource name="WeblogManage_Description">Blog组和Blog</resource>
+		<resource name="Weblog_CreateBlogGroup">新建Blog组</resource>
+		<resource name="Weblog_CreateBlog">新建Blog</resource>
+
+		<!-- Category labels -->
+		<resource name="Weblog_PostCategories_Label">随笔分类</resource>
+		<resource name="Weblog_ArticleCategories_Label">文章分类</resource>
+		
+		<!-- Link Category -->
+		 
+		<resource name="WeblogManageLinks_Title">管理您的Blog链接分类</resource>
+		<resource name="WeblogManageLinks_SubTitle">创建链接和分类</resource>
+		<resource name="WeblogManageLinks_About">Blog链接分类</resource>
+
+		<!-- Aggregate Blog List -->
+		<resource name="Weblog_Aggregate_Blogs">Blogs</resource>
+		<resource name="Weblog_Aggregate_LastPost">最新随笔</resource>
+		<resource name="Weblog_Aggregate_Posts">随笔</resource>
+		<resource name="Weblog_Aggregate_Articles">文章</resource>
+		<resource name="Weblog_Aggregate_Comments">评论</resource>
+		<resource name="Weblog_Aggregate_Trackbacks">引用</resource>
+		<resource name="Weblog_Aggregate_By">by</resource>
+				
+		<!-- Weblog Comment Form -->
+		<resource name="Weblog_CommentForm_WhatDoYouThink">您想要做什么?</resource>
+		<resource name="Weblog_CommentForm_Required">(必需)</resource>
+		<resource name="Weblog_CommentForm_Optional">(可选)</resource>
+		<resource name="Weblog_CommentForm_Name">姓名:</resource>
+		<resource name="Weblog_CommentForm_YourUrl">URL:</resource>
+		<resource name="Weblog_CommentForm_Comments">评论:</resource>
+		<resource name="Weblog_CommentForm_RememberMe">记住我的信息?</resource>
+
+		<!-- Content List -->
+		<resource name="Weblog_ContentList_PostID">随笔ID</resource>
+		<resource name="Weblog_ContentList_Title">标题</resource>
+		<resource name="Weblog_ContentList_PubDate">发布日期</resource>
+		<resource name="Weblog_ContentList_Published">已发布</resource>
+		<resource name="Weblog_ContentList_WebViews">网页</resource>
+		<resource name="Weblog_ContentList_AggViews">RSS阅读器</resource>
+		<resource name="Weblog_ContentList_Comments">评论数</resource>
+		<resource name="Weblog_ContentList_Actions">动作</resource>
+		 
+		<!-- Entry List -->
+		<resource name="Weblog_EntryList_Posted">发布于</resource>
+		<resource name="Weblog_EntryList_By">由</resource>
+		<resource name="Weblog_EntryList_With">有</resource>
+		<resource name="Weblog_EntryList_Posts">随笔</resource>
+		<resource name="Weblog_EntryList_Articles">文章</resource>
+		<resource name="Weblog_EntryList_Comments">{0} 篇评论</resource>
+		<resource name ="Weblog_EntryList_ReadMore">更多...</resource>
+		<resource name = "Weblog_EntryList_CommentsOff">(关闭评论)</resource>
+		<resource name = "Weblog_EntryList_Edit">修改该随笔/文章</resource>
+
+		<!-- Weblog Exception -->
+		<resource name="Weblog_Exception_DuplicatePostName">您的随笔/文章没有保存或更新，随笔/文章的名称必须唯一。</resource>
+		<resource name="Weblog_Exception_DuplicatePostBody">您的随笔/文章没有保存或更新，您的Blog不允许重复的随笔/文章内容。</resource>
+
+		<!-- CreateEditBlogPost -->
+		<resource name="Weblog_CreateEditBlogPost_WeblogPostEditor">修改者</resource>
+		<resource name="Weblog_CreateEditBlogPost_Required">(必需)</resource>
+		<resource name="Weblog_CreateEditBlogPost_Optional">(可选)</resource>
+		<resource name="Weblog_CreateEditBlogPost_Title">标题</resource>
+		<resource name="Weblog_CreateEditBlogPost_Title_Sub">帖子标题</resource>
+		<resource name="Weblog_CreateEditBlogPost_Body">内容</resource>
+		<resource name="Weblog_CreateEditBlogPost_Excerpt">摘要</resource>
+		<resource name="Weblog_CreateEditBlogPost_Excerpt_Sub">输入一个该随笔/文章的摘要（简要描述）.</resource>
+		<resource name="Weblog_CreateEditBlogPost_Categories">所属类别</resource>
+		<resource name="Weblog_CreateEditBlogPost_Categories_Sub">帮助您对随笔进行组织分类，方便浏览者阅读。</resource>
+		<resource name="Weblog_CreateEditBlogPost_AdvancedSettings">高级设置</resource>
+		<resource name="Weblog_CreateEditBlogPost_Name">名称</resource>
+		<resource name="Weblog_CreateEditBlogPost_Name_Sub">为这篇随笔选择一个名称，用来代替PostID作为该随笔的链接。名称不允许数字开头空格会被替换为"_"。只允许数字、字母、"-"和"_"是合法字符。</resource>
+		<resource name="Weblog_CreateEditBlogPost_PostDate">发布日期</resource>
+		<resource name="Weblog_CreateEditBlogPost_PostDate_Sub">输入日期和时间，如果您选择一个将来的时间，那么引用将不会起作用. (yyyy-MM-dd HH:mm)</resource>
+		<resource name="Weblog_CreateEditBlogPost_Icon">图标</resource>
+		<resource name="Weblog_CreateEditBlogPost_Icon_Sub">选择一个图标</resource>
+		<resource name="Weblog_CreateEditBlogPost_Published">是否发布</resource>
+		<resource name="Weblog_CreateEditBlogPost_Published_Sub">该随笔是否已发布？</resource>
+		<resource name="Weblog_CreateEditBlogPost_AllowReplies">允许评论/回复</resource>
+		<resource name="Weblog_CreateEditBlogPost_AllowReplies_Sub">是否允许阅读者对该随笔进行评论？</resource>
+		<resource name="Weblog_CreateEditBlogPost_EmailMe">当有回复是Email通知我</resource>
+		<resource name="Weblog_CreateEditBlogPost_EmailMe_Sub">如果您选择阅读者可以发表评论，是否打算当有新回复是同时发送邮件通知？</resource>
+		<resource name="Weblog_CreateEditBlogPost_ModerateComments">评论需要审核</resource>
+		
+		<resource name="Weblog_CreateEditBlogPost_ModerateComments_Sub">评论是否需要审核通过后才会显示在Blog上？</resource>
+		
+		<resource name="Weblog_CreateEditBlogPost_AggregatePost">包含在RSS</resource>
+		<resource name="Weblog_CreateEditBlogPost_AggregatePost_Sub">是否将该随笔包含在您BLog的RSS中？</resource>
+		<resource name="Weblog_CreateEditBlogPost_CommunityParticipation">发布在首页</resource>
+		<resource name="Weblog_CreateEditBlogPost_CommunityParticipation_Sub">是否将该随笔显示在整个站点Blog的首页？</resource>
+		<resource name="Weblog_CreateEditBlogPost_SyndicateExcerpt">首页显示摘要</resource>
+		<resource name="Weblog_CreateEditBlogPost_SyndicateExcerpt_Sub">如过您已写入摘要，那么首页和RSS中的正文内容默认显示摘要。</resource>
+		<resource name="Weblog_CreateEditBlogPost_PostNameRegexValidator">格式不正确</resource>
+		<resource name="Weblog_CreateEditBlogPost_EnableRatings">允许评估</resource>
+		<resource name="Weblog_CreateEditBlogPost_EnableRatings_Sub">如果启用该功能，则注册用户可以对该随笔进行评估。</resource>
+
+				<resource name="Weblog_CreateEditBlogPost_EnableTrackBacks">是否启用TrackBack</resource>
+		<resource name="Weblog_CreateEditBlogPost_EnableTrackBacks_Sub">如果启用TrackBack功能，将作用于左右外部链接。该功能只是在第一次发布时作用，该选项的默认设置由系统的全局设定控制。</resource>
+
+		<resource name="Weblog_CreateEditBlogPost_HomePage">发布在首页</resource>
+		<resource name="Weblog_CreateEditBlogPost_HomePage_Sub">是否将该随笔发布在您Blog的首页？</resource>
+		 
+		 <resource name = "Weblog_SearchResult_Message">约有  &lt;b&gt;{0}&lt;/b&gt; 项符合查询结果，费时 {1} 毫秒</resource>
+		 <resource name = "Weblog_Individual_SearchResult_PageTitle">{0} 的搜索结果</resource>
+
+		 <resource name = "Weblog_News">公告</resource>
+		 <resource name = "Weblog_Archive">存档</resource>
+		 <resource name = "Weblog_Quick_Content">快捷方式</resource>
+		 <resource name = "Weblog_Subscriptions">订阅</resource>
+
+		 
+
+		 <!-- Email Subscriptions -->
+
+				 <resource name = "Weblog_Email_Subscriptions">Blog 邮件订阅</resource>
+				 <resource name = "Weblog_Email_Individaul"> 随笔 &amp; 文章订阅</resource>
+				 <resource name = "Weblog_Email_GlobalButton">更新</resource>
+				 <resource name = "Weblog_Email_UnSubButton">取消订阅</resource>
+				 <resource name = "Weblog_Email_UnSubAllButton">取消所有订阅</resource>
+				 <resource name = "Weblog_Email_NoSubscriptions">您还没有任何订阅</resource>
+
+ 				 <resource name = "Weblog_Email_Never">不订阅</resource>
+ 				 <resource name = "Weblog_Email_NewPosts">仅当有新随笔和文章时</resource>
+ 				 <resource name = "Weblog_Email_NewPostsandComments">当有新随笔、文章和评论时</resource>
+
+		<!--Weblog Categories-->
+		
+			<resource name="Weblog_Category_Name">名称</resource>
+			<resource name="Weblog_Category_Name_Detail">选择一个简洁的描述性的名称。</resource>
+		
+		    <resource name="Weblog_Category_Description">描述</resource>
+			<resource name="Weblog_Category_Description_Detail">该分类的摘要描述，允许使用HTML。</resource>		
+		
+		    <resource name="Weblog_Category_IsActive">启用分类</resource>
+			<resource name="Weblog_Category_IsActive_Detail">当分类不用时可以禁用它。</resource>
+
+
+
+		 <!-- End Email Subscriptions -->
+		 
+		 <!-- Quick Links -->
+		 <resource name = "Weblog_Quick_Post">新随笔</resource>
+		 <resource name = "Weblog_Quick_Manage">管理</resource>
+		 
+		 <!-- End Quick Links -->
+		 
+		 
+		 
+		
+		
+		
+		<!-- End Weblogs -->
+
+    <!-- END PostEditor.aspx -->
+    
+    
+    <!-- Post Categories -->
+    <resource name="Category_Delete">您确认要删除该分类？</resource>
+    
+    
+    
+	<!-- LinkCategories -->
+	<resource name = "ManageLinks_CreateNewLinkCategory">新建分类</resource>
+	<resource name = "ManageLinks_CreateNewLink">新建链接</resource>
+	<resource name = "ManageLinks_ConfirmDeleteCategory">是否删除该类别？该类别下所有链接也将被删除。</resource>
+	<resource name = "ManageLinks_ConfirmDeleteLink">是否删除该链接？</resource>
+
+
+	<!-- Feedback Admin -->
+	<resource name="Feedback_SubTitle">管理您Blog内的评论和引用</resource>
+	<resource name="Feedback_Approve">批准</resource>
+	<resource name="Feedback_Moderate">不批准</resource>
+	<resource name="Feedback_Delete">删除</resource>
+	<resource name="Feedback_ConfirmDelete">是否删除选中的评论？</resource>
+	<resource name="Feedback_Subject">标题</resource>
+	<resource name="Feedback_Moderated">未审批</resource>
+	<resource name="Feedback_PostedBy">作者</resource>
+	<resource name="Feedback_DatePosted">日期</resource>
+	<resource name="Feedback_Url">Url</resource>
+	<resoruce name="Feedback_Body">内容</resoruce>
+
+	<!--Buttons -->
+	<resource name = "Weblogs_PostAComment">发表评论</resource>
+	<resource name = "Weblogs_Rate">评估</resource>
+	<resource name = "Weblogs_Track">订阅</resource>
+	<resource name = "Weblogs_UnTrack">取消订阅</resource>
+	
+	<!-- Weblog subscription list -->
+	<resource name="Weblog_SubscriptionList_Email">Email</resource>
+	<resource name="Weblog_SubscriptionList_Contact">联系</resource>
+	<resource name="Weblog_SubscriptionList_Atom">Atom 0.3</resource>
+	<resource name="Weblog_SubscriptionList_Rss">RSS 2.0</resource>
+
+
+
+	<!-- Referrals -->
+	
+	<resoruce name="Referrals_Url">Url</resoruce>
+	<resoruce name="Referrals_Hits">点击</resoruce>
+	<resoruce name="Referrals_LastDate">日期</resoruce>
+	<resoruce name="Referrals_PostTitle">标题</resoruce>
+	<resoruce name="Referrals_View">访问纪录</resoruce>
+	<resoruce name="Referrals_Message">您的这篇随笔分别从以下地址被访问的</resoruce>
+	
+	<!-- GuestBook (all controls) -->
+	<resoruce name="Post_Button">发表</resoruce>
+	<resoruce name="GuestBook_Title">您的留言簿标题</resoruce>
+	<resoruce name="GuestBook_Description">输入描述信息</resoruce>
+	<resoruce name="GuestBook_ViewMy">查看我的留言簿。</resoruce>
+	<resoruce name="GuestBook_ConfirmDelete">您确定要删除: {0}？</resoruce>
+	<resoruce name="GuestBook_LoginFirst">您必需登录后才能留言。</resoruce>
+	<resource name="GuestBook_RequiredTitle">请输入标题。</resource>
+	<resource name="GuestBook_RequiredMessage">请输入内容。</resource>
+	<resource name="GuestBook_FormTitle">标题</resource>
+	<resource name="GuestBook_FormMessage">内容</resource>
+	<resource name="GuestBook_CacheMessage">谢谢您的反馈！因为缓存的影响，您的留言可能需要几分钟后才会显示。</resource>
+	<resource name="GuestBook_Remove">移除</resource>
+	<resource name="GuestBook_DefaultName">{0}的留言簿</resource>
+	<resource name="GuestBook_DefaultDesc">欢迎光临，请留下您的宝贵意见！</resource>
+
+
+	<!-- User Banned Resources -->
+	<resource name="UserBanned_Title">帐号被封禁</resource>
+	<resource name="UserBanned_Message">您的帐号被管理员封禁，到{0} {1}后恢复。</resource>
+
+    <!-- Weblog Contact Form -->
+    <resource name="Weblog_ContactForm_Name">姓名</resource>
+    <resource name="Weblog_ContactForm_Email">Email</resource>
+    <resource name="Weblog_ContactForm_Subject">标题</resource>
+    <resource name="Weblog_ContactForm_Body">内容</resource>
+    <resource name="Weblog_ContactForm">如果你有任何评论、问题、建议，请发邮件给我</resource>
+    <resource name="Weblog_ContactForm_Desc">必填项不能为空</resource>
+    <resource name="Weblog_ContactForm_Sent">您的信息已成功发送</resource>
+    <resource name="Weblog_ContactForm_Button">发送</resource>
+    
+    <!-- User Posting Activity Display -->
+	<resource name="Utility_UserActivityDisplayMode_PostCount">帖子数</resource>
+	<resource name="Utility_UserActivityDisplayMode_UserRank">用户等级</resource>
+	<resource name="Utility_UserRank_NotAvailable">等级不可用</resource>
+	
+    <!-- User Ban Reasons -->
+	<resource name="Utility_UserBanReason_Profanity">亵渎</resource>
+	<resource name="Utility_UserBanReason_Advertising">广告</resource>
+	<resource name="Utility_UserBanReason_Spam">发垃圾广告</resource>
+	<resource name="Utility_UserBanReason_Aggresive">恶意攻击他人</resource>
+	<resource name="Utility_UserBanReason_BadUsername">不雅的用户名</resource>
+	<resource name="Utility_UserBanReason_BadSignature">恶意的链接或签名档</resource>
+	<resource name="Utility_UserBanReason_BanDodging">Ban Dodging</resource>
+	<resource name="Utility_UserBanReason_Other">其他</resource>
+	
+	<!-- Moderator Actions -->
+	<resource name="Utility_ModeratorActions_ApprovePost">批准</resource>
+	<resource name="Utility_ModeratorActions_EditPost">修改</resource>
+	<resource name="Utility_ModeratorActions_MovePost">转移</resource>
+	<resource name="Utility_ModeratorActions_DeletePost">删除</resource>
+	<resource name="Utility_ModeratorActions_LockPost">锁定</resource>
+	<resource name="Utility_ModeratorActions_UnlockPost">解锁</resource>
+	<resource name="Utility_ModeratorActions_MergePost">合并</resource>
+	<resource name="Utility_ModeratorActions_SplitPost">分离</resource>
+	<resource name="Utility_ModeratorActions_EditUser">修改资料</resource>
+	<resource name="Utility_ModeratorActions_UnmoderateUser">设为不信任用户</resource>
+	<resource name="Utility_ModeratorActions_ModerateUser">设为信任用户</resource>
+	<resource name="Utility_ModeratorActions_BanUser">封禁</resource>
+	<resource name="Utility_ModeratorActions_UnbanUser">解除封禁</resource>
+	<resource name="Utility_ModeratorActions_ResetPassword">重设密码</resource>
+	<resource name="Utility_ModeratorActions_ChangePassword">修改密码</resource>
+	<resource name="Utility_ModeratorActions_PostIsAnnouncement">设为公告</resource>
+	<resource name="Utility_ModeratorActions_PostIsNotAnnoucement">取消公告</resource>
+	<resource name="Utility_ModeratorActions_UnApprovePost">未批准</resource>
+	
+	<!-- Moderation Counters -->
+	<resource name="UserModerationCounters_MessageAction">帖子事件:</resource>
+	<resource name="UserModerationCounters_ForumAction">论坛事件:</resource>	
+	<resource name="UserModerationCounters_CurrentCounterTitle">&lt; {0} &gt; 的事件列表</resource>	
+
+	<resource name="Utility_BanDetails">用户被封禁，封禁原因： {1}.&lt;br /&gt;到期时间: {0}.</resource>
+
+	<!-- PostPendingModeration.ascx -->
+	<resource name="PostPendingModeration_Title">帖子待审核</resource>
+    <resource name="PostPendingModeration_Body">您发表的版块的帖子，需要版主或管理员审批才能有效。 &lt;p /&gt;如果管理员配置为论坛支持Email通知，您将在版主/管理员对帖子做出处理后，收到Email提醒(前提是您在个人资料里面设置为接收Email通知)。 &lt;br&gt;&lt;br&gt;返回 {0} 版</resource>
+	
+	<!-- Moderation History -->
+	<resource name="ModerationHistory_Date">日期</resource>
+	<resource name="ModerationHistory_Post">帖子</resource>
+	<resource name="ModerationHistory_Moderator">操作人</resource>
+	<resource name="ModerationHistory_Notes">备注</resource>
+	<resource name="ModerationHistory_Action">动作</resource>
+	
+	<!-- CreateEditPost: sticky post values -->
+	<resource name = "CreateEditPost_Sticky_0">不置顶</resource>
+	<resource name = "CreateEditPost_Sticky_1">1 天</resource>
+	<resource name = "CreateEditPost_Sticky_3">3 天</resource>
+	<resource name = "CreateEditPost_Sticky_7">1 星期</resource>
+	<resource name = "CreateEditPost_Sticky_14">2 星期</resource>
+	<resource name = "CreateEditPost_Sticky_30">1 个月</resource>
+	<resource name = "CreateEditPost_Sticky_90">3 个月</resource>
+	<resource name = "CreateEditPost_Sticky_180">6 个月</resource>
+	<resource name = "CreateEditPost_Sticky_360">1 年</resource>
+	<resource name = "CreateEditPost_Sticky_999">公告</resource>
+
+  <!-- Post FlatView -->
+	<resource name = "PostView_SortPostsLabel">帖子排序:</resource>
+	<resource name = "PostView_ThreadStatusLabel">帖子状态: </resource>
+    
+	<!-- Added by backend@gmail.com -->
+	<resource name = "EditProfile_ShortcutTitle">自定义快捷键</resource>		
+	<resource name = "EditProfile_Shortcut_NewPost">发表新帖</resource>		
+	<resource name = "EditProfile_Shortcut_QuickReply">快速回复</resource>		
+	<resource name = "EditProfile_Shortcut_PrevPage">后退一页</resource>		
+	<resource name = "EditProfile_Shortcut_NextPage">前进一页</resource>	
+	
+	<!-- Added by 宝玉(junminliu@msn.com)-->
+	<resource name = "CreateNewAccount_UserNameDescription">请输入您的帐号，用此账号登录系统。必须为英文字母开头，只能含有字母或者数字，不允许更改！</resource>
+	<resource name = "CreateNewAccount_NickName">昵称</resource>
+	<resource name = "CreateNewAccount_NickNameDescription">请输入您的昵称，在系统中主要以昵称显示，可使您的ID更个性。可以使用中文和其他任意字符，不支持HTML。</resource>
+	<resource name = "CreateNewAccount_nicknameValidator">请输入昵称。</resource>
+	<resource name = "CreateNewAccount_CreateUserStatus_DuplicateNickname">该昵称已经存在，请重新输入。</resource>
+	<resource name = "EditProfile_AboutNickName">昵称:</resource>
+	<resource name = "EditProfile_ContactQQ">QQ:</resource>
+	<resource name = "EditProfile_DuplicateNickname">该昵称已经存在，请重新输入。</resource>
+	<resource name = "EditProfile_DatabaseQuota">磁盘限额:</resource>
+	<resource name = "EditProfile_databaseQuotaValidator">请输入用户的磁盘限额。</resource>
+	<resource name = "WhoIsOnlineView_List_IPLastActivity">IP地址</resource>
+	<resource name = "Day">日</resource>
+	<resource name = "Month">月</resource>
+	<resource name = "Year">年</resource>
+	<resource name = "ViewThreads_NoModerator">空缺</resource>
+	<resource name = "ViewThreads_Moderator">版主</resource>
+    <resource name = "ForumAdmin_ManageModerators">版主管理</resource>
+	<resource name = "ForumModeratorsAdmin_ModeratorUsername">帐号: </resource>
+	<resource name = "ForumModeratorsAdmin_Title">版主管理</resource>
+	<resource name = "ForumModeratorsAdmin_SubTitle">管理和增加各个版块的版主。</resource>
+	<resource name = "ForumModeratorsAdmin_GroupName">讨论组:</resource>
+	<resource name = "ForumModeratorsAdmin_ForumName">版块:</resource>
+    <resource name = "ForumAdmin_NavigateUrl">链接地址</resource>
+    <resource name = "ForumAdmin_NavigateUrl_Detail">当选择版块类型为“链接”后，作为版块链接地址。</resource>
+    <resource name = "ForumAdmin_ForumType">版块类型</resource>
+    <resource name = "ForumAdmin_ForumType_Detail">通过选择版块类型，可以以不同的方式在首页显示版块图标。选择“链接”类别可以直接显示链接。</resource>
+	<resource name = "ForumType_Normal">普通版块</resource>
+	<resource name = "ForumType_Link">链接</resource>
+	<resource name = "ForumType_KB">知识库</resource>
+	<resource name = "ForumType_FAQ">疑难解答</resource>
+	<resource name = "ForumType_Newsletter">时事通讯</resource>
+	<resource name = "ForumType_Deleted">回收站</resource>
+	<resource name = "ForumType_Reporting">帖子报告</resource>
+	<resource name = "Calendar_DayNames">日, 一, 二, 三, 四, 五, 六</resource>
+	<resource name = "InsertCode_CodeLanguage">语言:</resource>
+	<resource name = "InsertCode_Code">代码:</resource>
+	<resource name = "HomePage_BlogRoll">新建博客</resource>
+	<resource name = "HomePage_BlogList">博客列表</resource>
+	<resource name = "HomePage_LatestForumPosts">最新贴子</resource>
+	<resource name = "RestoreLastPostBody">恢复上一次提交</resource>
+
+<!-- Skin-ValuePost.ascx -->
+		<resource name = "ValuePost_TitleName">加入/解除帖子精华</resource>
+		<resource name = "ValuePost_TitleDescription">将指定帖子加入精华区或从精华区移除。</resource>
+		<resource name = "ValuePost_Title">将 “{0}” 加入/解除精华</resource>
+		<resource name = "ValuePost_Reason">原因: </resource>
+		<resource name = "ValuePost_ValuableLevel">精华: </resource>
+		<resource name = "ValuePost_ValuableLevel_UnValue">解除精华</resource>
+		<resource name = "ValuePost_ValuableLevel_Level1">临时消息、通知等</resource>
+		<resource name = "ValuePost_ValuableLevel_Level2">转载精华</resource>
+		<resource name = "ValuePost_ValuableLevel_Level3">原创精华</resource>
+		<resource name = "ValuePost_ValuablePath">精华区域: </resource>
+		<resource name = "ValuePost_By">操作人: </resource>
+		<resource name = "ValuePost_ReasonText">请说明将该帖加入/解除精华的原因。</resource>
+		<resource name = "ValuePost_ValidateReason">精华原因不能为空！</resource>
+		<resource name = "ValuePost_PopupConfirmation">是否确认将该帖子加入/解除精华？</resource>
+		<resource name = "ValuePost_Cancel">取 消</resource>
+		<resource name = "ValuePost_Submit">精 华</resource>
+
+<!-- Skin-ValuePost.ascx -->
+	
+	
+	<resource name = "CreateEditPost_AddAttachements">添加附件</resource>
+	<resource name = "CreateEditPost_Photos">照片:</resource>
+	<resource name = "CreateEditPost_AddPhotos">添加照片</resource>
+	<resource name = "CreateEditPost_Stickiness">置顶:</resource>
+		
+	<resource name = "ProgressInfo_Loading">正在装载...</resource>
+	<resource name = "ProgressInfo_Interactive">传输: {0}K 还未完成</resource>
+	<resource name = "ProgressInfo_Completed">您的文件已经上传完成</resource>
+	<resource name = "ProgressInfo_Failed">上传失败</resource>
+    
+<!--Controls-->
+  <resource name = "Button_DafaultSubmit"> 提 交 </resource>
+  <resource name = "TextBox_ErrorMessage_Between">当前输入数据应在{0}和{1}之间!</resource>
+  <resource name = "TextBox_ErrorMessage_Max">当前输入数据允许最大值为{0}!</resource>
+   <resource name = "TextBox_ErrorMessage_Min">当前输入数据允许最小值为{0}!</resource>
+    <resource name = "TextBox_ErrorMessage_WrongNumber">数字的格式不正确</resource>
+  <resource name = "TextBox_ErrorMessage_WrongEmail">邮箱的格式不正确</resource>
+   <resource name = "TextBox_ErrorMessage_WrongCellPhone">手机的位数应为11位!</resource>
+  <resource name = "TextBox_ErrorMessage_WrongTelPhone">请依 (XXX)XXX-XXXX 格式或 (XXX)XXXX-XXXX 输入电话号码！</resource>
+    <resource name = "TextBox_ErrorMessage_WrongCard">请依15或18位数据的身份证号！</resource>
+     <resource name = "TextBox_ErrorMessage_WrongWebSite">请输入正确的网址</resource>
+  <resource name = "TextBox_ErrorMessage_WrongDate">请输入正确的日期,如:2006-1-1</resource>
+   <resource name = "TextBox_ErrorMessage_WrongDateTime">请输入正确的日期,如: 2006-1-1 23:59:59</resource>
+   <resource name = "TextBox_ErrorMessage_WrongMoney">请输入正确的金额</resource>
+  <resource name = "TextBox_ErrorMessage_WrongIP">请输入正确的IP地址</resource>
+   <resource name = "TextBox_ErrorMessage_WrongIPPort">请输入正确的带端口的IP地址</resource>
+  <resource name = "TextBox_ErrorMessage_NotNull">请务必输入内容!</resource>
+	<resource name = "DropDowList_SelectZero">请选择  </resource>
+  <resource name = "DropDowList_SelectNull">--请选择--</resource>
+	<resource name = "Config_dontExistFile">发生错误: 网站根目录下没有正确的{0}文件  </resource>
+	<!--controls-->
+	
+
+	<resource name = "EditProfile_AboutUserName">UserName:</resource>
+	<resource name = "EditProfile_Password">PassWord:</resource>
+	<resource name = "EditProfile_Lauguage">Language:</resource>
+	<resource name = "login">Login</resource>
+</root>
+

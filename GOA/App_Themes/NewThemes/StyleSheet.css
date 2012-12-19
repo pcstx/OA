@@ -1,0 +1,1265 @@
+﻿
+
+
+
+
+/* Master Page Layout */
+#master_header
+{
+	margin: -1px auto 0 auto;
+	width: 800px;
+}
+
+#master_headertop
+{
+	background: url(../../images/headertop_img.jpg) no-repeat left top;
+}
+
+#master_headerbottom
+{
+	background: url(../../images/headerbottom_img.png) no-repeat left top;
+}
+
+#master_page
+{
+	margin: 5px auto 20px auto;
+	width: 800px;
+}
+
+#master_menu
+{
+	float: left;
+	width: 240px;
+	padding-right: 10px;
+}
+
+.sidebar
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.sidebarheader
+{
+	height: 24px;
+	padding: 10px 0 0 35px;
+	background: url(../../images/sidebar_header.png) no-repeat left top;
+	color: #FFF;
+	font-family: Arial, Sans-Serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sidebarcontent
+{	
+	border: 1px solid #0F2543;
+	padding: 20px 20px 20px 30px;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+#master_sidebarSamples
+{	
+	padding-top: 72px;
+	background: #FFF url(../../images/samples_bg.gif) no-repeat left top;
+}
+
+#master_sidebarWalkthroughs
+{
+	padding-top: 72px;
+	background: #FFF url(../../images/walkthrough_bg.gif) no-repeat left top;
+}
+
+.sidebarcontent a
+{
+	padding: 2px 5px;
+	color: #5377A9;
+	text-decoration: none;
+}
+
+.sidebarcontent a:hover
+{
+	background-color: #0F2543;
+	color: #FFF;
+}
+
+.sidebarcontent a:visited
+{
+	font-weight: normal;
+}
+
+#master_content
+{
+	float: left;
+	width: 550px;
+	margin-right: -550px;
+	color: #666666;
+}
+
+#master_content ul
+{
+	margin: 0 25px 0 30px;
+}
+
+#master_content ul li ul li
+{
+	list-style-type: disc;
+}
+
+#master_contentheader
+{
+	height: 19px;
+	background: url(../../images/rightcoltop.gif) no-repeat right top;
+}
+
+#master_contentplaceholder
+{
+	padding: 30px 20px 40px 20px;
+	border-left: 1px solid #0F2543;
+	border-right: 1px solid #0F2543;
+	border-bottom: 1px solid #0F2543;
+	background-color: #EFEFEF;
+	line-height: 1.5em;
+}
+
+#master_contentfooter
+{
+	clear: both;
+	padding: 10px 0 5px 10px;
+	color: #333;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+}
+
+/* Content Page Layout */
+.demoarea {
+	padding:20px;
+	background:#FFF url(../../images/demotop.png) no-repeat left top;
+}
+
+.demoarea p 
+{
+	padding:5px;
+}
+
+.demoheading {
+	padding-bottom:20px;
+	color:#5377A9;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.demobottom {
+	height:8px;
+	background:#FFF url(../../images/demobottom.png) no-repeat left bottom;
+}
+
+
+.heading {
+	padding: 1em 0 1em 0;
+	color:#5377A9;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.subheading{
+	padding:.8em 0 0.5em 0;
+	color:#0F2543;
+	font-weight:bold;
+	font-family:Arial, Sans-Serif;
+	font-size:1.1em;
+}
+
+p {}
+
+em {font-style:italic}
+
+i {font-style: italic;}
+
+strong {font-weight:bold;}
+
+.codeReference
+{
+	font-family: 'Courier New', Monospace;
+	font-style: normal;
+	font-weight: bold;
+}
+
+pre, code {
+	display:block;
+	margin:15px 15px 15px 0;
+	padding:10px;
+	border:1px dashed #CCC;
+	background-color:#FFF;
+	color:#000;
+	font-family:'Courier New', Monospace;
+	font-size:0.9em;
+	font-style:normal;
+}
+
+.releaseList {
+	list-style-type:disc;
+}
+
+
+/* Styles for the Animation Reference */
+.animationReferenceTable
+{
+}
+
+.animationReferenceRow
+{
+}
+
+.animationReferenceField
+{
+	text-align: right;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.animationReferenceCode
+{
+	margin-top: 5px;
+	vertical-align: top;
+	font-family: 'Courier New', Monospace;
+	font-style: normal;
+	font-weight: bold;
+	
+	display:block;
+	background-color:#FFF;
+	color:#000;
+	font-family:'Courier New', Monospace;
+	font-size:0.9em;
+	font-style:normal;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.animationReferenceItems
+{
+	vertical-align: top;
+}
+
+.animationReferenceItemTable
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.animationReferenceItemRow
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.animationReferenceItem
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+.animationReferenceItemCode
+{
+	display:block;
+	background-color:#FFF;
+	color:#000;
+	font-family:'Courier New', Monospace;
+	font-size:0.9em;
+	font-style:normal;
+	font-weight: bold;
+}
+
+/******************************/
+/**Styling information specific to individual content pages**/
+
+/* Accordion */
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #2E4d7B;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeaderSelected a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeaderSelected a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+/*Cascading DropDown*/
+
+/*CollapsiblePanel*/
+.collapsePanel {
+	
+	background-color:white;
+	overflow:hidden;
+}
+
+.collapsePanelHeader{
+	width:100%;
+	height:30px;
+	background-image: url(../../images/bg-menu-main.png);
+	background-repeat:repeat-x;
+	color:#FFF;
+	font-weight:bold;
+}
+
+#master_content .collapsePanelHeader a {color:#FFF;}
+#master_content .collapsePanelHeader a:hover {text-decoration:none;background:none;}
+
+/*Confirm Button*/
+
+/* DropShadow */
+
+#master_content .dropShadowPanel span {color:white;text-decoration:underline;}
+#master_content .dropShadowPanel span:hover {text-decoration:none;}
+
+.FormBaseTextBoxMultiLine {font-family:Arial, Helvetica, sans-serif; background-color: #fff; padding:0.1em 0;border:1px double #ccc;}
+*html .FormBaseTextBoxMultiLine,*html .FormFocusTextBoxMultiLine {padding:0; line-height:22px;}
+*+html .FormBaseTextBoxMultiLine,*+html .FormFocusTextBoxMultiLine {padding:0; line-height:22px;}
+
+.dropShadowPanel 
+{
+	width:300px;
+	background-color:#5377A9;
+	color:white;
+	font-weight:bold;
+}
+
+/*Drag Panel*/
+.dragMe {
+	width:100%;
+	height:21px;
+	background-color:#FFF;
+	background-image:url(../../images/header-opened.png);
+	text-align:center;
+	cursor:move;
+	font-weight:bold;
+}
+
+.overflowHidden {overflow:hidden;}
+
+.overflowScroll {overflow:hidden;}
+
+/*Hover Menu*/
+.popupMenu {
+	position:absolute;
+	visibility:hidden;
+	background-color:#F5F7F8;
+	opacity:.9;
+	filter: alpha(opacity=90);
+}
+
+.popupHover {
+	background-image:url(../../images/header-opened.png);
+	background-repeat:repeat-x;
+	background-position:left top;
+	background-color:#F5F7F8;
+}
+
+/* PagingBulletedList */
+.selectIndex {
+    font-weight: bold;
+    text-decoration:none;
+}
+.unselectIndex {
+    font-weight:normal;
+    text-decoration:underline;
+}
+
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffff;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+
+}
+
+.sampleStyleA {
+	background-color:#FFF;
+}
+
+.sampleStyleB {
+	background-color:#FFF;
+	font-family:monospace;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.sampleStyleC {
+	background-color:#ddffdd;
+	font-family:sans-serif;
+	font-size:10pt;
+	font-style:italic;
+}
+
+.sampleStyleD {
+	background-color:Blue;
+	color:White;
+	font-family:Arial;
+	font-size:10pt;
+}
+
+/*Popup Control*/
+.popupControl{
+	background-color:White;
+	position:absolute;
+	visibility:hidden;
+}
+
+/*Reorder List*/
+.dragHandle {
+	width:10px;
+	height:15px;
+	background-color:Blue;
+	background-image:url(../../images/bg-menu-main.png);
+	cursor:move;
+	border:outset thin white;
+}
+
+.callbackStyle {
+	border:thin blue inset;		
+}
+
+.callbackStyle table {
+	background-color:#5377A9;	
+	color:Black;
+}
+
+.reorderListDemo li {
+	list-style:none;
+	margin:2px;
+	background-image:url(../../images/bg_nav.gif);
+	background-repeat:repeat-x;
+	color:#FFF;
+}
+
+.reorderListDemo li a {color:#FFF !important; font-weight:bold;}
+
+.reorderCue {
+	border:dashed thin black;
+	width:100%;
+	height:25px;
+}
+
+.itemArea {
+	margin-left:15px;
+	font-family:Arial, Verdana, sans-serif;
+	font-size:1em;
+	text-align:left;
+}
+
+
+/* Rounded Corners*/
+
+.roundedPanel
+{	
+	width:300px;
+	background-color:#5377A9;
+	color:white;
+	font-weight:bold;
+}
+
+/* ResizableControl */
+
+.frameImage
+{
+	width:130px;
+	height:65px;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+}
+
+.frameText
+{
+	width:100px;
+	height:100px;
+	overflow:auto;
+	float:left;
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:2px;
+	border-color:Gray;
+	font-family:Helvetica;
+	line-height:normal;
+}
+
+.handleImage
+{
+	width:15px;
+	height:16px;
+	background-image:url(../../images/HandleHand.png);
+	overflow:hidden;
+	cursor:se-resize;
+}
+
+.handleText
+{
+	width:16px;
+	height:16px;
+	background-image:url(../../images/HandleGrip.png);
+	overflow:hidden;
+	cursor:se-resize;
+}
+
+.resizingImage
+{
+	padding:0px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#B4D35D;
+}
+
+.resizingText
+{
+	padding:0px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#7391BA;
+}
+
+/*Textbox Watermark*/
+
+.unwatermarked {
+	height:18px;
+	width:148px;
+}
+
+.watermarked {
+	height:20px;
+	width:150px;
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	color:gray;
+}	
+
+/* Rating */
+.ratingStar {
+    font-size: 0pt;
+    width: 13px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.filledRatingStar {
+    background-image: url(../../Images/FilledStar.png);
+
+}
+
+.emptyRatingStar {
+    background-image: url(../../Images/EmptyStar.png);
+}
+
+.savedRatingStar {
+    background-image: url(../../Images/SavedStar.png);
+}
+
+
+/*Toggle Button*/
+
+/*Setup*/
+.walkthrough li {padding-bottom:5px;}
+
+/*Using a sample extender*/
+
+/*Creating a new extender*/
+.walkthroughNote {
+	padding-left:25px;
+	font-style:italic;
+}
+
+/*Other neat stuff*/
+
+
+
+
+
+/************ PasswordStrength Related Styles ***********************/
+.TextIndicator_TextBox1
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+}
+
+.BarIndicator_TextBox2_weak
+{
+    color:Red;
+    background-color:Red;
+}
+.BarIndicator_TextBox2_average
+{
+    color:Blue;
+    background-color:Blue;
+}
+.BarIndicator_TextBox2_good
+{
+    color:Green;
+    background-color:Green;
+}
+
+.BarBorder_TextBox2
+{
+    border-style:solid;
+    border-width:1px;
+    padding:2px 2px 2px 2px;
+    width:200px;
+    vertical-align:middle;
+}
+
+.TextIndicator_TextBox3
+{
+     background-color:Blue;
+     color:Yellow;
+     font-size:small;
+     font-variant:small-caps;
+     padding: 2px 3px 2px 3px;
+}
+
+.TextIndicator_TextBox3_Handle
+{
+	width:16px;
+	height:14px;
+	background-image:url(../../images/Question.png);
+	overflow:hidden;
+	cursor:help;
+}
+
+.TextIndicator_TextBox1_Strength1
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength2
+{
+     background-color:Gray;
+     color:Yellow;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength3
+{
+     background-color:Gray;
+     color: #FFCAAF;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength4
+{
+     background-color:Gray;
+     color:Aqua;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength5
+{
+     background-color:Gray;
+     color: #93FF9E;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+
+
+
+.dynamicPopulate_Normal
+{
+	border:silver 1px inset;
+	padding:2px;
+	text-align:center;
+	height:2em;
+	margin:5px;
+	width:200px;
+}
+
+.dynamicPopulate_Updating 
+{
+	background-image:url(../../images/loading.gif);
+	background-repeat:no-repeat;
+	border:silver 1px inset;
+	text-align:center;
+	padding:2px;
+	height:2em;
+	margin:5px;
+	width:200px;
+}
+/************ MaskedEdit Related Styles ***********************/
+.MaskedEditFocus
+{
+    background-color: #ffffcc;
+    color: #000000;
+}
+.MaskedEditMessage
+{
+	color: #ff0000;
+	font-weight: bold;
+}
+.MaskedEditError
+{
+    background-color: #ffcccc;
+}
+.MaskedEditFocusNegative
+{
+    background-color: #ffffcc;
+    color: #ff0000;
+}
+.MaskedEditBlurNegative
+{
+    color: #ff0000;
+}
+
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight:bold;
+}
+
+/* SlideShow styles */
+
+.slideTitle
+{
+	font-weight:bold;
+	font-size:small;
+	font-style:italic;
+}
+
+.slideDescription
+{
+	font-size:small;
+	font-weight:bold;
+}
+
+.validatorCalloutHighlight
+{
+    background-color: lemonchiffon;
+}
+
+.ListSearchExtenderPrompt
+{
+	font-style:italic;
+	color:Gray;
+	background-color:white;
+}
+
+/*lyb*/
+.programmaticPopupDragHandle
+{
+	/*
+	cursor: move;
+	background-color:Silver;
+	border:solid 0px Gray;
+	color:Black;
+	text-align:right;
+	width:100%;*/
+	height:30px;
+	padding-left: 10px;
+	line-height: 2.4em;
+	font-size: 1.17em;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #ffffff;
+	border-right-color: #ffffff;
+	border-bottom-color: #e8e8e8;
+	border-left-color: #ffffff;
+	cursor:move;
+}
+.programmaticPopupDragHandle 
+{
+	border: 1px solid #CAD9EA;
+	background: #FFF url("../../images/portalbox_bg.gif"); 
+	background-repeat: repeat-x; 
+	background-position: 0 0; 
+	margin-bottom: 2px; 
+}
+
+.CancelButtonCSS	
+{	background: #FFF url("../../images/close.gif");
+	border: 0px solid #CAD9EA;
+	background-repeat: repeat-x; 
+	background-position: 0 0;
+	position: absolute; 
+	right: 20px; 
+	top: 10px;
+	width:12px;
+	height:14px;
+	cursor:hand;
+}	
+.MaxButtonCSS	
+{	background: #FFF url("../../images/max.gif");
+	border: 0px solid #CAD9EA;
+	background-repeat: repeat-x; 
+	background-position: 0 0;
+	position: absolute; 
+	right: 35px; 
+	top: 10px;
+	width:12px;
+	height:14px;
+	cursor:hand;
+}
+.ButtonCSS
+{	background: #FFF ;
+	border: 0px solid #CAD9EA;
+	background-repeat: repeat-x; 
+	background-position: 0 0;
+	position:relative; 
+	margin-top:1px;
+	margin-left:0px;
+	width:26px;
+	height:20px;
+	cursor:hand;
+}	
+.SaveButtonCSS	
+{	background: #FFF url("../../images/save.gif");
+	border: 0px solid #CAD9EA;
+	background-repeat: repeat-x; 
+	background-position: 0 0;
+	position: relative; 
+	margin-top:1px;
+	margin-left:15px;
+	width:26px;
+	height:20px;
+	cursor:hand;
+}	
+.SaveAndCloseCSS	
+{	background: #FFF url("../../images/saveclose.gif");
+	border: 0px solid #CAD9EA;
+	background-repeat: repeat-x; 
+	background-position: 0 0;
+	position:relative; 
+	margin-top:1px;
+	margin-left:0px;
+	width:26px;
+	height:20px;
+	cursor:hand;
+}	
+.SearchButtonCSS	
+{	background: #FFF url("../../images/search.gif");
+	border: 0px solid #CAD9EA;
+	background-repeat: repeat-x; 
+	background-position: 0 0;
+	position:relative; 
+	margin-top:1px;
+	margin-left:15px;
+	width:26px;
+	height:20px;
+	cursor:hand;
+}	
+/*块区域,宽度 */
+.conblk2{clear:both;margin-bottom:15px;}
+.conblk2 .con{padding:0px 0;margin-bottom:5px;float:left;width:625px;_width:645px;word-break:break-all;}
+.conblk3{clear:both;margin-bottom:15px;}
+.conblk3 .con{padding:0px 0;margin-bottom:5px;float:left;width:730px;_width:750px;word-break:break-all;}
+.conblk4{clear:both;margin-bottom:15px;}
+.conblk4 .con{padding:0px 0;margin-bottom:5px;float:left;width:740px;_width:760px;word-break:break-all;}
+
+/*2 标头的高度，字体靠左，按钮靠右*/
+.h2blk{height:30px;}
+h2{font-size:14px;height:22px;line-height:22px;padding-left:15px;padding-right:25px;background:url(../../images/bg_h2arr_up.gif) no-repeat 3px 5px;float:left;margin-bottom:0px;margin-right:20px; margin-top:5px;}
+/*往右靠且空格是15px*/
+.edit
+{
+	float:left; 
+	margin:0px 0 5px 10px;
+}
+.edit a:hover
+{
+	background: #FFF url("../../images/saveOn.gif");
+	border: 0px solid #CAD9EA;
+}
+#edit2
+{
+	float:right; 
+	margin:35px 0 2px 20px;
+}
+/*2 end*/
+.formblk{clear:both;padding:0 10px;}
+.formblk div{padding-bottom:2px;clear:both}
+
+.clear{clear:both}
+/*4分列*/
+div.oneline{width:99%;float:left;clear:right;padding:0}
+div.half{width:49%;float:left;clear:right;padding:0}
+
+div.third1{width:33%;float:left;clear:right;padding:0;}
+div.third2{width:33%;float:left;clear:right;padding:0}
+div.third3{width:33%;float:left;clear:right;padding:0;}
+div.third22{width:66%;float:left;clear:right;padding:0}
+/*4 end*/
+
+/*5 字体集*/
+label{border:1px #fff solid;width:auto;float:left;text-align:right;padding-top:2px;margin-top:1px;margin-right:1px;}
+label.normal{border:0;width:auto;float:none;text-align:left;}
+label b{font-size:12px;font-family:Verdana;color:#f25d5f;margin-right:3px;font-weight:bold;}
+label.nofloat,div.nofloat{float:none}
+label.wid40{text-align:right;width:40px;_width:60px}
+label.autowid{width:auto}
+label.char2{_width:50px}
+label.char4{_width:80px}
+label.char5{width:90px}
+label.char6{width:110px;}
+label.char7{width:125px}
+label.char8{width:135px}
+label.char9{width:148px}
+label.word1{width:40px;_width:60px;}
+label.word2{width:60px;_width:80px;}
+label.word3{width:80px;_width:100px;}
+label.word4{width:100px;_width:120px;}
+label.word5{width:120px;_width:140px;}
+label.word7{width:160px;_width:180px;}
+label.word8{width:190px;_width:210px;}
+label.word9{width:230px;_width:250px;}
+/*5 end*/
+
+/*6字段后面控件*/
+.formblk div.iptblk{float:left;text-align:left;clear:right;_padding-left:0px;}
+.formblk div.iptblk .selblk{_margin-left:0px;}
+.iptblk textarea{_margin-left:0}
+.iptblk .tit{margin:5px 0 0;color:#666}
+.iptblk .sdot li{background:url(../../images/dot3.gif) no-repeat 4px 7px;color:#666;padding-left:12px}
+/*6 end*/
+
+/*gridview 所有的样式*/
+.GridViewStyle
+{   
+    border-right: 2px solid #A7A6AA;
+    border-bottom: 2px solid #A7A6AA;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    padding: 4px;
+}
+
+.GridViewStyle a
+{
+    color: #FFFFFF;
+}
+
+.GridViewHeaderStyle th
+{
+    border-left: 1px solid #EBE9ED;
+    border-right: 1px solid #EBE9ED;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    padding:2px;
+}
+
+.GridViewHeaderStyle
+{
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+    position:relative ; 
+   table-layout:fixed;
+   top:expression(this.offsetParent.scrollTop);   
+   z-index: 10;
+
+}
+
+.GridViewFooterStyle
+{
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+}
+
+.GridViewRowStyle
+{
+    background-color: #F7F6F3;
+    color: #333333;
+}
+
+.GridViewAlternatingRowStyle
+{
+    background-color: #FFFFFF;
+    color: #284775;
+}
+
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    border: 1px solid #EBE9ED;
+}
+
+.GridViewSelectedRowStyle
+{
+    background-color: #E2DED6;
+    font-weight: bold;
+    color: #333333;
+}
+
+.GridViewPagerStyle
+{
+    background-color: #284775;
+    color: #FFFFFF;
+}
+
+.GridViewPagerStyle table /**//* to center the paging links*/
+{
+    margin: 0 auto 0 auto;
+}
+/*end grid view*/
+/*--page start*/
+#pager /*整个一横幅*/
+{
+	width:100%;
+}
+.pager /*整个一横幅*/
+{
+	width:100%;
+}
+.PagerArea  /*整个数字分页区域，注意，里面还有一个div style: width 100%*/
+{
+	float:left;
+	width:400px;
+	padding-top:5px;
+	
+}
+.PagerArea2  /*整个数字分页区域，注意，里面还有一个div style: width 100%*/
+{
+	float:left;
+	width:105px;
+	padding-top:5px;
+	
+}
+.PagerText /*整个分页区域*/
+{
+	float:right;
+
+}
+.PagerText1 /*整个分页区域*/
+{
+	float:left ; margin:5px 0px 5px 5px;
+
+}
+.PagerText span /*文字区域*/
+{
+		padding-bottom:5px;
+		margin-bottom:5px;
+}
+.clear
+{clear:both;} 
+.display
+{
+	display:none;
+	
+	}	
+ /*--page end*/
+
+/*--employee mananger--*/
+#ContentLeft
+{
+	float:left;
+	width:200px;
+	background: red;
+
+}
+#ContentRight
+{
+	margin-left: 210px;
+	
+	background: black;
+	text-align:left;
+}
+.TableLeft
+{
+	float:left;
+	width:100%;
+	background: green;
+	}
+	.ab{background-color:Gray;}
+	
+	/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+.displayNone
+{
+	display:none;
+}
+.displayblock
+{
+	display:block;
+}
+.ddlType
+{
+	border-width:0px;
+	outline-style:solid:none ;
+  	
+}

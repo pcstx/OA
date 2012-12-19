@@ -1,0 +1,452 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                    button</td>
+                <td>
+                    属性/方法</td>
+                <td>
+                    说明</td>
+                <td style="width: 55px">
+                    补充说明</td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    ID</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    Text</td>
+                <td>
+                    文字</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    ButtontypeMode</td>
+                <td>
+                    按钮样式<br />
+                    值为枚举类型&nbsp;
+                    Normal, //普通&nbsp;
+                    WithImage, //带图</td>
+                <td style="width: 55px">
+                    如果使用该属性还得加上<br />
+                    dntmanager.css中的Class样式 ManagerButton且一张上级文件中images/buttonbg.gif</td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    ButtonImgUrl</td>
+                <td>
+                    图版按钮链接</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    XpBGImgFilePath</td>
+                <td>
+                    XP背景图片路径</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    ValidateForm</td>
+                <td>
+                    定义是否调用js函数validate(this.form);进行数据校验</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px; height: 21px">
+                </td>
+                <td style="height: 21px">
+                    ScriptContent</td>
+                <td style="height: 21px">
+                    要加载的客户端脚本内容</td>
+                <td style="width: 55px; height: 21px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    ShowPostDiv</td>
+                <td>
+                    是否显示"正在提交"信息</td>
+                <td style="width: 55px">
+                    要CSS和JS文件配合,还没有找到在哪个文件中<br />
+                    疑问:document.getElementById('success')中success在哪里?</td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    AutoPostBack</td>
+                <td>
+                    &nbsp;AutoPostBack属性</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    PostBackUrl</td>
+                <td>
+                    跨页面提交链接</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td colspan="2">
+                    如果使用到下面的属性,那么必须使用到common.js&nbsp; 中showhintinfo(...);hidehintinfo()中函数</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintTitle</td>
+                <td>
+                    提示框标题</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px; height: 21px">
+                </td>
+                <td style="height: 21px">
+                    HintInfo</td>
+                <td style="height: 21px">
+                    提示框内容</td>
+                <td style="width: 55px; height: 21px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintLeftOffSet</td>
+                <td>
+                    提示框左侧偏移量</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintTopOffSet</td>
+                <td>
+                    提示框顶部偏移量</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintHeight</td>
+                <td>
+                    提示框高度</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                    使用方法</td>
+                <td colspan="3">
+                    1、在.aspx页的头文件上加：<br />
+                    < %@ register assembly="GPRP.GPRPControls" namespace="GPRP.GPRPControls" tagprefix="GPCtl"
+                    % >
+                    &nbsp;<br />
+                    2. 在要使用的按钮的地方加上:<br />
+                    &lt;GPCtl:Button id="SubmitInfo" runat="server" Text=" Button_DafaultSubmit"&gt;&lt;/GPCtl:Button&gt;<br />
+                    3.注意:</td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                    CSS配合使用方法</td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                    js配合使用方法</td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                    TextBox</td>
+                <td>
+                    属性/方法</td>
+                <td>
+                    说明</td>
+                <td style="width: 55px">
+                    补充说明</td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    AddAttributes(key,string)<br />
+                    键值,如class等<br />
+                    要绑定的字符串</td>
+                <td>
+                    添加属性方法</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    MaxLength</td>
+                <td>
+                    最大长度,但是当为TextArea时，maxlength属性可能失效，所以采用js进行长度限制 不用外接js文件</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    TextMode</td>
+                <td>
+                    SingleLine/MultiLine/Password 三种模式,默认为单行</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    RequiredFieldType</td>
+                <td>
+                    controlsArray.Add("暂无校验"); controlsArray.Add("数据校验"); controlsArray.Add("电子邮箱");
+                    controlsArray.Add("移动手机"); controlsArray.Add("家用电话"); controlsArray.Add("身份证号码");
+                    controlsArray.Add("网页地址"); controlsArray.Add("日期"); controlsArray.Add("日期时间"); controlsArray.Add("金额");
+                    controlsArray.Add("IP地址"); controlsArray.Add("IP地址带端口");</td>
+                <td style="width: 55px">
+                    目前就是这十二种校验</td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    CanBeNull</td>
+                <td>
+                    &nbsp;要表达式是否可以为空&nbsp; "可为空/必填" 二项</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    IsReplaceInvertedComma</td>
+                <td>
+                    是否进行 ' 号替换 bool</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    ValidationExpression</td>
+                <td>
+                    有效校验表达式 即上面几种类型在判断过程中你有更好的正规表达式规则</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    Text</td>
+                <td>
+                    返回的值</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    Cols</td>
+                <td>
+                    列数属性</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    Size</td>
+                <td>
+                    宽度属性</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    MaximumValue</td>
+                <td>
+                    最大值属性</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    MinimumValue</td>
+                <td>
+                    最小值属性</td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintTitle</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintInfo</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintLeftOffSet</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintTopOffSet</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px; height: 21px">
+                </td>
+                <td style="height: 21px">
+                    HintShowType</td>
+                <td style="height: 21px">
+                    &nbsp;提示框风格,up(上方显示)或down(下方显示)</td>
+                <td style="width: 55px; height: 21px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                    HintHeight</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 69px">
+                    Css配合使用方法</td>
+                <td>
+                    CssClass=FormBase<br />
+                    this.className='FormFocus'</td>
+                <td>
+                </td>
+                <td style="width: 55px">
+                </td>
+            </tr>
+        </table>
+	
+	</body>
+</html>

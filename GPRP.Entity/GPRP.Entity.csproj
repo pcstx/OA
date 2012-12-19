@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76DBDCDD-7FFC-498A-90A2-7DAADA1DA070}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GPRP.Entity</RootNamespace>
+    <AssemblyName>GPRP.Entity</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/GPRP.Entity/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttachmentInfo.cs" />
+    <Compile Include="Basic\DocDepartRight.cs" />
+    <Compile Include="Basic\DocFileEdition.cs" />
+    <Compile Include="Basic\DocFileInfo.cs" />
+    <Compile Include="Basic\DocFolderRight.cs" />
+    <Compile Include="Basic\DocSysRoleRight.cs" />
+    <Compile Include="Basic\DocUserRight.cs" />
+    <Compile Include="Basic\EmailAttachEntity.cs" />
+    <Compile Include="Basic\EmailEntity.cs" />
+    <Compile Include="Basic\MyCalendar.cs" />
+    <Compile Include="Basic\NewsListEntity.cs" />
+    <Compile Include="Basic\NewsUser.cs" />
+    <Compile Include="Basic\PBPOSEntity.cs" />
+    <Compile Include="Basic\PCPOSEntity.cs" />
+    <Compile Include="Basic\PBDEPEntity.cs" />
+    <Compile Include="Basic\PBESTEntity.cs" />
+    <Compile Include="Basic\PEEBIEntity.cs" />
+    <Compile Include="CalendarEventEntity.cs" />
+    <Compile Include="CalendarPermission.cs" />
+    <Compile Include="DepartmentLeaderEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PSACNEntity.cs" />
+    <Compile Include="PSSMETable.cs" />
+    <Compile Include="ShowtopicPageAttachmentInfo.cs" />
+    <Compile Include="SysGroupEntity.cs" />
+    <Compile Include="SysRoleEntity.cs" />
+    <Compile Include="SysTableColumnEntity.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="UserListEntity.cs" />
+    <Compile Include="UserRightEntity.cs" />
+    <Compile Include="VerifyImageInfo.cs" />
+    <Compile Include="Workflow\Workflow_AgentSettingEntity.cs" />
+    <Compile Include="Workflow\Workflow_BaseEntity.cs" />
+    <Compile Include="Workflow\Workflow_BasicValidType.cs" />
+    <Compile Include="Workflow\Workflow_BrowseTypeEntity.cs" />
+    <Compile Include="Workflow\Workflow_DataSetEntity.cs" />
+    <Compile Include="Workflow\Workflow_DataSetParameterEntity.cs" />
+    <Compile Include="Workflow\Workflow_DataSourceEntity.cs" />
+    <Compile Include="Workflow\Workflow_FieldDictEntity.cs" />
+    <Compile Include="Workflow\Workflow_FlowNodeEntity.cs" />
+    <Compile Include="Workflow\Workflow_FormBaseEntity.cs" />
+    <Compile Include="Workflow\Workflow_FormDetailRuleEntity.cs" />
+    <Compile Include="Workflow\Workflow_FormFieldEntity.cs" />
+    <Compile Include="Workflow\Workflow_FormFieldGroupEntity.cs" />
+    <Compile Include="Workflow\Workflow_FormTypeEntity.cs" />
+    <Compile Include="Workflow\Workflow_GroupLineFieldMapEntity.cs" />
+    <Compile Include="Workflow\Workflow_HTMLTypeEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type0ConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type0Entity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type0_DataSetParameterEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type0_SpParameterEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type1ConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type1Entity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type1_ColConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type1_ColMappingEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeAddInOperation_Type1_SpParameterEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeDetailFieldControlDetailEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeDetailFieldControlEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeLinkEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeMainFieldControlEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeOperationType1ConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeOperatorDetailEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeTriggerConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeTriggerWorkflowEntity.cs" />
+    <Compile Include="Workflow\Workflow_NodeTypeEntity.cs" />
+    <Compile Include="Workflow\Workflow_OperatorConditionEntity.cs" />
+    <Compile Include="Workflow\Workflow_ReportDetailEntity.cs" />
+    <Compile Include="Workflow\Workflow_ReportMainEntity.cs" />
+    <Compile Include="Workflow\Workflow_ReportTypeEntity.cs" />
+    <Compile Include="Workflow\Workflow_RequestBaseEntity.cs" />
+    <Compile Include="Workflow\Workflow_TriggerWFFieldMappingDetailEntity.cs" />
+    <Compile Include="Workflow\Workflow_TriggerWFFieldMappingEntity.cs" />
+    <Compile Include="Workflow\Workflow_TriggerWFFieldMappingMainEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

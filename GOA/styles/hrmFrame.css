@@ -1,0 +1,24 @@
+body
+{
+}
+/*Login*/
+#LoginBar { position: absolute; left:50%; Top:50%; margin-top: -210px; z-index: 1; margin-left: -220px; width: 600px;  Height: 420px }
+	#LoginBar .LoginTop {font-size:0; line-height:15px; height:15px;}
+		.FormNav {background:url(../images/login-center.gif) repeat-y left top;}
+		.FormNav dl {background:url(../images/key.gif) no-repeat 0 22px; padding:30px 30px 30px 100px;}
+		.FormNav dt,.FormNav dd { line-height:35px; height:40px;}
+		.FormNav label { padding-right:15px; font-size:14px; color:#666; font-weight:bold;}
+		.FormNav dd img { margin-left:20px;margin-bottom:-18px;}
+
+.FormBase,.FormFocus,.FormCode,.formnoborder{ height:22px;font-family:Arial, Helvetica, sans-serif; background-color: #fff; padding:0.1em 0;border:1px double #ccc;}
+	.formnoborder { background:transparent; border:1px solid #FFF;}
+	*html .FormBase,*html .FormFocus,*html .FormCode,*html .formnoborder {height:22px; padding:0; line-height:22px;}
+	*+html .FormBase,*+html .FormFocus,*+html .FormCode,*+html .formnoborder {height:22px; padding:0; line-height:22px;}
+.FormFocus { border: 1px double #3399ff; background-color: #c0ddfc;}
+.FormCode {width:80px;}
+.FormNav button { width:60px; height:26px; border:0; background:url(../images/button.gif) no-repeat left top; cursor:pointer; margin-left:65px;}
+#copyright { position: absolute; left:44%; bottom:50%; text-align:center; height:100px; margin-left: -220px; margin-bottom: -180px;}
+.nofocus { border:1px solid #CCC; background:#EEE; color:#545454; padding:0.4em 0;}
+    *html .nofocus {height:26px; padding:0; line-height:26px;}
+    *+html .nofocus {height:26px; padding:0; line-height:26px;}
+/*Login*/

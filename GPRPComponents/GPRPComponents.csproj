@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8375B709-4D96-4166-9C92-E55DBB8AC677}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GPRP.GPRPComponents</RootNamespace>
+    <AssemblyName>GPRPComponents</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MemberRole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b7c773fb104e7562">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GPRPControls\dll\MemberRole.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audit.cs" />
+    <Compile Include="CatastrophicMessage.cs" />
+    <Compile Include="Censors.cs" />
+    <Compile Include="Components\ApplicationUrls.cs" />
+    <Compile Include="Components\AuditItem.cs" />
+    <Compile Include="Components\AuditSet.cs" />
+    <Compile Include="Components\AuditSummary.cs" />
+    <Compile Include="Components\Avatar.cs" />
+    <Compile Include="Components\Censor.cs" />
+    <Compile Include="Components\CSApplication.cs" />
+    <Compile Include="Components\CSCache.cs" />
+    <Compile Include="Components\CSContext.cs" />
+    <Compile Include="Components\CSEventArgs.cs" />
+    <Compile Include="Components\CSEvents.cs" />
+    <Compile Include="Components\CSException.cs" />
+    <Compile Include="Components\CSExceptionModule.cs" />
+    <Compile Include="Components\CSLink.cs" />
+    <Compile Include="Components\DNTException.cs" />
+    <Compile Include="Components\DNTRequest.cs" />
+    <Compile Include="Components\Email.cs" />
+    <Compile Include="Components\Encrypt.cs" />
+    <Compile Include="Components\ExtendedAttributes.cs" />
+    <Compile Include="Components\FormatList.cs" />
+    <Compile Include="Components\Formatter.cs" />
+    <Compile Include="Components\Globals.cs" />
+    <Compile Include="Components\Group.cs" />
+    <Compile Include="Components\HtmlScrubber.cs" />
+    <Compile Include="Components\ICSModule.cs" />
+    <Compile Include="Components\Link.cs" />
+    <Compile Include="Components\LinkCategory.cs" />
+    <Compile Include="Components\Message.cs" />
+    <Compile Include="Components\PermissionBase.cs" />
+    <Compile Include="Components\PollItem.cs" />
+    <Compile Include="Components\PollSummary.cs" />
+    <Compile Include="Components\Post.cs" />
+    <Compile Include="Components\PostAttachment.cs" />
+    <Compile Include="Components\PostCategory.cs" />
+    <Compile Include="Components\PostSet.cs" />
+    <Compile Include="Components\Profile.cs" />
+    <Compile Include="Components\Rank.cs" />
+    <Compile Include="Components\Rating.cs" />
+    <Compile Include="Components\SendEmail.cs" />
+    <Compile Include="Configuration\BaseConfigProvider.cs" />
+    <Compile Include="DistinctColumns.cs" />
+    <Compile Include="Enumerations\BrowseEditMode.cs" />
+    <Compile Include="Enumerations\ControlType.cs" />
+    <Compile Include="Enumerations\ReceivePMSettingType.cs" />
+    <Compile Include="Components\Referral.cs" />
+    <Compile Include="Components\ReferralSet.cs" />
+    <Compile Include="Components\Report.cs" />
+    <Compile Include="Components\Role.cs" />
+    <Compile Include="Components\SearchResultSet.cs" />
+    <Compile Include="Components\Section.cs" />
+    <Compile Include="Components\SerializationHelper.cs" />
+    <Compile Include="Components\Serializer.cs" />
+    <Compile Include="Components\SerializerData.cs" />
+    <Compile Include="Components\Service.cs" />
+    <Compile Include="Components\SiteSettings.cs" />
+    <Compile Include="Components\SiteStatistics.cs" />
+    <Compile Include="Components\SiteUrls.cs" />
+    <Compile Include="Components\SiteUrlsData.cs" />
+    <Compile Include="Components\Smiley.cs" />
+    <Compile Include="Components\StringTransforms.cs" />
+    <Compile Include="Components\Style.cs" />
+    <Compile Include="Components\Transforms.cs" />
+    <Compile Include="Components\TypeParse.cs" />
+    <Compile Include="Components\User.cs" />
+    <Compile Include="Components\UserCookie.cs" />
+    <Compile Include="Components\UserSet.cs" />
+    <Compile Include="Components\Utils.cs" />
+    <Compile Include="Configuration\BaseConfigFileManager.cs" />
+    <Compile Include="Configuration\BaseConfigInfo.cs" />
+    <Compile Include="Configuration\BaseConfigInfoCollection.cs" />
+    <Compile Include="Configuration\BaseConfigs.cs" />
+    <Compile Include="Configuration\DefaultConfigFileManager.cs" />
+    <Compile Include="Configuration\GeneralConfigFileManager.cs" />
+    <Compile Include="Configuration\GeneralConfigInfo.cs" />
+    <Compile Include="Configuration\GeneralConfigs.cs" />
+    <Compile Include="Configuration\IConfigInfo.cs" />
+    <Compile Include="DisallowedNames.cs" />
+    <Compile Include="Emails.cs" />
+    <Compile Include="Enumerations\AccountActivation.cs" />
+    <Compile Include="Enumerations\ApplicationType.cs" />
+    <Compile Include="Enumerations\CategoryType.cs" />
+    <Compile Include="Enumerations\CreateUserStatus.cs" />
+    <Compile Include="Enumerations\DataProviderAction.cs" />
+    <Compile Include="Enumerations\EmailSubscriptionType.cs" />
+    <Compile Include="Enumerations\EmailType.cs" />
+    <Compile Include="Enumerations\ForumMode.cs" />
+    <Compile Include="Enumerations\Messages.cs" />
+    <Compile Include="Components\ResourceManager.cs" />
+    <Compile Include="Configuration\AppLocation.cs" />
+    <Compile Include="Configuration\CSConfiguration.cs" />
+    <Compile Include="Configuration\RolesConfiguration.cs" />
+    <Compile Include="Enumerations\AttachmentSaveMode.cs" />
+    <Compile Include="Enumerations\ExtensionType.cs" />
+    <Compile Include="Enumerations\ForumExceptionType.cs" />
+    <Compile Include="Enumerations\ModerationEnums.cs" />
+    <Compile Include="Enumerations\ObjectState.cs" />
+    <Compile Include="Enumerations\PasswordRecovery.cs" />
+    <Compile Include="Enumerations\PostEnums.cs" />
+    <Compile Include="Enumerations\PostType.cs" />
+    <Compile Include="Enumerations\SearchMode.cs" />
+    <Compile Include="Enumerations\SecurityEnums.cs" />
+    <Compile Include="Enumerations\SerializationType.cs" />
+    <Compile Include="Enumerations\SortOrder.cs" />
+    <Compile Include="Enumerations\SortThreadsBy.cs" />
+    <Compile Include="Enumerations\SortUsersBy.cs" />
+    <Compile Include="Enumerations\SystemType.cs" />
+    <Compile Include="Enumerations\ThreadDateFilterMode.cs" />
+    <Compile Include="Enumerations\ThreadViewMode.cs" />
+    <Compile Include="Enumerations\UserActivityDisplayMode.cs" />
+    <Compile Include="Enumerations\UserEnums.cs" />
+    <Compile Include="Enumerations\UserProcessRecord.cs" />
+    <Compile Include="Enumerations\ViewOptions.cs" />
+    <Compile Include="Enumerations\WWWStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\CommonDataProvider.cs" />
+    <Compile Include="Provider\DataProviders.cs" />
+    <Compile Include="Provider\ExtensionModule.cs" />
+    <Compile Include="Provider\ProfileReader.cs" />
+    <Compile Include="Ranks.cs" />
+    <Compile Include="Roles.cs" />
+    <Compile Include="Search\Search.cs" />
+    <Compile Include="Search\SearchQuery.cs" />
+    <Compile Include="Search\SearchTerms.cs" />
+    <Compile Include="Search\Word.cs" />
+    <Compile Include="Search\WordLocation.cs" />
+    <Compile Include="SiteSettingsManager.cs" />
+    <Compile Include="Smilies.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="Xml\InvalidXmlException.cs" />
+    <Compile Include="Xml\XmlDocumentExtender.cs" />
+    <Compile Include="Xml\XmlVisitor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GPRP.Entity\GPRP.Entity.csproj">
+      <Project>{9E8C391E-ABB2-4BFD-914B-CA60FD7FC4AE}</Project>
+      <Name>GPRP.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

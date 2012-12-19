@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <message id="1">
+    <title>无权限登录</title>
+    <body>您不是超级管理员.</body>
+  </message>
+
+  <message id="2">
+    <title>无权限修改</title>
+    <body>此数据已经被引用，或您无权限修改.</body>
+  </message>
+
+  <message id="3">
+    <title>邮件发送失败</title>
+    <body>邮件发送失败.</body>
+  </message>
+
+
+
+</root>
+
